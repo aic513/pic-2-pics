@@ -1,0 +1,4 @@
+2016-01-04 17:25:38.680 [NOTICE] [178.150.94.45:62568] [STDERR] HTTP 404 (GET /ui/plugins/jvectormap/jquery-jvectormap-1.2.2.css)
+2016-01-04 17:25:46.037 [NOTICE] [178.150.94.45:62582] [STDERR] HTTP 404 (GET /ui/plugins/jvectormap/jquery-jvectormap-1.2.2.css)
+2016-01-04 17:26:27.684 [NOTICE] [178.150.94.45:62643] [STDERR] HTTP 404 (GET /ui/plugins/jvectormap/jquery-jvectormap-1.2.2.css)
+2016-01-04 17:34:10.585 [NOTICE] [188.237.4.122:16133] [STDERR] HTTP 404 (GET /ui/plugins/jvectormap/jquery-jvectormap-1.2.2.css)
