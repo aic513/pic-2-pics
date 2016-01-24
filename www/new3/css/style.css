@@ -124,6 +124,9 @@ body{ margin: 0; min-width: 1300px; }
     }
 }
 .stripe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     position: fixed;
     top: 0;
     left: 0;
@@ -144,9 +147,8 @@ body{ margin: 0; min-width: 1300px; }
     text-align: center;
     font-size: 1.3rem;
     margin: 0;
-    height: 50px;
-    line-height: 50px;
-    letter-spacing: 3px;
+    line-height: 20px;
+    letter-spacing: 0.35rem;
     font-family: "Stem_bold", sans-serif;
 }
 .stripe .call{
@@ -162,7 +164,6 @@ body{ margin: 0; min-width: 1300px; }
     text-decoration: none;
     color: #000;
     position: relative;
-    padding-right: 50px;
     font-family: "Stem_regular", sans-serif;
 }
 .stripe .call > a:after{
@@ -233,10 +234,9 @@ body{ margin: 0; min-width: 1300px; }
 }
 .stripe .period{
     position: absolute;
-    top: 0;
-    right: 70px;
     line-height: 50px;
-    font-size: 1rem;
+    letter-spacing: 0.1347779rem;
+    font-size: 0.7999999rem;
     font-family: "Stem_regular", sans-serif;
 }
 .stripe .logo{
