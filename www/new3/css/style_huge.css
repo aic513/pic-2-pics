@@ -26,9 +26,10 @@ html{ font-size: 100%; }
 .stripe .call > a{
     line-height: 3.125rem;
     padding-right: 3.125rem;
+    letter-spacing: 0.03111rem;
 }
 .stripe .call > a:after{
-    top: -0.625rem;
+    top: -0.725rem;
     right: 1.5rem;
     width: 2.5rem;
     height: 2.188rem;
@@ -56,22 +57,25 @@ html{ font-size: 100%; }
     margin-top: 1.25rem;
 }
 .stripe .period{
-    right: 7rem;
-    top: 0.22rem;
+    right: 7.19rem;
+    top: 0.32rem;
+    letter-spacing: 0.1267779rem;
+    font-size: 0.7999999rem;
     line-height: 3.15rem;
 }
 .stripe .logo{
-    top: 3.25rem;
-    left: 3.25rem;
-    height: 7.625rem;
+    top: 5.0rem;
+    left: 2.18rem;
+    height: 7.05rem;
     width: 6.25rem;
 }
 .stripe .menu_open{
-    top: 4.625rem;
-    right: 4.375rem;
-    height: 3.75rem;
-    width: 3.75rem;
-    padding: 1.438rem 0;
+    top: 6.35rem;
+    right: 7.18rem;
+    height: 3.2rem;
+    width: 3.2rem;
+    padding-top: 1.10rem;
+    padding-bottom: 1.0rem;
     -webkit-box-shadow: 0 0 2rem 0 rgba(0,0,0,0.1);
     box-shadow: 0 0 2rem 0 rgba(0,0,0,0.1);
 }

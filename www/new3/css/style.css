@@ -233,8 +233,6 @@ body{ margin: 0; min-width: 1300px; }
 .stripe .period{
     position: absolute;
     line-height: 50px;
-    letter-spacing: 0.1347779rem;
-    font-size: 0.7999999rem;
     font-family: "Stem_regular", sans-serif;
 }
 .stripe .logo{
