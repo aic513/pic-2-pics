@@ -355,12 +355,17 @@ body{ margin: 0; min-width: 1300px; }
   z-index: 50;
   font-size: 100%;
   border-radius: 10px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: #51a8e6;
   background-image: url(../img/Chatbtn.png);
 
   text-align: center;
+  -webkit-box-shadow: 8px 8px 17px 0 rgba(0,0,0,0.15);
+  box-shadow: 8px 8px 17px 0 rgba(0,0,0,0.15);
 }
-
 /* Sections title */
 .sectionTitle{
     font-family: 'ShangoSansRegular', sans-serif;
@@ -1061,24 +1066,31 @@ body{ margin: 0; min-width: 1300px; }
     z-index: 5;
 }
 .section.contact .content .emoji.human{
-    bottom: 0;
-    left: 0;
+    bottom: 3em;
+    left: 3em;
     height: 180px;
     width: 180px;
     background-image: url(../img/emoji/0034.png);
 }
 .section.contact .content .emoji.cloud{
-    bottom: 0;
-    left: 0;
+    bottom: 12.5em;
+    left: 8em;
     height: 180px;
     width: 180px;
     background-image: url(../img/emoji/0039.png);
 }
 .section.contact .content .chatBtn{
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: 10em;
+    left: 5em;
 }
+.chatBtn-hover{
+  display: none;
+}
+.chatBtn:hover~.chatBtn-hover{
+  display: block;
+}
+
 .section.contact .content .emoji.chup{
     top: 0;
     right: 40px;

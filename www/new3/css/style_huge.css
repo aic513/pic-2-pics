@@ -383,11 +383,14 @@ html{ font-size: 100%; }
 .section.contact .to_right{
     width: 18.44rem;
 }
-.section.contact .content .emoji.human{
-    display: none;
+/*.section.contact .content .emoji.human{
     height: 11.25rem;
     width: 11.25rem;
 }
+.section.contact .content .emoji.cloud{
+    height: 11.25rem;
+    width: 11.25rem;
+}*/
 .section.contact .content .emoji.chup{
     right: 2.5rem;
     height: 11.25rem;
