@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/screen.css" type="text/css" rel="stylesheet">
+    <title>Главная</title>
+  </head>
+  <body ng-app="picApp" ng-controller="IndexCtrl" ng-init="init()">
+    <header>
+      <p class="call_us">Звоните!<img src="images/icon1.png" alt="" style="width:70px;height:60px;"></p>
+      <p class="times">(ежедневно с 10:00 до 21:00)</p>
+      <p class="phone text-center">8 800 3335116</p><a href="#" id="logo"></a><a href="#" class="menu-button"><span class="line-1"></span><span class="line-2"></span><span class="line-3"></span></a>
+      <div class="feedback">
+        <p>закажите БЕСПЛАТНЫЙ обратный звонок</p>
+        <form ng-submit="feedback()">
+          <input type="tel" name="phone" placeholder="Введите ваш номер телефона →">
+          <button type="submit">Заказать	</button>
+        </form>
+      </div>
+    </header>
+    <div class="clearfix"></div>
+    <div style="background:url(images/main.jpg) no-repeat 50% 0%;" class="mainblock">
+      <p class="text_left">От вас —<br>картинки</p>
+      <p class="text_right">От нас — <br>картины</p>
+    </div>
+    <div class="cloud"><a href="#order" data-toggle="modal">Оформить заявку</a></div>
+    <div class="pp-menu"><a href="#" class="close"></a>
+      <div class="nav-wrapper">
+        <ul class="list-unstyled">
+          <li><a href="#">ПОП-АРТ ПОРТРЕТ</a></li>
+          <li><a href="#">ФОТОКОЛЛАЖ</a></li>
+          <li><a href="#">МОДУЛЬНЫЕ КАРТИНЫ</a></li>
+          <li><a href="#">ЦЕНТР ПОДДЕРЖКИ</a>
+            <ul class="list-unstyled">
+              <li><a href="#">Требования к файлу</a></li>
+              <li><a href="#">Размеры и цены</a></li>
+              <li><a href="#">Скидки и акции</a></li>
+              <li><a href="#">Оплата</a></li>
+              <li><a href="#">О товаре</a></li>
+              <li><a href="#">Доставка</a></li>
+              <li><a href="#">Возврат</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="icon_text group">
+      <div ng-repeat="icon in icons" class="one block{{$index}}">
+        <div style="display:table;width:100%;">
+          <div class="inside"><img src="images/{{icon.image}}" alt="">
+            <p class="title">{{icon.title}}</p>
+          </div>
+        </div>
+        <div class="tooltip top in">
+          <p>Полностью безвредно для здоровья</p>
+          <div class="links text-right"><a href="#">подробнее			</a></div>
+        </div>
+      </div>
+    </div>
+    <section class="main">
+      <div class="our_prims">
+        <div class="heading text-center">
+          <h1>PICS 2 PICS</h1>
+          <p>ХОЛСТ ПРОСТ)))</p>
+        </div>
+        <div class="features group">
+          <div ng-repeat="icon in icons" class="one col-xs-4 text-center block{{$index}}">
+            <div class="image">
+              <div style="display:table;width:100%;">
+                <div class="inside"><img src="images/{{icon.image}}" alt="" class="img-responsive center-block"></div>
+              </div>
+            </div>
+            <p class="title">{{ icon.title }}</p>
+            <p>{{ icon.desc }}</p><a href="{{ icon.link}}">подробнее</a><br><a href="#" ng-if="$index == 2" class="show_subs">подписаться на рассылку</a>
+          </div>
+        </div>
+      </div>
+      <div class="about_products">
+        <div class="wrapper group">
+          <h2>О нашем продукте</h2>
+          <div class="items grid-container">
+            <div ng-repeat="item in items" class="grid-item item{{$index}}"><img src="{{ item.image }}" alt="" class="img-responsive">
+              <p class="title">{{ item.title }}</p>
+              <div class="desc">{{ item.desc }}</div>
+              <div class="orange">
+                <div class="foto"><img src="{{ item.foto }}" alt="" class="img-circle"></div>
+                <p class="name">{{item.name}}</p>
+                <div class="text">
+                  <div class="tablelook">
+                    <div class="insidelook">
+                      <p>{{ item.text }}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="what_size">
+        <h3 class="text-center">КАКОЙ РАЗМЕР ВАМ ПОДХОДИТ?</h3>
+        <div class="sizes group emoji-container">
+          <div class="size col-xs-4">
+            <p class="title">большой квадратный</p>
+            <div class="image emoji-trigger">
+              <div class="tablelook">
+                <div class="celllook">
+                  <div class="frame frame1">
+                    <div class="tablelook">
+                      <div class="celllook">
+                        <p><span class="old">6630</span><span class="new">4640 руб</span></p>
+                      </div>
+                    </div>
+                    <div class="white">
+                      <div class="tablelook">
+                        <div class="celllook">
+                          <p>100х100</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="size col-xs-4">
+            <p class="title">популярный квадратный</p>
+            <div class="image emoji-trigger">
+              <div class="tablelook">
+                <div class="celllook">
+                  <div class="frame frame2">
+                    <div class="tablelook">
+                      <div class="celllook">
+                        <p><span class="old">3130</span><span class="new">2190 руб</span></p>
+                      </div>
+                    </div>
+                    <div class="white">
+                      <div class="tablelook">
+                        <div class="celllook">
+                          <p>60х60</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="size col-xs-4">
+            <p class="title">компактный квадратный</p>
+            <div class="image emoji-trigger">
+              <div class="tablelook">
+                <div class="celllook">
+                  <div class="frame frame3">
+                    <div class="tablelook">
+                      <div class="celllook">
+                        <p><span class="old">1600</span><span class="new">1190 руб</span></p>
+                      </div>
+                    </div>
+                    <div class="white">
+                      <div class="tablelook">
+                        <div class="celllook">
+                          <p>30х30</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="size col-xs-4">
+            <p class="title bottom">компактный прямоугольник</p>
+            <div class="image emoji-trigger">
+              <div class="tablelook">
+                <div class="celllook">
+                  <div class="frame frame4">
+                    <div class="tablelook">
+                      <div class="celllook">
+                        <p><span class="old">1990</span><span class="new">1390 руб</span></p>
+                      </div>
+                    </div>
+                    <div class="white">
+                      <div class="tablelook">
+                        <div class="celllook">
+                          <p>30х45								</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="size col-xs-4">
+            <p class="title bottom">популярный прямоугольный</p>
+            <div class="image emoji-trigger">
+              <div class="tablelook">
+                <div class="celllook">
+                  <div class="frame frame5">
+                    <div class="tablelook">
+                      <div class="celllook">
+                        <p><span class="old">3270</span><span class="new">2260 руб</span></p>
+                      </div>
+                    </div>
+                    <div class="white">
+                      <div class="tablelook">
+                        <div class="celllook">
+                          <p>50х75</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="size col-xs-4">
+            <p class="title bottom">большой прямоугольный</p>
+            <div class="image emoji-trigger">
+              <div class="tablelook">
+                <div class="celllook">
+                  <div class="frame frame6">
+                    <div class="tablelook">
+                      <div class="celllook">
+                        <p><span class="old">10200</span><span class="new">7140 руб</span></p>
+                      </div>
+                    </div>
+                    <div class="white">
+                      <div class="tablelook">
+                        <div class="celllook">
+                          <p>100х150</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="has_questions">
+        <h4>Остались вопросы ?</h4>
+        <div class="questions_form">
+          <p class="head">введите свои данные, чтобы мы знали<br>как С ВАМИ СВЯЗАТЬСЯ И КАК к вам обращаться</p>
+          <form ng-submit="questions()" novalidate>
+            <p> 
+              <label for="qname">Имя</label>
+            </p>
+            <input type="text" name="name" ng-model="question.name" placeholder="Введите ваше имя и фамилию →" id="qname" required>
+            <div ng-show="form.$submitted || form.name.$touched">
+              <div ng-show="form.name.$error.required">Укажите свое имя</div>
+            </div>
+            <p> 
+              <label for="qphone">Телефон</label>
+            </p>
+            <input type="tel" name="phone" ng-model="question.phone" placeholder="Введите ваш номер телефона →" id="qphone">
+            <p> 
+              <label for="qemail">АДРЕС ЭЛЕКТРОННОЙ ПОЧТЫ <span>(обязательно):</span></label>
+            </p>
+            <input type="email" name="email" ng-model="question.email" placeholder="Введите ваш e-mail →" required email>
+            <p class="mess">постарайтесь ВКРАТЦЕ СФОРМУЛИРОВАТЬ СВОЙ ВОПРОС</p>
+            <textarea name="mess" ng-model="question.mess" placeholder="Введите ваш вопрос →"></textarea>
+            <button type="submit">Отправить</button>
+          </form>
+          <div class="clearfix"></div>
+          <div class="form_text">
+            <p>Нам важно, чтобы вы получили качественнУЮ КАРТИНУ и остались довольны результатом. </p>
+            <p>
+              Мы контролируем качество нашего продукта на всех этапах производства, особенно перед 
+              отправкой заказа клиенту.
+            </p>
+            <p>Если все же у вас есть замечания по поводу полученноЙ ПРОДУКЦИИ, ИЛИ ВЫ НЕ НАШЛИ ОТВЕТА НА СВОЙ ВОВРОС В <a href="#">ЦЕНТРЕ ПОДДЕРЖКИ </a>— пожалуйста, ВОСПОЛЬЗУЙТЕСЬ ФОРМОЙ выше ИЛИ свяжитесь с нашими менеджерами ПО ТЕЛЕФОНУ: </p>
+            <p class="phone">8 800 3335116</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="bottom group">
+      <div class="button"><a href="#">Оставить заявку</a></div>
+      <div class="col-md-2 pay col-sm-2">
+        <p>Оплата с помощью</p><img src="images/pay1.png" alt="" class="img-responsive"><img src="images/pay2.png" alt="" class="img-responsive"><img src="images/pay3.png" alt="" style="margin-bottom:0;" class="img-responsive">
+      </div>
+      <div class="col-md-2 support col-sm-2">
+        <p>Центр поддержки</p>
+        <nav>
+          <ul class="list-unstyled">
+            <li><a href="#">Заказа</a></li>
+            <li><a href="#">Требования к файлу</a></li>
+            <li><a href="#">Оплата</a></li>
+            <li><a href="#">Доставка</a></li>
+            <li><a href="#">Скидки</a></li>
+            <li><a href="#">Товар</a></li>
+            <li><a href="#">Возврат</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col-md-4 text-center info col-sm-4">
+        <p class="name">PICS 2 PICS</p>
+        <p class="phone">8 800 3335116</p>
+        <p class="address">Санкт-Петербург, 22-я линия, 3к4</p>
+        <p class="time">Ежедневно с 10:00 до 18:00</p><a href="mailto:hello@pics2.pics" class="mail">hello@pics2.pics</a>
+        <p class="letters">мы всегда вам рады</p><img src="images/img3.png" alt="" class="img-responsive center-block">
+      </div>
+      <div class="col-md-2 products col-sm-2">
+        <p>НАШИ ПРОДУКТЫ:</p>
+        <nav>
+          <ul class="list-unstyled">
+            <li><a href="#">ПОП-АРТ ПОРТРЕТ</a></li>
+            <li><a href="#">ФОТОКОЛЛАЖ</a></li>
+            <li><a href="#">МОДУЛЬНЫЕ КАРТИНЫ</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col-md-2 delivery text-center col-sm-2">
+        <p>Доставка с помощью:</p><img src="images/img4.png" alt="" class="img-responsive"><img src="images/img5.png" alt="" class="img-responsive"><img src="images/img6.png" alt="" style="margin-bottom:0;" class="img-responsive">
+      </div>
+    </div>
+    <footer>
+      <ul class="list-unstyled text-center">
+        <li><a href="#">Пользовательское соглашение </a></li>
+        <li><a href="#">Политика конфиденциальности </a></li>
+        <li><a href="#">Политика возврата </a></li>
+        <li>© 2015 Все права защищены</li>
+      </ul>
+    </footer>
+    <div id="oferta"><a href="#" class="close"></a>
+      <div class="inside">
+        <div class="nav">
+          <nav>
+            <ul class="list-unstyled">
+              <li><a href=".one1">предмет договора-оферты</a></li>
+              <li><a href=".one2">момент заключения договора</a></li>
+              <li><a href=".one3">характеристики товара</a></li>
+              <li><a href="#">цена товара </a></li>
+              <li><a href="#">оплата товара</a></li>
+              <li><a href="#">доставка товара</a></li>
+              <li><a href="#">гарантии на товар</a></li>
+              <li><a href="#">права и обязанности сторон</a></li>
+              <li><a href="#">ответственность сторон</a></li>
+              <li><a href="#">возврат и обмен товара</a></li>
+              <li><a href="#">форс-мажорные обстоятельства</a></li>
+              <li><a href="#">срок действия договора</a></li>
+              <li><a href="#">	реквизиты</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="content">
+          <div class="scroll-pane">
+            <p class="head">Договор-оферта интернет-магазина</p>
+            <p>Индивидуальный Предприниматель Демичев Евгений Юрьевич (ИП «Демичев Е.Ю.»), действующий на основании свидетельства о регистрации (серия 78 №007698255 от 22 марта 2010 года), в лице интернет-магазина «Картины в картинах» (www.pics2.pics), именуемый «продавец», публикует настоящий договор, являющийся публичным договором-офертой в адрес как физических, так и юридических лиц (далее покупатель) о нижеследующем:</p>
+            <p class="par one1">Статья 1. Предмет договора-оферты.</p>
+            <p>1.1. Продавец обязуется передать в собственность покупателю, а покупатель обязуется оплатить и принять заказанную. в интернет-магазине www.pics2.pics печатную продукцию (далее товар).</p>
+            <p class="par one2">Статья 2. Момент заключения договора.</p>
+            <p>2.1. Текст данного Договора является публичной офертой (в соответствии со статьей 435 и частью 2 статьи 437 Гражданского кодекса РФ).<br>2.2. Факт оформления заказа товара у продавца, как самостоятельно через сайт www.pics2.pics, так и через менеджера по телефону или по электронной почте, является безоговорочным принятием данного Договора, и покупатель рассматривается как лицо, вступившее с ИП «Демичев Е.Ю.» в договорные отношения.<br>2.3. Продавец не несет ответственности за точность и правильность информации, предоставляемой покупателем при оформлении заказа.</p>
+            <p class="par one3">Статья 3. Характеристики товара.</p>
+            <p>2.1. Текст данного Договора является публичной офертой (в соответствии со статьей 435 и частью 2 статьи 437 Гражданского кодекса РФ).<br>2.2. Факт оформления заказа товара у продавца, как самостоятельно через сайт www.pics2.pics, так и через менеджера по телефону или по электронной почте, является безоговорочным принятием данного Договора, и покупатель рассматривается как лицо, вступившее с ИП «Демичев Е.Ю.» в договорные отношения.<br>2.3. Продавец не несет ответственности за точность и правильность информации, предоставляемой покупателем при оформлении заказа.														</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="order" class="modal fade">
+      <div class="modal_dialog"><a data-dismiss="modal" href="#"></a>
+        <p class="warning">заполнение заявки вас ни к чему не обязывает </p>
+        <p class="head">Заполните форму и получите макет вашей будущей картины!</p>
+        <form ng-submit="orderForm()" novalidate>
+          <div class="file">
+            <div class="load">
+              <p class="title">для начала попробуйте</p>
+              <label for="myfile">загрузить файл</label>
+              <input type="file" name="file1" ng-model="order.file1" id="myfile">
+              <p class="mess"><a href="#">требования к файлам</a></p>
+            </div>
+            <div style="display:none;" class="afterload">
+              <div class="foto">
+                <p class="imagename">отдых-1.jpg</p><img src="images/fileimage.jpg" alt="" class="img-responsive"><a href="#">удалить</a>
+              </div>
+              <div class="foto">
+                <p class="imagename">отдых-1.jpg</p><img src="images/fileimage.jpg" alt="" class="img-responsive"><a href="#">удалить</a>
+              </div>
+              <div class="foto">
+                <p class="imagename">отдых-1.jpg</p><img src="images/fileimage.jpg" alt="" class="img-responsive"><a href="#">удалить</a>
+              </div>
+              <div class="foto">
+                <p class="imagename">отдых-1.jpg</p><img src="images/fileimage.jpg" alt="" class="img-responsive"><a href="#">удалить</a>
+              </div>
+              <div class="foto">
+                <p class="imagename">отдых-1.jpg</p><img src="images/fileimage.jpg" alt="" class="img-responsive"><a href="#">удалить</a>
+              </div>
+              <div class="load_more"><span class="plus">+</span><a href="#">загрузить еще						</a></div>
+            </div>
+          </div>
+          <p class="data">
+            затем введите свои данные, 
+            чтобы мы знали как С ВАМИ СВЯЗАТЬСЯ
+          </p>
+          <div class="inputs">
+            <p> 
+              <label for="qname">Имя</label>
+            </p>
+            <input type="text" name="name" ng-model="question.name" placeholder="Введите ваше имя и фамилию →" id="qname" required>
+            <div ng-show="form.$submitted || form.name.$touched">
+              <div ng-show="form.name.$error.required">Укажите свое имя</div>
+            </div>
+            <p> 
+              <label for="qphone">Телефон</label>
+            </p>
+            <input type="tel" name="phone" ng-model="question.phone" placeholder="Введите ваш номер телефона →" id="qphone">
+            <p> 
+              <label for="qemail">АДРЕС ЭЛЕКТРОННОЙ ПОЧТЫ <span>(обязательно):</span></label>
+            </p>
+            <input type="email" name="email" ng-model="question.email" placeholder="Введите ваш e-mail →" required email>
+          </div>
+          <div class="checks">
+            <input type="checkbox" name="check" id="checks">
+            <label for="checks">согласен получить скидку 20% на следующий заказ и подписаться на еженедельную рассылку</label>
+          </div>
+          <div class="buttons">
+            <p class="black">ОТПРАВИТЬ ЗАЯВКУ</p>
+            <button type="submit">в 1 клик</button>
+            <p class="link">отправляя заявку, я соглашаюсь с условиями <a href="#" class="show_oferta">оферты</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="subscript"><a href="#" class="close"></a>
+      <div class="liketable">
+        <div class="likecell">
+          <div class="block">
+            <p class="head1">ДАРИМ СКИДКУ <span>20%</span>НА СЛЕДУЮЩИЙ ЗАКАЗ</p>
+            <p class="head2">ЛЮБИМЫМ ПОДПИСЧИКАМ!</p>
+            <form ng-submit="subscript()">
+              <input type="email" name="email" placeholder="Введите ваш e-mail →" ng-model="subscript.email">
+              <button type="submit"> Подписаться</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="position:absolute;left:-99999px;" class="emojiimages"><img src="images/emoji/1.png" alt=""><img src="images/emoji/2.png" alt=""><img src="images/emoji/3.png" alt=""><img src="images/emoji/4.png" alt=""><img src="images/emoji/5.png" alt=""><img src="images/emoji/6.png" alt=""><img src="images/emoji/7.png" alt=""><img src="images/emoji/8.png" alt=""><img src="images/emoji/9.png" alt=""><img src="images/emoji/10.png" alt=""><img src="images/emoji/11.png" alt=""><img src="images/emoji/12.png" alt=""><img src="images/emoji/13.png" alt=""><img src="images/emoji/14.png" alt=""><img src="images/emoji/15.png" alt=""><img src="images/emoji/16.png" alt=""><img src="images/emoji/17.png" alt=""><img src="images/emoji/18.png" alt=""><img src="images/emoji/19.png" alt=""><img src="images/emoji/20.png" alt=""><img src="images/emoji/21.png" alt=""><img src="images/emoji/22.png" alt=""><img src="images/emoji/23.png" alt=""><img src="images/emoji/24.png" alt=""><img src="images/emoji/25.png" alt=""><img src="images/emoji/26.png" alt=""><img src="images/emoji/27.png" alt=""><img src="images/emoji/28.png" alt=""><img src="images/emoji/29.png" alt=""><img src="images/emoji/30.png" alt=""><img src="images/emoji/31.png" alt=""><img src="images/emoji/32.png" alt=""><img src="images/emoji/33.png" alt=""><img src="images/emoji/34.png" alt=""><img src="images/emoji/35.png" alt=""><img src="images/emoji/36.png" alt=""></div>
+    <script type="text/javascript" src="js/functions.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js">							</script>
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>
