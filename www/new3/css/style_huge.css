@@ -20,7 +20,8 @@ html{ font-size: 100%; }
     line-height: 3.125rem;
 }
 .stripe .call{
-    left: 4.375rem;
+    top: 0.3rem;
+    left: 3.3rem;
     height: 3.125rem;
 }
 .stripe .call > a{
@@ -29,7 +30,7 @@ html{ font-size: 100%; }
 }
 .stripe .call > a:after{
     top: -0.625rem;
-    right: 0.25rem;
+    right: 1.5rem;
     width: 2.5rem;
     height: 2.188rem;
 }
