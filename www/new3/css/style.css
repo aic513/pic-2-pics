@@ -144,11 +144,12 @@ body{ margin: 0; min-width: 1300px; }
     transition: background 0.2s ease-out;
 }
 .stripe h3{
+    padding-right: 75px;
     text-align: center;
     font-size: 1.3rem;
     margin: 0;
     line-height: 20px;
-    letter-spacing: 0.35rem;
+    letter-spacing: 0.25rem;
     font-family: "Stem_bold", sans-serif;
 }
 .stripe .call{
