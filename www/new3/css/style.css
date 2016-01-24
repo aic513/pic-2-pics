@@ -311,6 +311,9 @@ body{ margin: 0; min-width: 1300px; }
 
     text-align: center;
 }
+.actionBtn-footer{
+    background-image: url(../img/btn_shadow_red.png);
+}
 .actionBtn a{
     display: inline-block;
     height: 47px;
@@ -347,6 +350,10 @@ body{ margin: 0; min-width: 1300px; }
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(../img/for_free_blue.png);
+}
+.actionBtn-footer span{
+    background-image: url(../img/for_free.png);
+    background-size: 65%;
 }
 .chatBtn {
   width: 190px;
@@ -1092,10 +1099,11 @@ body{ margin: 0; min-width: 1300px; }
 }
 
 .section.contact .content .emoji.chup{
-    top: 0;
-    right: 40px;
-    height: 180px;
-    width: 180px;
+    position: absolute;
+    top: 160px;
+    right: 160px;
+    height: 190px;
+    width: 190px;
     background-image: url(../img/emoji/0013.png);
 }
 .section.contact .content .actionBtn{
