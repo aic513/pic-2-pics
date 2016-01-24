@@ -384,6 +384,7 @@ html{ font-size: 100%; }
     width: 18.44rem;
 }
 .section.contact .content .emoji.human{
+    display: none;
     height: 11.25rem;
     width: 11.25rem;
 }
