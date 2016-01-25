@@ -171,6 +171,7 @@
   text-align: center;
   background-color: #fbeb95;
   box-sizing: border-box;
+  box-shadow: 0 0 31px 1px rgba(0, 0, 0, 0.1); 
 }
 
 .subscripe__cross {
@@ -188,9 +189,61 @@
 }
 
 .subscripe__title {
-  font-family: "Stem_", sans-serif;
+  margin: 0;
+  margin-bottom: 40px;
+  font-family: "Stem_medium", sans-serif;
   font-size: 28px;
   color: #ff5a00;
   text-transform: uppercase;
   letter-spacing: 0.8px;
+}
+
+.label {
+  display: block;
+  font-size: 12px;
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+.subscripe__label {
+  margin: 0 auto;
+  width: 392px;
+}
+
+input[type="email"] {
+  margin-top: 10px;
+  margin-bottom: 33px;
+  padding: 11px 13px;
+  display: block;
+  width: 100%;
+  height: 32px;
+  font-family: "Stem_regular", sans-serif;
+  color: #000;
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  border: none;
+  border-radius: 16px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+input[type="email"]::-webkit-input-placeholder { color: #757575; }
+input[type="email"]::-moz-placeholder { color: #757575; }
+input[type="email"]:-moz-placeholder { color: #757575; }
+input[type="email"]:-ms-input-placeholder { color: #757575; }
+
+button {
+  width: 235px;
+  height: 66px;
+  background-color: #fff;
+  font-family: "Stem_regular", sans-serif;
+  font-size: 19px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border: none;
+  border-radius: 33px;
+  box-sizing: border-box;
+  cursor: pointer;
 }
