@@ -1081,8 +1081,8 @@ body{ margin: 0; min-width: 1300px; }
 }
 .section.contact .content .chatBtn{
     position: absolute;
-    bottom: 8.025em;
-    left: 4.9em;
+    bottom: 7.9em;
+    left: 4.8em;
 }
 .chatBtn-hover{
   display: block;
@@ -1104,30 +1104,33 @@ footer{
     margin-top: 15px;
     position: relative;
     border-top: 1px solid #000;
+    padding-top: 20px;
 }
 
 footer .support{
     position: absolute;
     width: 300px;
-    top: 0;
-    left: 0;
+    top: 23px;
+    left: -26px;
 }
 footer .support h3{
     font-family: "Stem_bold", sans-serif;
-    font-size: 0.79rem;
+    font-size: 12px;
+    font-size: 700;
     text-transform: uppercase;
-    margin: 15px 0 10px 0;
+    margin: 0;
 }
 footer .support ul{
-    margin: 0;
+    margin-top: -10px;
     padding: 0;
 }
 footer .support ul li{
     list-style: none;
+    margin-bottom: -5px;
 }
 footer .support ul li a{
     font-family: "Stem_light", sans-serif;
-    font-size: 0.79rem;
+    font-size: 12px;
     color: #000;
     text-decoration: none;
     text-transform: uppercase;
@@ -1136,13 +1139,13 @@ footer .support ul li a{
 footer .product{
     position: absolute;
     width: 300px;
-    top: 0;
+    top: 23px;
     right: 0;
     text-align: right;
 }
 footer .product h3{
     font-family: "Stem_bold", sans-serif;
-    font-size: 0.79rem;
+    font-size: 12px;
     text-transform: uppercase;
     margin: 15px 0 10px 0;
 }
@@ -1155,8 +1158,8 @@ footer .product ul li{
 }
 footer .product ul li a{
     display: inline-block;
-    font-family: "Stem_light", sans-serif;
-    font-size: 0.79rem;
+    font-family: "Stem-regular", sans-serif;
+    font-size: 12px;
     color: #000;
     text-decoration: none;
     text-transform: uppercase;
@@ -1171,7 +1174,7 @@ footer .info{
 footer .info h3{
     font-family: "Stem_bold", sans-serif;
     margin: 15px 0 10px 0;
-    font-size: 1.6rem;
+    font-size: 28px;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
