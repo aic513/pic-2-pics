@@ -120,7 +120,7 @@
 }
 
 .subscripe {
-  display: block;
+  display: none;
   position: absolute;
   top: 50px;
   left: 0;
@@ -137,7 +137,7 @@
 
 .subscripe__wrap {
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
 }
@@ -146,7 +146,7 @@
 .subscripe__wrap::after {
   content: '';
   position: absolute;
-  top: 0;
+  top: -30px;
   width: 376px;
   height: 362px;
 }
@@ -188,7 +188,9 @@
 }
 
 .subscripe__title {
-  font-family: "Stem_medium", sans-serif;
+  font-family: "Stem_", sans-serif;
   font-size: 28px;
   color: #ff5a00;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
 }
