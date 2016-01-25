@@ -1081,8 +1081,8 @@ body{ margin: 0; min-width: 1300px; }
 }
 .section.contact .content .chatBtn{
     position: absolute;
-    bottom: 7.9em;
-    left: 4.8em;
+    bottom: 8.025em;
+    left: 4.9em;
 }
 .chatBtn-hover{
   display: block;
