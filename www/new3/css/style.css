@@ -1085,7 +1085,7 @@ body{ margin: 0; min-width: 1300px; }
     left: 4.8em;
 }
 .chatBtn-hover{
-  display: none;
+  display: block;
 }
 .chatBtn:hover~.chatBtn-hover{
   display: block;
