@@ -108,7 +108,7 @@ body{ margin: 0; min-width: 1300px; }
 /* Fixed to top line */
 @media only screen and (max-width: 1440px){
     .stripe .call{
-        left: 0 !important;
+        left: 0px !important;
     }
     .stripe .logo{
         left: -15px !important;
@@ -128,7 +128,8 @@ body{ margin: 0; min-width: 1300px; }
     top: 0;
     left: 0;
     width: 100%;
-    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 100%;
     background: #fff;
     z-index: 70;
@@ -140,42 +141,42 @@ body{ margin: 0; min-width: 1300px; }
     transition: background 0.2s ease-out;
 }
 .stripe h3{
+    padding-right: 3.5rem;
     text-align: center;
     font-size: 1.3rem;
     margin: 0;
-    height: 50px;
-    line-height: 50px;
-    letter-spacing: 3px;
+    line-height: 20px;
+    letter-spacing: 0.25rem;
     font-family: "Stem_bold", sans-serif;
 }
 .stripe .call{
     position: absolute;
     top: 0;
-    left: 70px;
+    left: 3.3rem;
     height: 50px;
 }
 .stripe .call > a{
-    line-height: 50px;
-    font-size: 1rem;
+    line-height: 3.125rem;
+    font-size: 0.8rem;
     text-transform: uppercase;
     text-decoration: none;
     color: #000;
     position: relative;
-    padding-right: 50px;
     font-family: "Stem_regular", sans-serif;
 }
 .stripe .call > a:after{
     display: block;
     content: "";
     position: absolute;
-    top: -10px;
-    right: 4px;
-    width: 40px;
-    height: 35px;
+    top: 0;
+    left: 5rem;
+    width: 55px;
+    height: 55px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
     background-image: url(../img/p2p-phone-icon.png);
+
 }
 .stripe .call > div{
     display: none;
@@ -187,7 +188,7 @@ body{ margin: 0; min-width: 1300px; }
     left: 0px;
     background: #fbeb95;
     -webkit-box-shadow: 0 0 32px 0 rgba(0,0,0,0.2);
-    box-shadow: 0 0 32px 0 rgba(0,0,0,0.2); 
+    box-shadow: 0 0 32px 0 rgba(0,0,0,0.2);
     z-index: 1010;
     box-sizing: border-box;
     text-align: center;
@@ -231,10 +232,7 @@ body{ margin: 0; min-width: 1300px; }
 }
 .stripe .period{
     position: absolute;
-    top: 0;
-    right: 70px;
     line-height: 50px;
-    font-size: 1rem;
     font-family: "Stem_regular", sans-serif;
 }
 .stripe .logo{
@@ -311,6 +309,9 @@ body{ margin: 0; min-width: 1300px; }
 
     text-align: center;
 }
+.actionBtn-footer{
+    background-image: url(../img/btn_shadow_red.png);
+}
 .actionBtn a{
     display: inline-block;
     height: 47px;
@@ -348,8 +349,28 @@ body{ margin: 0; min-width: 1300px; }
     background-size: cover;
     background-image: url(../img/for_free_blue.png);
 }
+.actionBtn-footer span{
+    background-image: url(../img/for_free.png);
+    background-size: 65%;
+}
+.chatBtn {
+  width: 190px;
+  height: 70px;
+  line-height: 180px;
+  z-index: 50;
+  font-size: 100%;
+  border-radius: 10px;
 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #51a8e6;
+  background-image: url(../img/Chatbtn.png);
 
+  text-align: center;
+  -webkit-box-shadow: 8px 8px 17px 0 rgba(0,0,0,0.15);
+  box-shadow: 8px 8px 17px 0 rgba(0,0,0,0.15);
+}
 /* Sections title */
 .sectionTitle{
     font-family: 'ShangoSansRegular', sans-serif;
@@ -893,7 +914,7 @@ body{ margin: 0; min-width: 1300px; }
     width: 42px; height: 28px;
 }
 .size_wrap .size h3{
-    font-family: "Stem_medium", sans-serif; 
+    font-family: "Stem_medium", sans-serif;
     font-size: 1.2rem;
     text-align: center;
     margin: 0;
@@ -1001,11 +1022,11 @@ body{ margin: 0; min-width: 1300px; }
     background: #eaeaea;
 }
 .section.contact .sectionTitle{
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 .section.contact .wrap{
-    padding-top: 70px;
-    padding-bottom: 20px;
+  padding-top: 70px;
+  padding-bottom: 20px;
 }
 
 .section.contact .content{
@@ -1018,13 +1039,12 @@ body{ margin: 0; min-width: 1300px; }
     margin: 0 auto;
 }
 .section.contact .content .info p{
-    margin-top: 20px;
     font-family: "Stem_regular", sans-serif;
     font-size: 0.79rem;
+    line-height: 23px;
     color: #000;
     text-transform: uppercase;
-    line-height: 160%;
-}   
+}
 .section.contact .content .info p a{
     color: #03a3fe;
     font-style: italic;
@@ -1050,23 +1070,34 @@ body{ margin: 0; min-width: 1300px; }
     z-index: 5;
 }
 .section.contact .content .emoji.human{
-    bottom: 0;
-    left: 0;
-    height: 180px;
+    height: 190px;
     width: 180px;
     background-image: url(../img/emoji/0034.png);
 }
-.section.contact .content .emoji.chup{
-    top: 0;
-    right: 40px;
+.section.contact .content .emoji.cloud{
     height: 180px;
     width: 180px;
-    background-image: url(../img/emoji/0013.png);
+    background-image: url(../img/emoji/0039.png);
 }
-.section.contact .content .actionBtn{
+.section.contact .content .chatBtn{
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: 7.9em;
+    left: 4.8em;
+}
+.chatBtn-hover{
+  display: none;
+}
+.chatBtn:hover~.chatBtn-hover{
+  display: block;
+}
+
+.section.contact .content .emoji.chup{
+    position: absolute;
+    top: 160px;
+    right: 160px;
+    height: 190px;
+    width: 190px;
+    background-image: url(../img/emoji/0013.png);
 }
 
 footer{
