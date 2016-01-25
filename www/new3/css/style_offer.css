@@ -120,13 +120,14 @@
 }
 
 .subscripe {
-  display: block;
+  display: none;
   position: absolute;
   top: 50px;
   left: 0;
   z-index: 65;
   width: 100%;
   height: 100%;
+  font-family: "Stem_regular", sans-serif;
   background-color: rgba(255, 228, 228, 0.9 );
 }
 
@@ -134,23 +135,57 @@
   position: relative;
 }
 
-.subscripe__form {
+.subscripe__wrap {
   position: absolute;
   top: 50%;
   left: 50%;
-  background-color: #fbeb95;
   transform: translateX(-50%) translateY(-50%);
+}
+
+.subscripe__wrap::before, 
+.subscripe__wrap::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 376px;
+  height: 362px;
+}
+
+.subscripe__wrap::before {
+  left: -280px;
+  background: url("../img/icons/icon-cat-left.png") no-repeat 50% 50%;
+  background-size: cover;
+} 
+
+.subscripe__wrap::after {
+  right: -280px;
+  background: url("../img/icons/icon-cat-right.png") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.subscripe__form {
+  position: relative;
+  z-index: 20;
+  padding: 52px 52px 32px;
+  background-color: #fbeb95;
 }
 
 .subscripe__cross {
   position: absolute;
-  top: -50%;
+  top: 0;
   left: 50%;
   width: 33px;
   height: 33px;
   text-indent: 100%;
   white-space: nowrap;
-  background-color: #fff;
+  background: #fff url("../img/icons/icon-subscribe-cross.png") no-repeat 50% 50%;
+  border-radius: 50%;
   transform: translateX(-50%) translateY(-50%);
   overflow: hidden;
+}
+
+.subscripe__title {
+  font-family: "Stem_medium", sans-serif;
+  font-size: 28px;
+  color: #ff5a00;
 }
