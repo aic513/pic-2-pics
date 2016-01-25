@@ -1070,23 +1070,19 @@ body{ margin: 0; min-width: 1300px; }
     z-index: 5;
 }
 .section.contact .content .emoji.human{
-    bottom: 3em;
-    left: 3em;
-    height: 180px;
+    height: 190px;
     width: 180px;
     background-image: url(../img/emoji/0034.png);
 }
 .section.contact .content .emoji.cloud{
-    bottom: 12.5em;
-    left: 8em;
     height: 180px;
     width: 180px;
     background-image: url(../img/emoji/0039.png);
 }
 .section.contact .content .chatBtn{
     position: absolute;
-    bottom: 10em;
-    left: 5em;
+    bottom: 7.9em;
+    left: 4.8em;
 }
 .chatBtn-hover{
   display: none;
@@ -1102,11 +1098,6 @@ body{ margin: 0; min-width: 1300px; }
     height: 190px;
     width: 190px;
     background-image: url(../img/emoji/0013.png);
-}
-.section.contact .content .actionBtn{
-    position: absolute;
-    bottom: 0;
-    left: 0;
 }
 
 footer{

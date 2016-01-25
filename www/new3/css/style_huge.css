@@ -110,7 +110,11 @@ html{ font-size: 100%; }
     width: 9.375rem;
     height: 4.875rem;
 }
-
+.section.contact .content .actionBtn-footer{
+    position: absolute;
+    bottom: 3.7rem;
+    right: 2.8rem;
+}
 
 /* nav block */
 .menu .main_wrap{
@@ -369,8 +373,9 @@ html{ font-size: 100%; }
     text-align: center;
     margin-bottom: 1rem;
     font-family: 'ShangoSansRegular';
-    letter-spacing: 0.1465rem;
-    padding-right: 3.55rem;
+    letter-spacing: 0.2rem;
+    padding-right: 3.56rem;
+    font-weight: 400;
 }
 .section.contact .wrap{
     padding-top: 5.9rem;
@@ -409,17 +414,24 @@ html{ font-size: 100%; }
 }
 
 .section.contact .content .emoji.human{
-    height: 11.25rem;
-    width: 11.25rem;
+    bottom: -1.5em;
+    left: -.8em;
+    height: 8rem;
+    width: 8.25rem;
+    background-size: 100%;
 }
 .section.contact .content .emoji.cloud{
-    height: 11.25rem;
-    width: 11.25rem;
+    height: 6.5rem;
+    width: 6.6rem;
+    bottom: 11.5em;
+    left: 10.49em;
 }
 .section.contact .content .emoji.chup{
-    right: 2.5rem;
-    height: 11.25rem;
-    width: 11.25rem;
+    right: 8.5rem;
+    top: -0.75rem;
+    height: 8.5rem;
+    width: 8rem;
+    transform: rotate(10deg);
 }
 
 footer{
