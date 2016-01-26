@@ -216,7 +216,7 @@ input[type="email"],
 input[type="text"],
 input[type="tel"]{
   margin-top: 10px;
-  margin-bottom: 33px;
+  margin-bottom: 30px;
   padding: 11px 13px;
   display: block;
   width: 100%;
@@ -233,7 +233,11 @@ input[type="tel"]{
 }
 
 input[type="email"]:hover,
-input[type="email"]:focus {
+input[type="email"]:focus,
+input[type="text"]:hover,
+input[type="text"]:focus,
+input[type="tel"]:hover,
+input[type="tel"]:focus, {
   border: 2px solid #ff3703;
 }
 
@@ -257,7 +261,7 @@ button {
 }
 
 .order {
-  display: block;
+  display: none;
   position: absolute;
   top: 50px;
   left: 0;
@@ -334,16 +338,70 @@ button {
   margin-right: 35px;
 }
 
+.order__delivery {
+  display: none;
+}
+
 label.order__label-delivery {
+  position: relative;
   margin-top: 20px;
   padding-left: 49px;
   font-family: "Stem_light", sans-serif;
   color: #000;
+  line-height: 1.2;
   text-align: left;
   text-transform: lowercase;
   letter-spacing: 1px;
 }
 
-.order__delivery {
+input[type='checkbox'] + label::before {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+input[type='checkbox'] + label::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 8px;
   display: none;
+  width: 25px;
+  height: 29px;
+  background-image: url("../img/icons/icon-check.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border-radius: 50%;
+}
+
+input[type='checkbox']:checked + label::after {
+  display: block;
+}
+
+.order__send {
+  float: left;
+  margin-top: 95px;
+}
+
+.order__agree {
+  margin: 0;
+  margin-top: 12px;
+  float: left;
+  width: 234px;
+  font-family: "Stem_light_italic", sans-serif;
+  color: #3096fb;
+  text-align: center;
+
+}
+
+.order__link, 
+.order__link:hover, 
+.order__link:active,
+.order__link:visited {
+  color: #3096fb;
 }
