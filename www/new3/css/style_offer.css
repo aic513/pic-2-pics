@@ -334,7 +334,12 @@ button {
   margin-right: 35px;
 }
 
+.order__delivery {
+  display: none;
+}
+
 label.order__label-delivery {
+  position: relative;
   margin-top: 20px;
   padding-left: 49px;
   font-family: "Stem_light", sans-serif;
@@ -344,6 +349,31 @@ label.order__label-delivery {
   letter-spacing: 1px;
 }
 
-.order__delivery {
+input[type='checkbox'] + label::before {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+input[type='checkbox'] + label::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 8px;
   display: none;
+  width: 25px;
+  height: 29px;
+  background-image: url("../img/icons/icon-check.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border-radius: 50%;
+}
+
+input[type='checkbox']:checked + label::after {
+  display: block;
 }
