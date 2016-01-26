@@ -1,3 +1,4 @@
+var menu = document.querySelector(".menu");
 var offer = document.querySelector(".offer");
 var order = document.querySelector(".order");
 var btn_offer = document.querySelector(".rules--offer");
