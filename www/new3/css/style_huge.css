@@ -435,7 +435,8 @@ html{ font-size: 100%; }
 }
 
 footer{
-    margin-top: 0.9375rem;
+
+    margin-top: 55px;
     border-top: 0.0625rem solid #000;
 }
 
@@ -447,6 +448,7 @@ footer .support h3{
 }
 
 footer .product{
+    padding-right: 2.5rem;
     width: 18.75rem;
 }
 footer .product h3{
