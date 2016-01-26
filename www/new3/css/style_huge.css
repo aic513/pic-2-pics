@@ -376,7 +376,7 @@ html{ font-size: 100%; }
     letter-spacing: 0.2rem;
     padding-right: 3.56rem;
     font-weight: 400;
-    margin-top: -2.5rem;
+    margin-top: -2.3rem;
 }
 .section.contact .wrap{
     padding-top: 5.9rem;
@@ -392,7 +392,7 @@ html{ font-size: 100%; }
     width: 43.75rem;
 }
 .section.contact .content .info p{
-    margin-top: 1.4rem;
+    margin-top: 1.2rem;
     letter-spacing: .038rem;
 }
 .section.contact .content .info p:nth-child(2){
@@ -437,11 +437,12 @@ html{ font-size: 100%; }
 
 footer{
     margin-top: 55px;
-    border-top: 0.0625rem solid #000;
+
 }
 
 footer .support{
     width: 18.75rem;
+    margin-left: 0px;
 }
 footer .support h3{
     margin: 0.9375rem 0 0.625rem 0;
@@ -460,19 +461,14 @@ footer .product ul li a{
 
 footer .info{
     height: 10.63rem;
+    margin-left: -40px;
+    text-align: center;
 }
 footer .info h3{
     margin: 0.9375rem 0 0.625rem 0;
 }
 footer .info p{
-    margin: 1rem 0;
-}
-
-footer .row .col-2{
-    padding: 0.3125rem 0;
-}
-footer .row .col-3{
-    padding: 0.3125rem 0;
+    margin-top: 14px;
 }
 
 
