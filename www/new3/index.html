@@ -623,10 +623,59 @@
   </div>
   
   <div class="order">
-    <a class="order--cross" href="#">Закрыть</a>
-    <form class="order__form" action="">
-      <label class="label label--upload">Загрузите фотографию<input type="file" multiple></label>
-    </form>
+<!--      <a class="order--cross" href="#">Закрыть</a>-->
+      <form class="order__form" action="">
+        <header class="order__header">Заполнение заявки ни к чему вас не обязывает</header>
+        <div class="order__download">
+          <label class="label label--upload">Загрузите фотографию
+            <input id="upload-photo" class="order__upload" type="file" multiple>
+          </label>
+          <div class="order__gallery">
+            <figure class="order__photo">
+              <img src="http://placehold.it/70x70" alt="" class="order__img">
+              <figcaption class="order__photo-name"></figcaption>
+              <a href="" class="order__photo-delete"></a>
+            </figure>
+            <figure class="order__photo">
+              <img src="http://placehold.it/70x70" alt="" class="order__img">
+              <figcaption class="order__photo-name"></figcaption>
+              <a href="" class="order__photo-delete"></a>
+            </figure>
+            <figure class="order__photo">
+              <img src="http://placehold.it/70x70" alt="" class="order__img">
+              <figcaption class="order__photo-name"></figcaption>
+              <a href="" class="order__photo-delete"></a>
+            </figure>
+            <figure class="order__photo">
+              <img src="http://placehold.it/70x70" alt="" class="order__img">
+              <figcaption class="order__photo-name"></figcaption>
+              <a href="" class="order__photo-delete"></a>
+            </figure>
+            <figure class="order__photo">
+              <img src="http://placehold.it/70x70" alt="" class="order__img">
+              <figcaption class="order__photo-name"></figcaption>
+              <a href="" class="order__photo-delete"></a>
+            </figure>
+          </div>
+        </div>
+        <div class="order__info">
+          <label class="order__label-firstname label">Имя:
+            <input class="order__firstname" type="text" placeholder="Ваше имя"> 
+          </label>
+          <label class="order__label-lastname label">Фамилия:
+            <input class="order__lastname" type="text" placeholder="Ваша фамилия"> 
+          </label>
+          <label class="order__label-email label">Адрес электронной почты:
+            <input class="order__email" type="email" placeholder="Ваша фамилия"> 
+          </label>
+          <input id="delivery" class="order__delivery" type="checkbox">
+          <label class="order__label-delivery label" for="delivery">Получать информацию о скидках и акциях на почту</label>
+          <label class="order__label-tel label">Адрес электронной почты:
+            <input class="order__tel" type="tel"  pattern="8-\d\d\d\-\d\d\d-\d\d-\d\d" placeholder="8-___-__-__-__"> 
+          </label> 
+          <button class="order__send btn-form" type="submit">Ок</button>   
+        </div>
+      </form>
   </div>
 
 	<!-- Scripts -->
