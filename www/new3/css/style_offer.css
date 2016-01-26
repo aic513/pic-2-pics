@@ -311,3 +311,39 @@ button {
   float: right;
   width: 455px;
 }
+
+.order label {
+  float: left;
+  color: rgba(0, 0, 0, 0.4);
+  letter-spacing: 1.2px;
+}
+
+.order__label-firstname,
+.order__label-lastname,
+.order__label-delivery,
+.order__label-tel {
+  width: 210px;
+}
+
+.order__label-email {
+  width: 100%;
+}
+
+.order__label-firstname,
+.order__label-delivery {
+  margin-right: 35px;
+}
+
+label.order__label-delivery {
+  margin-top: 20px;
+  padding-left: 49px;
+  font-family: "Stem_light", sans-serif;
+  color: #000;
+  text-align: left;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+}
+
+.order__delivery {
+  display: none;
+}
