@@ -1115,6 +1115,7 @@ footer .support{
 }
 footer .support h3{
     font-family: "Stem_bold", sans-serif;
+    letter-spacing: 1px;
     font-size: 12px;
     font-size: 700;
     text-transform: uppercase;
@@ -1126,11 +1127,12 @@ footer .support ul{
 }
 footer .support ul li{
     list-style: none;
-    margin-bottom: -5px;
+    margin-bottom: -10px;
 }
 footer .support ul li a{
     font-family: "Stem_light", sans-serif;
     font-size: 12px;
+    letter-spacing: 1px;
     color: #000;
     text-decoration: none;
     text-transform: uppercase;
@@ -1146,24 +1148,27 @@ footer .product{
 footer .product h3{
     font-family: "Stem_bold", sans-serif;
     font-size: 12px;
+    letter-spacing: 1px;
     text-transform: uppercase;
-    margin: 15px 0 10px 0;
+    margin-top: 15px;
 }
 footer .product ul{
     margin: 0;
     padding: 0;
+    margin-top: -10px;
 }
 footer .product ul li{
     list-style: none;
+    margin-bottom: -5px;
 }
 footer .product ul li a{
     display: inline-block;
     font-family: "Stem-regular", sans-serif;
     font-size: 12px;
+    letter-spacing: 1px;
     color: #000;
     text-decoration: none;
     text-transform: uppercase;
-    margin: 7px 0;
 }
 
 footer .info{
