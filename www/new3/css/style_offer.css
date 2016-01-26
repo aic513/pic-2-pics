@@ -309,7 +309,42 @@ button {
 
 .order__download {
   float: left;
+  width: 315px;
 }
+
+.order__gallery {
+  font-size: 0;
+}
+
+.order__photo {
+  position: relative;
+  margin-bottom: 8px;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  font-size: 12px;
+  vertical-align: top;
+  border: 3px solid #fff;
+/*  box-sizing: content-box;*/
+}
+
+.order__img {
+  width: 100%;
+  height: auto;
+}
+
+.order__photo-delete {
+  position: absolute;
+  bottom: -28px;
+  left: -2px;
+  display: block;
+  width: 68px;
+  height: 26px;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: url("../img/btn_delete.png") no-repeat 50% 50%;
+  overflow: hidden;
+} 
 
 .order__info {
   float: right;
