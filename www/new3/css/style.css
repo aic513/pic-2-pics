@@ -1172,6 +1172,7 @@ footer .product ul li a{
 
 footer .info{
     width: 100%;
+    padding: 0;
 }
 footer .info h3{
     font-family: "Stem_bold", sans-serif;
@@ -1219,6 +1220,14 @@ footer .row{
     flex-direction: column;
     justify-content: center;
 }
+footer .row::after{
+  position: absolute;
+  display: block;
+  content: '';
+  top:0;
+  right:0;
+  background: url("..img/icons/icon-panda.png") no-repeat center;
+}
 
 footer .footer-list{
   display: flex;
@@ -1229,12 +1238,11 @@ footer .footer-list{
 footer .col-1{
   width: 100%;
   padding: 0;
-  background: red;
 }
 footer .col-2{
   width: 100%;
   padding: 0;
-  background: yellow;
+  margin-top: -10px;
 }
 footer .col-1 .list-one li{
   list-style: none;
