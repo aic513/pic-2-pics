@@ -216,7 +216,7 @@ input[type="email"],
 input[type="text"],
 input[type="tel"]{
   margin-top: 10px;
-  margin-bottom: 33px;
+  margin-bottom: 30px;
   padding: 11px 13px;
   display: block;
   width: 100%;
@@ -257,7 +257,7 @@ button {
 }
 
 .order {
-  display: block;
+  display: none;
   position: absolute;
   top: 50px;
   left: 0;
@@ -344,6 +344,7 @@ label.order__label-delivery {
   padding-left: 49px;
   font-family: "Stem_light", sans-serif;
   color: #000;
+  line-height: 1.2;
   text-align: left;
   text-transform: lowercase;
   letter-spacing: 1px;
@@ -376,4 +377,27 @@ input[type='checkbox'] + label::after {
 
 input[type='checkbox']:checked + label::after {
   display: block;
+}
+
+.order__send {
+  float: left;
+  margin-top: 95px;
+}
+
+.order__agree {
+  margin: 0;
+  margin-top: 12px;
+  float: left;
+  width: 234px;
+  font-family: "Stem_light_italic", sans-serif;
+  color: #3096fb;
+  text-align: center;
+
+}
+
+.order__link, 
+.order__link:hover, 
+.order__link:active,
+.order__link:visited {
+  color: #3096fb;
 }
