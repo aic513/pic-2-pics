@@ -139,14 +139,15 @@ body{ margin: 0; min-width: 1300px; }
     transition: background 0.2s ease-out;
 }
 .stripe h3{
-    padding-right: 3.5rem;
+    padding-left: 18.9rem;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.75rem;
     margin: 0;
     margin-top: 10px;
     line-height: 20px;
-    letter-spacing: 0.25rem;
+    letter-spacing: 0.4rem;
     font-family: "Stem_bold", sans-serif;
+    padding-top: 6px;
 }
 .stripe .call{
     position: absolute;
@@ -156,7 +157,7 @@ body{ margin: 0; min-width: 1300px; }
 }
 .stripe .call > a{
     line-height: 3.125rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
     text-transform: uppercase;
     text-decoration: none;
     color: #000;
@@ -167,8 +168,13 @@ body{ margin: 0; min-width: 1300px; }
     display: block;
     content: "";
     position: absolute;
+<<<<<<< HEAD
     top: -20px;
     left: 5rem;
+=======
+    top: -25px;
+    left: 7rem;
+>>>>>>> e83b3d15c3a31c5840b826d16b51cc2bb306c735
     width: 55px;
     height: 55px;
     background-repeat: no-repeat;
