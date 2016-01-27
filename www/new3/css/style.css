@@ -619,12 +619,7 @@ body{ margin: 0; min-width: 1300px; }
 .section.about .sectionTitle{
     margin-bottom: 10px;
 }
-.section.about .sectionTitle-img{
-    display: block;
-    height: 20px;
-    width: 20px;
-    background: url('../img/emoji/0006.png') no-repeat;
-}
+
 .section.about .wrap{
     padding-top: 70px;
     padding-bottom: 80px;
@@ -674,7 +669,7 @@ body{ margin: 0; min-width: 1300px; }
     margin: 0;
     padding: 0;
     font-family: "Stem_hairline", sans-serif;
-    font-size: 3.3rem;
+    font-size: 12px;
     font-weight: lighter;
     color: #ff3703;
     text-align: center;
@@ -693,7 +688,7 @@ body{ margin: 0; min-width: 1300px; }
     margin: 0;
     padding: 20px;
     font-family: "Stem_light", sans-serif;
-    font-size: 1.425rem;
+    font-size: 12px;
     font-weight: lighter;
     color: #ff3703;
     text-align: center;
@@ -755,7 +750,7 @@ body{ margin: 0; min-width: 1300px; }
 }
 .about_block.recall .layer p{
     font-family: "Stem_regular", sans-serif;
-    font-size: 1.52rem;
+    font-size: 12px;
     color: #fff;
     width: 83%;
     margin: 0 auto;
@@ -770,7 +765,7 @@ body{ margin: 0; min-width: 1300px; }
     left: 0;
     font-family: "Stem_medium_italic", sans-serif;
     color: #fff;
-    font-size: 1.14rem;
+    font-size: 12px;
     text-align: center;
 }
 
