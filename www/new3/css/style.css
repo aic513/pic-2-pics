@@ -560,6 +560,7 @@ body{ margin: 0; min-width: 1300px; }
   display: flex;
   flex-direction: column;
   justify-content: center;
+  flex-wrap: wrap;
     padding-top: 70px;
     padding-bottom: 80px;
     max-width: 1000px;
@@ -574,6 +575,7 @@ body{ margin: 0; min-width: 1300px; }
     float: left;
     height: 255px;
     text-align: center;
+    margin-left: 50px;
 }
 .section.service .service_wrap .service-block .icon{
     display: inline-block;
@@ -607,7 +609,7 @@ body{ margin: 0; min-width: 1300px; }
 
 
 /************************************************************
-  Service block
+  About block
 ************************************************************/
 
 .section .about{
@@ -616,6 +618,12 @@ body{ margin: 0; min-width: 1300px; }
 }
 .section.about .sectionTitle{
     margin-bottom: 10px;
+}
+.section.about .sectionTitle-img{
+    display: block;
+    height: 20px;
+    width: 20px;
+    background: url('../img/emoji/0006.png') no-repeat;
 }
 .section.about .wrap{
     padding-top: 70px;
