@@ -128,11 +128,9 @@ body{ margin: 0; min-width: 1300px; }
     top: 0;
     left: 0;
     width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
     font-size: 100%;
-    background: #fff;
     z-index: 70;
+    filter: opacity(1);
 
     -webkit-transition: background 0.2s ease-out;
     -moz-transition: background 0.2s ease-out;
@@ -145,6 +143,7 @@ body{ margin: 0; min-width: 1300px; }
     text-align: center;
     font-size: 1.3rem;
     margin: 0;
+    margin-top: 10px;
     line-height: 20px;
     letter-spacing: 0.25rem;
     font-family: "Stem_bold", sans-serif;
@@ -168,14 +167,14 @@ body{ margin: 0; min-width: 1300px; }
     display: block;
     content: "";
     position: absolute;
-    top: -25px;
+    top: -20px;
     left: 5rem;
     width: 55px;
     height: 55px;
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
-    background-image: url(../img/p2p-phone-icon.png);
+    background-image: url('../img/p2p-phone-icon.png');
 
 }
 .stripe .call > div{
@@ -558,11 +557,11 @@ body{ margin: 0; min-width: 1300px; }
     background-size: 100%;
 }
 .section.service .wrap{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: wrap;
-    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 170px;
     padding-bottom: 80px;
     max-width: 1000px;
 }
@@ -580,8 +579,8 @@ body{ margin: 0; min-width: 1300px; }
 }
 .section.service .service_wrap .service-block .icon{
     display: inline-block;
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 150px;
     background-repeat: no-repeat;
     background-position: center;
 }
