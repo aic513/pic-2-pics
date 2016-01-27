@@ -130,8 +130,8 @@ body{ margin: 0; min-width: 1300px; }
     width: 100%;
     font-size: 100%;
     z-index: 70;
-    filter: opacity(1);
-
+    padding-top: 5px;
+    padding-bottom: 15px;
     -webkit-transition: background 0.2s ease-out;
     -moz-transition: background 0.2s ease-out;
     -ms-transition: background 0.2s ease-out;
@@ -139,15 +139,14 @@ body{ margin: 0; min-width: 1300px; }
     transition: background 0.2s ease-out;
 }
 .stripe h3{
-    padding-left: 18.9rem;
     text-align: center;
     font-size: 1.75rem;
     margin: 0;
     margin-top: 10px;
     line-height: 20px;
-    letter-spacing: 0.4rem;
+    letter-spacing: 5.5px;
     font-family: "Stem_bold", sans-serif;
-    padding-top: 6px;
+    margin-left: -76px;
 }
 .stripe .call{
     position: absolute;
@@ -157,7 +156,8 @@ body{ margin: 0; min-width: 1300px; }
 }
 .stripe .call > a{
     line-height: 3.125rem;
-    font-size: 1rem;
+    font-size: 16px;
+    letter-spacing: 1px;
     text-transform: uppercase;
     text-decoration: none;
     color: #000;
@@ -168,13 +168,8 @@ body{ margin: 0; min-width: 1300px; }
     display: block;
     content: "";
     position: absolute;
-<<<<<<< HEAD
-    top: -20px;
-    left: 5rem;
-=======
     top: -25px;
-    left: 7rem;
->>>>>>> e83b3d15c3a31c5840b826d16b51cc2bb306c735
+    left: 6rem;
     width: 55px;
     height: 55px;
     background-repeat: no-repeat;
@@ -605,14 +600,13 @@ body{ margin: 0; min-width: 1300px; }
 }
 .section.service .service_wrap .service-block .icon-car{
     display: inline-block;
-    height: 200px;
-    width: 150px;
-    background-repeat: no-repeat;
-    background-position:center;
-    background-size: contain;
+    height: 220px;
+    width: 220px;
+    margin-left: -50px;
+    margin-bottom: -20px;
 }
 .section.service .service_wrap .service-block h4{
-    font-family: "Stem_regular", sans-serif;
+    font-family: "StemBold", sans-serif;
     font-size: 12px;
     text-transform: uppercase;
     color: #000;
@@ -620,7 +614,7 @@ body{ margin: 0; min-width: 1300px; }
     margin: 15px 0 0 0;
 }
 .section.service .service_wrap .service-block p{
-    font-family: "Stem_medium", sans-serif;
+    font-family: "StemBold", sans-serif;
     font-size: 12px;
     letter-spacing: 1px;
     text-transform: uppercase;

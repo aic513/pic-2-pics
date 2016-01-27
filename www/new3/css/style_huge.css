@@ -13,6 +13,8 @@ html{ font-size: 100%; }
 /* Stripe */
 .stripe{
     height: 3.125rem;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 .stripe h3{
     font-size: 1.3rem;
@@ -25,7 +27,6 @@ html{ font-size: 100%; }
 }
 .stripe .call > a{
     line-height: 3.125rem;
-    padding-right: 3.125rem;
     letter-spacing: 0.03111rem;
 }
 .stripe .call > a:after{
