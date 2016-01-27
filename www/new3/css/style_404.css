@@ -6,14 +6,13 @@ body {
 .title {
     min-width: 660px;
     min-height: 90px;
-    outline: 2px dotted red;
-    margin-left: 30%;
-    margin-top: 5%;
+    margin-left: 495px;
+    margin-top: 21px;
 }
 
 .title h1 {
     text-align: center;
-    font-size: 93.33px;
+    font-size: 93px;
     letter-spacing: 2px;
     color: #e47012;
     font-weight: 100;
@@ -21,17 +20,23 @@ body {
 }
 
 .description {
-    width: 800px;
+    font-style: italic;
+    margin-left: 495px;
+    margin-top: -32px;
     min-height: 75px;
-    outline: 2px dotted green;
     font-size: 28px;
     font-family: "Stem_bold";
+    text-align: center;
+    letter-spacing: 2px;
 }
 
 .help-menu {
-    width: 500px;
-    min-width: 400px;
-    outline: 2px dotted black;
+    margin-left: 510px;
+    font-family: "Stem_regular";
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 102px;
+    letter-spacing: 3px;
 }
 
 .hepl-menu p:hover {
@@ -47,7 +52,10 @@ body {
 .big-letter {
     font-weight: bold;
     font-size: 28px;
+    margin-bottom: -30px;
 }
+
+
 
 .big-letter:hover {
     cursor: pointer;
@@ -55,7 +63,12 @@ body {
     text-decoration: underline;
 }
 
+.bottom{
+margin-bottom: -8px;
+}
 .small-letter {
+    letter-spacing: 1px;
+    margin-bottom: -5px;
     font-size: 16px;
 }
 
