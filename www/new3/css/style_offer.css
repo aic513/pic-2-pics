@@ -263,7 +263,7 @@ button {
 }
 
 .order {
-  display: block;
+  display: none;
   position: absolute;
   top: 50px;
   left: 0;
@@ -372,7 +372,7 @@ button {
 
 .order__label-firstname,
 .order__label-delivery {
-  margin-right: 29px;
+  margin-right: 35px;
 }
 
 .order__delivery {
