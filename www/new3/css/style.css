@@ -128,12 +128,10 @@ body{ margin: 0; min-width: 1300px; }
     top: 0;
     left: 0;
     width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
     font-size: 100%;
-    background: #fff;
     z-index: 70;
-
+    padding-top: 5px;
+    padding-bottom: 15px;
     -webkit-transition: background 0.2s ease-out;
     -moz-transition: background 0.2s ease-out;
     -ms-transition: background 0.2s ease-out;
@@ -141,14 +139,14 @@ body{ margin: 0; min-width: 1300px; }
     transition: background 0.2s ease-out;
 }
 .stripe h3{
-    padding-left: 18.9rem;
     text-align: center;
     font-size: 1.75rem;
     margin: 0;
+    margin-top: 10px;
     line-height: 20px;
-    letter-spacing: 0.4rem;
+    letter-spacing: 5.5px;
     font-family: "Stem_bold", sans-serif;
-    padding-top: 6px;
+    margin-left: -76px;
 }
 .stripe .call{
     position: absolute;
@@ -158,7 +156,8 @@ body{ margin: 0; min-width: 1300px; }
 }
 .stripe .call > a{
     line-height: 3.125rem;
-    font-size: 1rem;
+    font-size: 16px;
+    letter-spacing: 1px;
     text-transform: uppercase;
     text-decoration: none;
     color: #000;
@@ -170,13 +169,13 @@ body{ margin: 0; min-width: 1300px; }
     content: "";
     position: absolute;
     top: -25px;
-    left: 7rem;
+    left: 6rem;
     width: 55px;
     height: 55px;
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
-    background-image: url(../img/p2p-phone-icon.png);
+    background-image: url('../img/p2p-phone-icon.png');
 
 }
 .stripe .call > div{
@@ -559,43 +558,65 @@ body{ margin: 0; min-width: 1300px; }
     background-size: 100%;
 }
 .section.service .wrap{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: wrap;
-    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 170px;
     padding-bottom: 80px;
-    max-width: 1000px;
+    max-width: 1300px;
 }
 .section.service .service_wrap{
     overflow: hidden;
-    margin-top: 50px;
     margin-bottom: 20px;
+    padding: 0;
+    padding-left: 20px;
 }
 .section.service .service_wrap .service-block{
     width: 430px;
     float: left;
     height: 255px;
     text-align: center;
-    margin-left: 50px;
+    margin-left: 350px;
+    margin-top: 0px;
+    margin-bottom: 75px;
 }
+.section.service .service_wrap .service-block:nth-child(odd){
+    width: 430px;
+    float: left;
+    height: 255px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 75px;
+}
+
 .section.service .service_wrap .service-block .icon{
     display: inline-block;
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 150px;
     background-repeat: no-repeat;
     background-position: center;
 }
+.section.service .service_wrap .service-block .icon-car{
+    display: inline-block;
+    height: 220px;
+    width: 220px;
+    margin-left: -50px;
+    margin-bottom: -20px;
+}
 .section.service .service_wrap .service-block h4{
-    font-family: "Stem_regular", sans-serif;
+    font-family: "StemBold", sans-serif;
     font-size: 12px;
     text-transform: uppercase;
     color: #000;
+    letter-spacing: 1px;
     margin: 15px 0 0 0;
 }
 .section.service .service_wrap .service-block p{
-    font-family: "Stem_medium", sans-serif;
+    font-family: "StemBold", sans-serif;
     font-size: 12px;
+    letter-spacing: 1px;
     text-transform: uppercase;
     color: #000;
     margin: 7px 0 4px 0;
@@ -616,35 +637,51 @@ body{ margin: 0; min-width: 1300px; }
 
 .section .about{
     font-size: 100%;
-    background: #eaeaea;
 }
 .section.about .sectionTitle{
     margin-bottom: 10px;
 }
 
 .section.about .wrap{
+    background: #eaeaea;
     padding-top: 70px;
     padding-bottom: 80px;
 }
 .section.about .about_wrap{
-    width: 1110px;
+    width: 1400px;
     margin: 0 auto;
-    overflow: hidden;
+    margin-left: 0px;
+    margin-right: -20px;
 }
 .section.about .about_group{
-    margin: 30px -30px;
-    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: yellow;
+    margin-top: 70px;
+    margin-left: 0px;
+    margin-right: -20px;
+    padding: 0;
 }
 .section.about .about_group .col_min,
 .section.about .about_group .col_max{
-    float: left;
-    margin: 30px;
+
 }
 .section.about .about_group .col_min{
-    width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 827px;
+    background: #fff;
+    padding-top: 60px;
+    padding-bottom: 55px;
+    padding-left: 60px;
+    padding-right: 40px;
 }
 .section.about .about_group .col_max{
-    width: 720px;
+    width: 490px;
+    height: 490px;
 }
 .section.about .about_group .col_min .about_block{
     height: 330px;
@@ -658,44 +695,37 @@ body{ margin: 0; min-width: 1300px; }
     height: 720px;
     width: 720px;
 }
-.about_block.title{
-    box-sizing: border-box;
-    border: 10px solid #fff;
-    display: table;
-}
-.about_block.title h3{
-    display: table-cell;
-    width: 100%;
-    height: 100%;
+.col_min h3{
     vertical-align: middle;
     margin: 0;
+    margin-bottom: 30px;
     padding: 0;
-    font-family: "Stem_hairline", sans-serif;
-    font-size: 12px;
-    font-weight: lighter;
+    font-family: "Stem-Medium", sans-serif;
+    font-size: 28px;
+    font-weight: bold;
     color: #ff3703;
     text-align: center;
     text-transform: uppercase;
 }
 .about_block.description{
-    box-sizing: border-box;
     background: #fff;
-    display: table;
 }
-.about_block.description p{
-    display: table-cell;
-    width: 100%;
-    height: 100%;
+.col_min p{
     vertical-align: middle;
     margin: 0;
-    padding: 20px;
-    font-family: "Stem_light", sans-serif;
+    font-family: "Stem-Regular", sans-serif;
     font-size: 12px;
-    font-weight: lighter;
+    line-height: 20px;
     color: #ff3703;
     text-align: center;
     text-transform: uppercase;
 }
+
+
+
+
+
+
 .about_block.recall{
     position: relative;
     overflow: hidden;
