@@ -1,0 +1,66 @@
+body {
+    background-color: #00c853;
+    color: #fff;
+}
+
+.title {
+    min-width: 660px;
+    min-height: 90px;
+    outline: 2px dotted red;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+.title h1 {
+    text-align: center;
+    font-size: 93.33px;
+    letter-spacing: 2px;
+    color: #e47012;
+    font-weight: 100;
+    font-family: "ShangoSansRegular";
+}
+
+.description {
+    width: 800px;
+    min-height: 75px;
+    outline: 2px dotted green;
+    font-size: 28px;
+    font-family: "Stem_bold";
+}
+
+.help-menu {
+    width: 500px;
+    min-width: 400px;
+    outline: 2px dotted black;
+}
+
+.hepl-menu p:hover {
+    cursor: pointer;
+    color: #ffeca8;
+}
+
+.help-menu {
+    font-family: "Stem_regular";
+    text-transform: uppercase;
+}
+
+.big-letter {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.big-letter:hover {
+    cursor: pointer;
+    color: #ffeca8;
+    text-decoration: underline;
+}
+
+.small-letter {
+    font-size: 16px;
+}
+
+.small-letter:hover {
+    cursor: pointer;
+    color: #ffeca8;
+    text-decoration: underline
+}
