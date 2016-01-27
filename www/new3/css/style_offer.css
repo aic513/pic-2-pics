@@ -1,3 +1,10 @@
+.slimScrollBar {
+  background-color: red !important;
+  
+}
+.slimScrollRail {
+  background-color: green !important;
+}
 .offer {
   display: none;
   position: absolute;
@@ -305,7 +312,9 @@ button {
 .order__form * {
   box-sizing: border-box;
 }
-
+.scrollbar-inner {
+  position: relative;
+}
 .order__header {
   padding-left: 60%;
   margin-bottom: 38px;

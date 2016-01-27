@@ -9,7 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="css/style_offer.css">
 	<link rel="stylesheet" type="text/css" href="plugins/fullpage/jquery.fullpage.min.css">
 	<link rel="stylesheet" type="text/css" href="plugins/jqueryui-effects/jquery-ui.min.css">
-  
+  <link rel="stylesheet" href="plugins/jqueryscrollbar/jquery.scrollbar.css">
 </head>
 <body>
 
@@ -623,43 +623,51 @@
             <a class="order__link">Загрузить ещё</a>
             <input id="upload-photo" class="order__upload" type="file" multiple>
           </label>
-          <div class="order__gallery">
-            <div class="order__photo">
-              <p class="order__photo-name">отдых-1.jpg</p>
-              <div class="order__photo-wrap">
-                <img src="http://placehold.it/70x70" alt="" class="order__img">
-                <a href="" class="order__photo-delete">удалить</a>
+          
+          
+          
+            
+            <div class="scrollbar-inner">
+                <div class="order__gallery">
+              <div class="order__photo">
+                <p class="order__photo-name">отдых-1.jpg</p>
+                <div class="order__photo-wrap">
+                  <img src="http://placehold.it/70x70" alt="" class="order__img">
+                  <a href="" class="order__photo-delete">удалить</a>
+                </div>
+              </div>
+              <div class="order__photo">
+                <p class="order__photo-name">отдых-1.jpg</p>
+                <div class="order__photo-wrap">
+                  <img src="http://placehold.it/70x70" alt="" class="order__img">
+                  <a href="" class="order__photo-delete">удалить</a>
+                </div>
+              </div>
+              <div class="order__photo">
+                <p class="order__photo-name">отдых-1.jpg</p>
+                <div class="order__photo-wrap">
+                  <img src="http://placehold.it/70x70" alt="" class="order__img">
+                  <a href="" class="order__photo-delete">удалить</a>
+                </div>
+              </div>
+              <div class="order__photo">
+                <p class="order__photo-name">отдых-1.jpg</p>
+                <div class="order__photo-wrap">
+                  <img src="http://placehold.it/70x70" alt="" class="order__img">
+                  <a href="" class="order__photo-delete">удалить</a>
+                </div>
+              </div>
+              <div class="order__photo">
+                <p class="order__photo-name">отдых-1.jpg</p>
+                <div class="order__photo-wrap">
+                  <img src="http://placehold.it/70x70" alt="" class="order__img">
+                  <a href="" class="order__photo-delete">удалить</a>
+                </div>
               </div>
             </div>
-            <div class="order__photo">
-              <p class="order__photo-name">отдых-1.jpg</p>
-              <div class="order__photo-wrap">
-                <img src="http://placehold.it/70x70" alt="" class="order__img">
-                <a href="" class="order__photo-delete">удалить</a>
-              </div>
-            </div>
-            <div class="order__photo">
-              <p class="order__photo-name">отдых-1.jpg</p>
-              <div class="order__photo-wrap">
-                <img src="http://placehold.it/70x70" alt="" class="order__img">
-                <a href="" class="order__photo-delete">удалить</a>
-              </div>
-            </div>
-            <div class="order__photo">
-              <p class="order__photo-name">отдых-1.jpg</p>
-              <div class="order__photo-wrap">
-                <img src="http://placehold.it/70x70" alt="" class="order__img">
-                <a href="" class="order__photo-delete">удалить</a>
-              </div>
-            </div>
-            <div class="order__photo">
-              <p class="order__photo-name">отдых-1.jpg</p>
-              <div class="order__photo-wrap">
-                <img src="http://placehold.it/70x70" alt="" class="order__img">
-                <a href="" class="order__photo-delete">удалить</a>
-              </div>
-            </div>
+          
           </div>
+          
         </div>
 
         <div class="order__info">
@@ -694,6 +702,7 @@
 	<script type="text/javascript" src="plugins/fullpage/jquery.easings.min.js"></script>
 	<script type="text/javascript" src="plugins/fullpage/jquery.slimscroll.min.js"></script>
 	<script type="text/javascript" src="plugins/fullpage/jquery.fullpage.min.js"></script>
+	<script type="text/javascript" src="plugins/jqueryscrollbar/jquery.scrollbar.js"></script>
 
 	<script type="text/javascript" src="js/Site.js"></script>
 	<script type="text/javascript" src="js/popup.js"></script>
@@ -707,6 +716,15 @@
         <a href="#" class="order__photo-delete">удалить</a>
       </div>
   </script>
+  
+  
+    <script>
+      jQuery(document).ready(function(){
+        jQuery('.scrollbar-inner').scrollbar();
+    });
+
+      
+    </script>
 <!--
 	<script>
     ;(function($){
