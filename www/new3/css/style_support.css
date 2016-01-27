@@ -1,0 +1,77 @@
+body {
+    background-image: url("../img/image-support.jpg");
+    background-color: #fff;
+    color: #3c3c39;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+}
+
+.left-block {
+    position:relative;
+    margin-left: 169px;
+    float: left;
+    width: 300px;
+    min-height: 450px;
+    margin-top: 133px;
+
+}
+
+.left-block::after{
+    left: 89%;
+    top: 11%;
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 251px;
+    background-image: url("../img/emoji/ok.png");
+}
+
+.question{
+    margin-left: 40px;
+    width: 210px;
+    min-height: 27px;
+    margin-top: 40px;
+    letter-spacing: 1px;
+}
+
+.right-block {
+    float: right;
+    width: 750px;
+    min-height: 490px;
+    outline: 2px dotted green
+}
+
+
+.list li {
+    margin-bottom: 17px;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Stem Medium";
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.list li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.chatBtn-sup{
+    margin-left: 39px;
+    display: block;
+    width: 190px;
+    height: 70px;
+    line-height: 180px;
+    font-size: 100%;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #51a8e6;
+    background-image: url(../img/Chatbtn.png);
+    text-align: center;
+    -webkit-box-shadow: 8px 8px 17px 0 rgba(0,0,0,0.15);
+    box-shadow: 8px 8px 17px 0 rgba(0,0,0,0.15);
+    margin-top: 3px;
+}

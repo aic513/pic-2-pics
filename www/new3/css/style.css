@@ -128,11 +128,9 @@ body{ margin: 0; min-width: 1300px; }
     top: 0;
     left: 0;
     width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
     font-size: 100%;
-    background: #fff;
     z-index: 70;
+    filter: opacity(1);
 
     -webkit-transition: background 0.2s ease-out;
     -moz-transition: background 0.2s ease-out;
@@ -141,23 +139,25 @@ body{ margin: 0; min-width: 1300px; }
     transition: background 0.2s ease-out;
 }
 .stripe h3{
-    padding-right: 3.5rem;
+    padding-left: 18.9rem;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.75rem;
     margin: 0;
+    margin-top: 10px;
     line-height: 20px;
-    letter-spacing: 0.25rem;
+    letter-spacing: 0.4rem;
     font-family: "Stem_bold", sans-serif;
+    padding-top: 6px;
 }
 .stripe .call{
     position: absolute;
-    top: 0;
+    top: -10px;
     left: 3.3rem;
     height: 50px;
 }
 .stripe .call > a{
     line-height: 3.125rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
     text-transform: uppercase;
     text-decoration: none;
     color: #000;
@@ -168,14 +168,19 @@ body{ margin: 0; min-width: 1300px; }
     display: block;
     content: "";
     position: absolute;
-    top: 0;
+<<<<<<< HEAD
+    top: -20px;
     left: 5rem;
+=======
+    top: -25px;
+    left: 7rem;
+>>>>>>> e83b3d15c3a31c5840b826d16b51cc2bb306c735
     width: 55px;
     height: 55px;
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
-    background-image: url(../img/p2p-phone-icon.png);
+    background-image: url('../img/p2p-phone-icon.png');
 
 }
 .stripe .call > div{
@@ -232,6 +237,7 @@ body{ margin: 0; min-width: 1300px; }
 }
 .stripe .period{
     position: absolute;
+    top: -10px;
     line-height: 50px;
     font-family: "Stem_regular", sans-serif;
 }
@@ -557,43 +563,66 @@ body{ margin: 0; min-width: 1300px; }
     background-size: 100%;
 }
 .section.service .wrap{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: wrap;
-    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 170px;
     padding-bottom: 80px;
-    max-width: 1000px;
+    max-width: 1300px;
 }
 .section.service .service_wrap{
     overflow: hidden;
-    margin-top: 50px;
     margin-bottom: 20px;
+    padding: 0;
+    padding-left: 20px;
 }
 .section.service .service_wrap .service-block{
     width: 430px;
     float: left;
     height: 255px;
     text-align: center;
-    margin-left: 50px;
+    margin-left: 350px;
+    margin-top: 0px;
+    margin-bottom: 75px;
 }
+.section.service .service_wrap .service-block:nth-child(odd){
+    width: 430px;
+    float: left;
+    height: 255px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 75px;
+}
+
 .section.service .service_wrap .service-block .icon{
     display: inline-block;
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 150px;
     background-repeat: no-repeat;
     background-position: center;
+}
+.section.service .service_wrap .service-block .icon-car{
+    display: inline-block;
+    height: 200px;
+    width: 150px;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: contain;
 }
 .section.service .service_wrap .service-block h4{
     font-family: "Stem_regular", sans-serif;
     font-size: 12px;
     text-transform: uppercase;
     color: #000;
+    letter-spacing: 1px;
     margin: 15px 0 0 0;
 }
 .section.service .service_wrap .service-block p{
     font-family: "Stem_medium", sans-serif;
     font-size: 12px;
+    letter-spacing: 1px;
     text-transform: uppercase;
     color: #000;
     margin: 7px 0 4px 0;
