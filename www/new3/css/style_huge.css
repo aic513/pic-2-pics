@@ -218,16 +218,16 @@ html{ font-size: 100%; }
     width: 65.63rem;
 }
 .section.about .about_group{
-    width: 75.63rem;
+    width: 75.2rem;
 }
 .section.about .about_group .col_min,
 .section.about .about_group .col_max{
 
 }
 .section.about .about_group .col_min{
-    width: 827px;
+    width: 950px;
     padding-top: 60px;
-    padding-bottom: 55px;
+    padding-bottom: 50px;
     padding-left: 60px;
     padding-right: 40px;
 }
