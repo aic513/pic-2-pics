@@ -534,83 +534,92 @@ body{ margin: 0; min-width: 1300px; }
         width: 1170px;
         margin: 0 auto;
     }
-    .section.service .service_wrap .service{
+    .section.service .service_wrap .service-block{
         width: 390px !important;
     }
 }
 @media only screen and (max-height: 800px){
-    .section.service .service_wrap .service{
+    .section.service .service_wrap .service-block{
         height: 200px !important;
     }
-    .section.service .service_wrap .service .icon{
+    .section.service .service_wrap .service-block .icon{
         width: 80px !important;
         height: 80px !important;
     }
-    .section.service .service_wrap .service h4{
+    .section.service .service_wrap .service-block h4{
         font-size: 0.8em !important;
     }
 }
+
 .section.service{
-    background: #eaeaea;
     font-size: 100%;
+    background: #eaeaea url("../img/background_service.png") center no-repeat;
+    background-size: 100%;
 }
 .section.service .wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
     padding-top: 70px;
     padding-bottom: 80px;
+    max-width: 1000px;
 }
 .section.service .service_wrap{
     overflow: hidden;
     margin-top: 50px;
     margin-bottom: 20px;
 }
-.section.service .service_wrap .service{
+.section.service .service_wrap .service-block{
     width: 430px;
     float: left;
     height: 255px;
     text-align: center;
+    margin-left: 50px;
 }
-.section.service .service_wrap .service .icon{
+.section.service .service_wrap .service-block .icon{
     display: inline-block;
     height: 100px;
     width: 100px;
     background-repeat: no-repeat;
     background-position: center;
 }
-.section.service .service_wrap .service h4{
+.section.service .service_wrap .service-block h4{
     font-family: "Stem_regular", sans-serif;
-    font-size: 1rem;
+    font-size: 12px;
     text-transform: uppercase;
     color: #000;
     margin: 15px 0 0 0;
 }
-.section.service .service_wrap .service p{
+.section.service .service_wrap .service-block p{
     font-family: "Stem_medium", sans-serif;
-    font-size: 0.750rem;
+    font-size: 12px;
     text-transform: uppercase;
     color: #000;
     margin: 7px 0 4px 0;
 }
-.section.service .service_wrap .service a{
+.section.service .service_wrap .service-block a{
     font-family: "Stem_italic", sans-serif;
-    font-size: 0.8rem;
+    font-size: 12px;
     color: #62acf6;
 }
-.section.service .service_wrap .service a.light{
+.section.service .service_wrap .service-block a.light{
     color: #88e04f;
 }
 
 
 /************************************************************
-  Service block
+  About block
 ************************************************************/
 
-.section.about{
+.section .about{
     font-size: 100%;
     background: #eaeaea;
 }
 .section.about .sectionTitle{
     margin-bottom: 10px;
 }
+
 .section.about .wrap{
     padding-top: 70px;
     padding-bottom: 80px;
@@ -660,7 +669,7 @@ body{ margin: 0; min-width: 1300px; }
     margin: 0;
     padding: 0;
     font-family: "Stem_hairline", sans-serif;
-    font-size: 3.3rem;
+    font-size: 12px;
     font-weight: lighter;
     color: #ff3703;
     text-align: center;
@@ -679,7 +688,7 @@ body{ margin: 0; min-width: 1300px; }
     margin: 0;
     padding: 20px;
     font-family: "Stem_light", sans-serif;
-    font-size: 1.425rem;
+    font-size: 12px;
     font-weight: lighter;
     color: #ff3703;
     text-align: center;
@@ -741,7 +750,7 @@ body{ margin: 0; min-width: 1300px; }
 }
 .about_block.recall .layer p{
     font-family: "Stem_regular", sans-serif;
-    font-size: 1.52rem;
+    font-size: 12px;
     color: #fff;
     width: 83%;
     margin: 0 auto;
@@ -756,7 +765,7 @@ body{ margin: 0; min-width: 1300px; }
     left: 0;
     font-family: "Stem_medium_italic", sans-serif;
     color: #fff;
-    font-size: 1.14rem;
+    font-size: 12px;
     text-align: center;
 }
 
@@ -1085,7 +1094,7 @@ body{ margin: 0; min-width: 1300px; }
     left: 4.8em;
 }
 .chatBtn-hover{
-  display: block;
+  display: none;
 }
 .chatBtn:hover~.chatBtn-hover{
   display: block;
