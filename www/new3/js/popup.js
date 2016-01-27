@@ -30,10 +30,10 @@ var nav = document.querySelector("nav");
 //  }
 
 
-  orderCross.addEventListener('click', function(event) {
-    event.preventDefault();
-    offer.classList.remove("order--show");
-  });
+//  orderCross.addEventListener('click', function(event) {
+//    event.preventDefault();
+//    offer.classList.remove("order--show");
+//  });
   
   nav.addEventListener('click', function(event) {
     event.preventDefault();

@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="css/style_offer.css">
 	<link rel="stylesheet" type="text/css" href="plugins/fullpage/jquery.fullpage.min.css">
 	<link rel="stylesheet" type="text/css" href="plugins/jqueryui-effects/jquery-ui.min.css">
+  
 </head>
 <body>
 
@@ -627,7 +628,7 @@
       <form class="order__form" action="">
         <header class="order__header">Заполнение заявки ни к чему вас не обязывает</header>
 
-         <div class="order__download">
+        <div class="order__download">
           <label class="label label--upload">Загрузите фотографию
             <input id="upload-photo" class="order__upload" type="file" multiple>
           </label>
@@ -695,6 +696,14 @@
 
 	<script type="text/javascript" src="js/Site.js"></script>
 	<script type="text/javascript" src="js/popup.js"></script>
+	<script>
+    ;(function($){
+   $(document).on('click', 'a[href^=#]', function () {
+        $('.offer__description').animate({ scrollTop:  $('a[id="'+this.hash.slice(1)+'"]').offset().top }, 1000 ); 
+        return false;
+    });
+})(jQuery);
+  </script>
 
 </body>
 </html>
