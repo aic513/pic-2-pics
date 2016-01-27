@@ -550,7 +550,7 @@ body{ margin: 0; min-width: 1300px; }
         font-size: 0.8em !important;
     }
 }
-.section.service{
+.section .service{
     background: #eaeaea;
     font-size: 100%;
 }
@@ -604,7 +604,7 @@ body{ margin: 0; min-width: 1300px; }
   Service block
 ************************************************************/
 
-.section.about{
+.section .about{
     font-size: 100%;
     background: #eaeaea;
 }
