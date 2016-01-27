@@ -218,34 +218,36 @@ html{ font-size: 100%; }
     width: 65.63rem;
 }
 .section.about .about_group{
-    margin: 1.875rem -1.875rem;
+    width: 75.63rem;
 }
 .section.about .about_group .col_min,
 .section.about .about_group .col_max{
-    float: left;
-    margin: 1.875rem;
+
 }
 .section.about .about_group .col_min{
-    width: 19.38rem;
+    width: 827px;
+    padding-top: 60px;
+    padding-bottom: 55px;
+    padding-left: 60px;
+    padding-right: 40px;
 }
 .section.about .about_group .col_max{
-    width: 42.5rem;
+    width: 12.5rem;
 }
 .section.about .about_group .col_min .about_block{
     height: 19.38rem;
     width: 19.38rem;
-    margin-bottom: 3.75rem;
 }
 .section.about .about_group .col_max .about_block{
-    height: 42.5rem;
-    width: 42.5rem;
+  width: 490px;
+  height: 490px;
 }
-.about_block.title{
+/*.about_block.title{
     border: 0.625rem solid #fff;
 }
 .about_block.description p{
-    padding: 1.25rem;
-}
+    padding: 0;
+}*
 .about_block.recall .layer .photo{
     top: 3.75rem;
     margin-left: -3.438rem;

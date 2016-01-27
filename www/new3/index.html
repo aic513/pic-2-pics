@@ -163,14 +163,6 @@
 				<div class="about_wrap">
 
 					<div class="about_group">
-						<div class="col_min">
-							<div class="about_block title">
-								<h3>12 цветов радуги</h3>
-							</div>
-							<div class="about_block description">
-								<p>Различные стилевые решения и неограниченные цветовые вариации</p>
-							</div>
-						</div>
 						<div class="col_max">
 							<div class="about_block recall" style="background-image: url(img/photos/photo3.png)">
 								<div class="layer">
@@ -182,16 +174,16 @@
 								</div>
 							</div>
 						</div>
+						<div class="col_min">
+								<h3>12 цветов радуги</h3>
+								<p>Различные стилевые решения и неограниченные цветовые вариации</p>
+						</div>
 					</div>
 
 					<div class="about_group">
 						<div class="col_min">
-							<div class="about_block title">
 								<h3>сочно в номер</h3>
-							</div>
-							<div class="about_block description">
-								<p>Печать на идеально настроенном и самом современном японском плоттере</p>
-							</div>
+								<p>печать на идеально настроенном и самом современном японском плоттере</p>
 						</div>
 						<div class="col_max">
 							<div class="about_block recall" style="background-image: url(img/photos/photo1.png)">
@@ -220,30 +212,16 @@
 							</div>
 						</div>
 						<div class="col_min">
-							<div class="about_block title">
 								<h3>бок о бок</h3>
-							</div>
-							<div class="about_block description">
-								<p>Для разных картин вы можете выбрать соответствующий вариант оформления торца</p>
-							</div>
+								<p>для разных картин вы можете выбрать соответствующий вариант оформления торца</p>
 						</div>
 					</div>
 
 
-
-
-
-
-
-
 					<div class="about_group">
 						<div class="col_min">
-							<div class="about_block title">
 								<h3>без сучка</h3>
-							</div>
-							<div class="about_block description">
 								<p>Модульный подрамник из сосны, натуральный хлопковый холст, крафтовый скотч</p>
-							</div>
 						</div>
 						<div class="col_max">
 							<div class="about_block recall" style="background-image: url(img/photos/photo5.png)">
@@ -271,16 +249,16 @@
 							</div>
 						</div>
 						<div class="col_min">
-							<div class="about_block title">
 								<h3>2X2</h3>
-							</div>
-							<div class="about_block description">
 								<p>Наш крепёж — удобный и надежный способ размещения картины у вас дома</p>
-							</div>
 						</div>
 					</div>
 
 					<div class="about_group">
+						<div class="col_min">
+								<h3>присел на дорожку</h3>
+								<p>Заботливо упаковываем готовую продукцию и отправляем её самым быстрым способом</p>
+						</div>
 						<div class="col_max">
 							<div class="about_block recall" style="background-image: url(img/photos/photo4.png)">
 								<div class="layer">
@@ -292,14 +270,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col_min">
-							<div class="about_block title">
-								<h3>присел на дорожку</h3>
-							</div>
-							<div class="about_block description">
-								<p>Заботливо упаковываем готовую продукцию и отправляем её самым быстрым способом</p>
-							</div>
-						</div>
+
 					</div>
 				</div>
 
@@ -625,10 +596,10 @@
             <a class="order__link">Загрузить ещё</a>
             <input id="upload-photo" class="order__upload" type="file" multiple>
           </label>
-          
-          
-          
-            
+
+
+
+
             <div class="scrollbar-inner">
                 <div class="order__gallery">
               <div class="order__photo">
@@ -667,9 +638,9 @@
                 </div>
               </div>
             </div>
-          
+
           </div>
-          
+
         </div>
 
         <div class="order__info">
@@ -708,30 +679,30 @@
 
 	<script type="text/javascript" src="js/Site.js"></script>
 	<script type="text/javascript" src="js/popup.js"></script>
-	
+
 	<script src=./js/mustache.min.js></script>
   <script src=./js/upload.js></script>
-	<script id="image_template" type="text/html">    
+	<script id="image_template" type="text/html">
       <p class="order__photo-name">{{name}}</p>
       <div class="order__photo-wrap">
         <img src="{{image}}" alt="{{name}}" class="order__img">
         <a href="#" class="order__photo-delete">удалить</a>
       </div>
   </script>
-  
-  
+
+
     <script>
       jQuery(document).ready(function(){
         jQuery('.scrollbar-inner').scrollbar();
     });
 
-      
+
     </script>
 <!--
 	<script>
     ;(function($){
    $(document).on('click', 'a[href^=#]', function () {
-        $('.offer__description').animate({ scrollTop:  $('a[id="'+this.hash.slice(1)+'"]').offset().top }, 1000 ); 
+        $('.offer__description').animate({ scrollTop:  $('a[id="'+this.hash.slice(1)+'"]').offset().top }, 1000 );
         return false;
     });
 })(jQuery);
