@@ -7,16 +7,15 @@ body {
 }
 
 .left-block {
-    position:relative;
+    position: relative;
     margin-left: 169px;
     float: left;
     width: 300px;
     min-height: 450px;
-    margin-top: 133px;
-
+    margin-top: 137px;
 }
 
-.left-block::after{
+.left-block::after {
     left: 89%;
     top: 11%;
     content: "";
@@ -24,9 +23,10 @@ body {
     width: 200px;
     height: 251px;
     background-image: url("../img/emoji/ok.png");
+    z-index: 20000;
 }
 
-.question{
+.question {
     margin-left: 40px;
     width: 210px;
     min-height: 27px;
@@ -36,11 +36,14 @@ body {
 
 .right-block {
     float: right;
-    width: 750px;
+    width: 864px;
     min-height: 490px;
-    outline: 2px dotted green
+    background-color: #eaeaea;
+    margin-right: -130px;
+    margin-top: 60px;
+    padding-top: 73px;
+    letter-spacing: 1px;
 }
-
 
 .list li {
     margin-bottom: 17px;
@@ -57,7 +60,7 @@ body {
     cursor: pointer;
 }
 
-.chatBtn-sup{
+.chatBtn-sup {
     margin-left: 39px;
     display: block;
     width: 190px;
@@ -71,7 +74,19 @@ body {
     background-color: #51a8e6;
     background-image: url(../img/Chatbtn.png);
     text-align: center;
-    -webkit-box-shadow: 8px 8px 17px 0 rgba(0,0,0,0.15);
-    box-shadow: 8px 8px 17px 0 rgba(0,0,0,0.15);
+    -webkit-box-shadow: 8px 8px 17px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 8px 8px 17px 0 rgba(0, 0, 0, 0.15);
     margin-top: 3px;
+}
+
+.large-text {
+    font-size: 16px;
+    font-family: "Stem_regular";
+}
+
+.text {
+    margin-left: 68px;
+    margin-top: 21px;
+    font-size: 12px;
+    font-family: "Stem Regular";
 }
