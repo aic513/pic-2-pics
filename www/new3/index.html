@@ -129,7 +129,7 @@
 						<h4>предложения для любимых клиентов</h4>
 						<p>станьте им прямо сейчас</p>
 						<a href="#">подробнее</a><br>
-						<a href="#" class="light">подписаться на рассылку</a>
+						<a href="#" class="light btnSup">подписаться на рассылку</a>
 					</div>
 					<div class="service">
 						<span class="icon" style="background-image: url(img/icons/icon-04.png); background-size: 72%;"></span>
@@ -619,35 +619,46 @@
         <header class="order__header">Заполнение заявки ни к чему вас не обязывает</header>
 
         <div class="order__download">
-          <label class="label label--upload">Загрузите фотографию
+          <label id="upload_photo" class="order__label-upload label">
+            <a class="order__link">Загрузить ещё</a>
             <input id="upload-photo" class="order__upload" type="file" multiple>
           </label>
           <div class="order__gallery">
-            <figure class="order__photo">
-              <img src="http://placehold.it/70x70" alt="" class="order__img">
-              <figcaption class="order__photo-name"></figcaption>
-              <a href="" class="order__photo-delete">удалить</a>
-            </figure>
-            <figure class="order__photo">
-              <img src="http://placehold.it/70x70" alt="" class="order__img">
-              <figcaption class="order__photo-name"></figcaption>
-              <a href="" class="order__photo-delete">удалить</a>
-            </figure>
-            <figure class="order__photo">
-              <img src="http://placehold.it/70x70" alt="" class="order__img">
-              <figcaption class="order__photo-name"></figcaption>
-              <a href="" class="order__photo-delete">удалить</a>
-            </figure>
-            <figure class="order__photo">
-              <img src="http://placehold.it/70x70" alt="" class="order__img">
-              <figcaption class="order__photo-name"></figcaption>
-              <a href="" class="order__photo-delete">удалить</a>
-            </figure>
-            <figure class="order__photo">
-              <img src="http://placehold.it/70x70" alt="" class="order__img">
-              <figcaption class="order__photo-name"></figcaption>
-              <a href="" class="order__photo-delete">удалить</a>
-            </figure>
+            <div class="order__photo">
+              <p class="order__photo-name">отдых-1.jpg</p>
+              <div class="order__photo-wrap">
+                <img src="http://placehold.it/70x70" alt="" class="order__img">
+                <a href="" class="order__photo-delete">удалить</a>
+              </div>
+            </div>
+            <div class="order__photo">
+              <p class="order__photo-name">отдых-1.jpg</p>
+              <div class="order__photo-wrap">
+                <img src="http://placehold.it/70x70" alt="" class="order__img">
+                <a href="" class="order__photo-delete">удалить</a>
+              </div>
+            </div>
+            <div class="order__photo">
+              <p class="order__photo-name">отдых-1.jpg</p>
+              <div class="order__photo-wrap">
+                <img src="http://placehold.it/70x70" alt="" class="order__img">
+                <a href="" class="order__photo-delete">удалить</a>
+              </div>
+            </div>
+            <div class="order__photo">
+              <p class="order__photo-name">отдых-1.jpg</p>
+              <div class="order__photo-wrap">
+                <img src="http://placehold.it/70x70" alt="" class="order__img">
+                <a href="" class="order__photo-delete">удалить</a>
+              </div>
+            </div>
+            <div class="order__photo">
+              <p class="order__photo-name">отдых-1.jpg</p>
+              <div class="order__photo-wrap">
+                <img src="http://placehold.it/70x70" alt="" class="order__img">
+                <a href="" class="order__photo-delete">удалить</a>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -686,6 +697,17 @@
 
 	<script type="text/javascript" src="js/Site.js"></script>
 	<script type="text/javascript" src="js/popup.js"></script>
+	
+	<script src=./js/mustache.min.js></script>
+  <script src=./js/upload.js></script>
+	<script id="image_template" type="text/html">    
+      <p class="order__photo-name">{{name}}</p>
+      <div class="order__photo-wrap">
+        <img src="{{image}}" alt="{{name}}" class="order__img">
+        <a href="#" class="order__photo-delete">удалить</a>
+      </div>
+  </script>
+<!--
 	<script>
     ;(function($){
    $(document).on('click', 'a[href^=#]', function () {
@@ -694,6 +716,7 @@
     });
 })(jQuery);
   </script>
+-->
 
 </body>
 </html>
