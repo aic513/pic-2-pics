@@ -306,12 +306,12 @@ body{ margin: 0; min-width: 1300px; }
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    radial-gradient(ellipse at center, rgba(3,162,254,1) 0%, rgba(162,221,255,0) 72%, rgba(255,255,255,0) 100%);
+    background-image: radial-gradient(ellipse at center, rgba(3,162,254,1) 0%, rgba(162,221,255,0) 72%, rgba(255,255,255,0) 100%);
 
     text-align: center;
 }
 .actionBtn-footer{
-    radial-gradient(ellipse at center, rgba(250,99,62,1) 0%, rgba(253,197,184,0) 72%, rgba(255,255,255,0) 100%);
+    background-image: radial-gradient(ellipse at center, rgba(250,99,62,1) 0%, rgba(253,197,184,0) 72%, rgba(255,255,255,0) 100%);
 }
 .actionBtn a{
     display: inline-block;
