@@ -315,6 +315,7 @@ body{ margin: 0; min-width: 1300px; }
 }
 .actionBtn a{
     display: inline-block;
+    width: 182px;
     height: 47px;
     line-height: 49px;
     font-family: "Stem_regular", sans-serif;
@@ -325,13 +326,14 @@ body{ margin: 0; min-width: 1300px; }
     border-radius: 40px;
     color: #fff;
     background: transparent;
-    padding: 0 15px;
-
+    padding: 7px 26px;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     -ms-transition: all 0.2s ease-out;
     -o-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
+    letter-spacing: 1.9px;
+}
 }
 .actionBtn a:hover{
     background: #fff;
