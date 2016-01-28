@@ -21,14 +21,10 @@
   clear: both;
 }
 
-.offer .wrap {
-  position: relative;
-}
-
 .offer__cross {
   position: absolute;
   top: 21px; 
-  right: 18px;
+  right: 90px;
   display: block;
   width: 32px;
   height: 32px;
@@ -58,8 +54,9 @@
 }
 
 .offer__menu {
+  padding-left: 10%;
   float: left;
-  width: 45%;
+  width: 30%;
   font-size: 16px;
   line-height: 29px;
   text-transform: uppercase;
@@ -75,7 +72,7 @@
   font-family: "Stem_regular", sans-serif;
   color: #000;
   text-decoration: none;
-  letter-spacing: 0.8px;
+  letter-spacing: 0.9px;
 }
 
 .offer__link:hover, 
@@ -87,12 +84,21 @@
 .offer__description {
 /*  position: relative;*/
   float: right;
-  width: 50%;
+  padding-left: 50px;
   height: 400px;
   font-family: "Stem_regular", sans-serif;
 /*  overflow: hidden;*/
 }
 
+.offer__description p {
+  padding-right: 130px;
+  font-size: 16px;
+}
+
+.offer__description-wrap {
+  float: right;
+  width:  60%;
+}
 /*
 .offer__description::after {
   content: '';
@@ -550,7 +556,11 @@ input[type='checkbox']:checked + label::after {
 
 /* для ширины больше 1440px */
 @media only screen and (min-width: 1440px) {
-
+  
+  .offer__cross {
+    right: 160px;
+  }
+  
   .order__form {
     width: 1108px;
   }
