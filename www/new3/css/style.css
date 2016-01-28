@@ -602,7 +602,7 @@ body{ margin: 0; min-width: 1300px; }
   letter-spacing: 5.5px;
   font-size: 70px;
   font-weight: 400;
-  margin-top: 0px;
+  margin-top: -15px;
   margin-bottom: 10px;
   padding-right: 68px;
 }
