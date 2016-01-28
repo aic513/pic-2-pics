@@ -212,7 +212,7 @@ html{ font-size: 100%; }
 }
 .section.about .wrap{
     padding-top: 4.375rem;
-    padding-bottom: 5rem;
+/*    padding-bottom: 5rem;*/
 }
 .section.about .about_wrap{
     width: 65.63rem;
