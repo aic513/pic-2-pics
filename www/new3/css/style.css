@@ -663,9 +663,7 @@ body{ margin: 0; min-width: 1300px; }
     padding: 0;
     position: relative;
 }
-.section.about .about_group-one .col_min{
-    position: relative;
-  }
+
 
 /*/////////////////////////////////////////////////////////////////////////////*/
 /*/////////////////////////////////////////////////////////////////////////////*/
@@ -682,7 +680,13 @@ body{ margin: 0; min-width: 1300px; }
     padding-right: 40px;
     box-shadow: 10px 10px 55px 10px #eee;
 }
-
+.section.about .about_group-four .col_min-four,
+.section.about .about_group-six .col_min-six{
+    align-items: flex-end;
+}
+.section.about .about_group-one .col_min{
+    position: relative;
+  }
 .section.about .about_group-two .col_min{
   display: flex;
   flex-direction: row;
@@ -715,8 +719,8 @@ body{ margin: 0; min-width: 1300px; }
     font-weight: 700;
 }
 .about_group-two .col_min-column p,
-.about_group-four .col_min-column p,
-.about_group-six .col_min-column p{
+.about_group-four .col_min-four p,
+.about_group-six .col_min-six p{
     text-align: right;
 }
 .col_min h3{
@@ -733,17 +737,7 @@ body{ margin: 0; min-width: 1300px; }
     text-transform: uppercase;
 }
 .about_group-two .col_min h3{
-    vertical-align: middle;
-    margin: 0;
-    margin-bottom: 30px;
-    padding: 0;
-    font-family: "Stem-Medium", sans-serif;
-    font-size: 28px;
-    letter-spacing: 7px;
-    font-weight: bold;
-    color: #ff3703;
     text-align: right;
-    text-transform: uppercase;
 }
 /*/////////////////////////////////////////////////////////////////////////////*/
 /*/////////////////////////////////////////////////////////////////////////////*/
