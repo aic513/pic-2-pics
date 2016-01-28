@@ -638,7 +638,14 @@ body{ margin: 0; min-width: 1300px; }
     font-size: 100%;
 }
 .section.about .sectionTitle{
-    margin-bottom: 10px;
+  text-align: center;
+  font-family: 'ShangoSansRegular';
+  letter-spacing: 5.5px;
+  font-size: 70px;
+  font-weight: 400;
+  margin-top: -15px;
+  margin-bottom: 10px;
+  padding-right: 70px;
 }
 .section.about .wrap{
     background: #eaeaea;
@@ -649,17 +656,17 @@ body{ margin: 0; min-width: 1300px; }
     width: 1400px;
     margin: 0 auto;
     margin-left: 0px;
-    margin-right: -20px;
+    padding-left: 20px;
 }
 .section.about .about_group{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 70px;
+    margin-top: 50px;
     margin-left: 0px;
     margin-right: -20px;
-    margin-bottom: -70px;
+    margin-bottom: -120px;
     padding: 0;
     position: relative;
 }
