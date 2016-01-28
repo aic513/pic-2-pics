@@ -663,11 +663,9 @@ body{ margin: 0; min-width: 1300px; }
     margin-left: 0px;
     margin-right: -20px;
     padding: 0;
+    position: relative;
 }
-.section.about .about_group .col_min,
-.section.about .about_group .col_max{
 
-}
 .section.about .about_group .col_min{
     display: flex;
     flex-direction: column;
@@ -691,17 +689,6 @@ body{ margin: 0; min-width: 1300px; }
 .section.about .about_group .col_min .about_block:last-child{
     margin-bottom: 0;
 }
-
-
-.section.about .about_group .col_max{
-    width: 490px;
-    height: 490px;
-}
-.section.about .about_group .col_max .about_block{
-    height: 490px;
-    width: 490px;
-}
-
 
 .col_min h3{
     vertical-align: middle;
@@ -727,10 +714,15 @@ body{ margin: 0; min-width: 1300px; }
   justify-content: space-between;
 }
 
+
+
 .block-btn{
+  position: absolute;
+  top:110px;
+  left: 50px;
   display: block;
-  width: 100px;
-  height: 100px;
+  width: 250px;
+  height: 250px;
   background: url('../img/btn-block.png') no-repeat center;
   background-size: contain;
 }
