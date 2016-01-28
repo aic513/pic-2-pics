@@ -53,8 +53,8 @@ var Site = (function($){
 				case 1: PageSlides.render.intro(); break;
 				case 2: PageSlides.render.service(); break;
 				case 3: PageSlides.render.about(); break;
-//				case 4: PageSlides.render.styles(); break;
-				case 4: PageSlides.render.contact(); break;
+				case 4: PageSlides.render.styles(); break;
+				case 5: PageSlides.render.contact(); break;
 
 				default: break;
 			}
