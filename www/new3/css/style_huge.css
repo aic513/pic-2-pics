@@ -218,12 +218,9 @@ html{ font-size: 100%; }
     width: 65.63rem;
 }
 .section.about .about_group{
-    width: 75.2rem;
+    width: 75.8rem;
 }
-.section.about .about_group .col_min,
-.section.about .about_group .col_max{
 
-}
 .section.about .about_group .col_min{
     width: 950px;
     padding-top: 60px;
@@ -232,7 +229,7 @@ html{ font-size: 100%; }
     padding-right: 40px;
 }
 .section.about .about_group .col_max{
-    width: 12.5rem;
+    width: 23.1rem;
 }
 .section.about .about_group .col_min .about_block{
     height: 19.38rem;
