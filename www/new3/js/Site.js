@@ -53,8 +53,8 @@ var Site = (function($){
 				case 1: PageSlides.render.intro(); break;
 				case 2: PageSlides.render.service(); break;
 				case 3: PageSlides.render.about(); break;
-				case 4: PageSlides.render.styles(); break;
-				case 5: PageSlides.render.contact(); break;
+//				case 4: PageSlides.render.styles(); break;
+				case 4: PageSlides.render.contact(); break;
 
 				default: break;
 			}
@@ -283,6 +283,13 @@ var Site = (function($){
 					image: "img/styles/style1.png",
 					sq_big: [6630, 4640], sq_mid: [3130, 2190], sq_sm: [2680, 2180],
 					re_big: [11190, 8130], re_mid: [4260, 3250], re_sm: [2980, 2380]
+				},
+        
+        {
+					title: "модульные картины",
+					image: "img/styles/style1.png",
+					sq_big: [6630, 4640], sq_mid: [3130, 2190], sq_sm: [1690, 1190],
+					re_big: [10200, 7140], re_mid: [3270, 2260], re_sm: [1990, 1390]
 				}
 			],
 
