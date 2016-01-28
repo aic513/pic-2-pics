@@ -651,13 +651,14 @@ body{ margin: 0; min-width: 1300px; }
     font-size: 12px;
     text-transform: uppercase;
     color: #000;
-    letter-spacing: 1px;
-    margin: 15px 0 0 0;
+    letter-spacing: 2px;
+    margin: 10px 0 0 0;
+    font-weight: 700;
 }
 .section.service .service_wrap .service-block p{
-    font-family: "StemBold", sans-serif;
+    font-family: "Stem-Regular", sans-serif;
     font-size: 12px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     text-transform: uppercase;
     color: #000;
     margin: 7px 0 4px 0;
