@@ -305,13 +305,13 @@ body{ margin: 0; min-width: 1300px; }
 
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-image:  radial-gradient(ellipse at center, rgba(3,162,254,1) 0%, rgba(162,221,255,0) 72%, rgba(255,255,255,0) 100%);
+    background-size: cover;
+    background-image: url(../img/btn_shadow.png);
 
     text-align: center;
 }
 .actionBtn-footer{
-    background-image:  radial-gradient(ellipse at center, rgba(250,99,62,1) 0%, rgba(253,197,184,0) 72%, rgba(255,255,255,0) 100%);
+    background-image: url(../img/btn_shadow_red.png);
 }
 .actionBtn a{
     display: inline-block;
@@ -326,13 +326,14 @@ body{ margin: 0; min-width: 1300px; }
     color: #fff;
     background: transparent;
     padding: 0 15px;
+
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     -ms-transition: all 0.2s ease-out;
     -o-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
 }
-}
+
 .actionBtn a:hover{
     background: #fff;
     color: #03a3fe;
