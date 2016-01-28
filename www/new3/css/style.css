@@ -569,6 +569,9 @@ body{ margin: 0; min-width: 1300px; }
     padding-bottom: 80px;
     max-width: 1300px;
 }
+.section.service .wrap .sectionTitle{
+  padding-left: 0px;
+}
 .section.service .service_wrap{
     overflow: hidden;
     margin-bottom: 20px;
@@ -699,6 +702,9 @@ body{ margin: 0; min-width: 1300px; }
     background: #fff;
     box-shadow: 10px 10px 55px 10px #eee;
 }
+.section.about .about_group .col_max{
+    box-shadow: 10px 10px 55px 10px #eee;
+}
 .section.about .about_group-four .col_min-four,
 .section.about .about_group-six .col_min-six{
     align-items: flex-end;
@@ -769,11 +775,11 @@ body{ margin: 0; min-width: 1300px; }
   width: 250px;
   height: 250px;
   background: url('../img/btn-static.png') no-repeat center;
-  background-size: contain;
+  background-size: 100%;
 }
 .block-btn{
   position: absolute;
-  top:110px;
+  top: 120px;
   left: 50px;
   display: block;
   width: 250px;
@@ -792,6 +798,7 @@ body{ margin: 0; min-width: 1300px; }
     background-position: center;
     background-size: cover;
     z-index: 20;
+
 }
 .about_block.recall .layer{
     position: absolute;
@@ -803,6 +810,7 @@ body{ margin: 0; min-width: 1300px; }
     z-index: 25;
     background: rgba(255, 51, 0, 0.84);
     opacity: 0;
+
 }
 .about_block.recall .layer > div{
     display: table-cell;
@@ -811,6 +819,7 @@ body{ margin: 0; min-width: 1300px; }
     height: 100%;
     z-index: 30;
     text-align: center;
+
 }
 .about_block.recall .layer .photo{
     position: absolute;
@@ -825,6 +834,7 @@ body{ margin: 0; min-width: 1300px; }
     background-repeat: no-repeat;
     background-position: center;
     background-size: 102%;
+
 }
 .about_block.recall .layer .photo:before{
     position: absolute;
