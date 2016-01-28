@@ -376,10 +376,12 @@ body{ margin: 0; min-width: 1300px; }
 }
 /* Sections title */
 .sectionTitle{
+    padding-left: 290px;
     font-family: 'ShangoSansRegular', sans-serif;
-    font-size: 3.4rem;
+    font-size: 70px;
     margin: 0;
     text-align: center;
+    font-weight: 400;
 }
 
 
@@ -640,7 +642,14 @@ body{ margin: 0; min-width: 1300px; }
     font-size: 100%;
 }
 .section.about .sectionTitle{
-    margin-bottom: 10px;
+  text-align: center;
+  font-family: 'ShangoSansRegular';
+  letter-spacing: 5.5px;
+  font-size: 70px;
+  font-weight: 400;
+  margin-top: -15px;
+  margin-bottom: 10px;
+  padding-right: 70px;
 }
 .section.about .wrap{
     background: #eaeaea;
@@ -651,17 +660,17 @@ body{ margin: 0; min-width: 1300px; }
     width: 1400px;
     margin: 0 auto;
     margin-left: 0px;
-    margin-right: -20px;
+    padding-left: 20px;
 }
 .section.about .about_group{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 70px;
+    margin-top: 50px;
     margin-left: 0px;
     margin-right: -20px;
-    margin-bottom: -70px;
+    margin-bottom: -120px;
     padding: 0;
     position: relative;
 }
@@ -905,6 +914,7 @@ body{ margin: 0; min-width: 1300px; }
     padding-top: 20px;
     position: relative;
     z-index: 10;
+    margin-left: 92px;
 }
 .section.styles .price_wrap{
     float: right;
@@ -914,20 +924,21 @@ body{ margin: 0; min-width: 1300px; }
 }
 
 .section.styles .size_wrap ul{
-    margin: 0 0 15px 0;
+    margin: 32px 0px 78px -28px;
     padding: 0;
     width: 100%;
     text-align: center;
     clear: both;
 }
 .section.styles .size_wrap ul li{
+    margin-right: 17px;
     display: inline-block;
     list-style: none;
 }
 .section.styles .size_wrap ul li a{
     display: block;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     background: #fff;
     border-radius: 20px;
     margin: 10px;
@@ -954,9 +965,16 @@ body{ margin: 0; min-width: 1300px; }
     height: 150px;
     float: left;
 }
+.size_wrap .size.big-right{
+    height: 150px;
+    margin-left: 11px;
+}
+
 .size_wrap .size.big{
     height: 150px;
+    margin-left: -12px;
 }
+
 .size_wrap .size.mid{
     height: 120px;
 }
@@ -1014,7 +1032,7 @@ body{ margin: 0; min-width: 1300px; }
 }
 .size_wrap .size p{
     font-family: "Stem_medium", sans-serif;
-    font-size: 0.65rem;
+    font-size: 11px;
     text-transform: uppercase;
     text-align: center;
     line-height: 100%;
