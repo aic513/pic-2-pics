@@ -293,7 +293,7 @@ body{ margin: 0; min-width: 1300px; }
 .actionBtn.fixed{
     position: fixed;
     bottom: -25px;
-    left: 50%;
+    left: 48%;
     margin-left: -156px;
 }
 .actionBtn{
@@ -539,7 +539,7 @@ body{ margin: 0; min-width: 1300px; }
     height: 192px;
     position: absolute;
     left: 50%;
-    
+
 }
 
 .blue-circle {
@@ -549,7 +549,7 @@ body{ margin: 0; min-width: 1300px; }
     border-radius: 50%;
     position: absolute;
     left: 70%;
-    
+
 }
 
 
@@ -597,11 +597,20 @@ body{ margin: 0; min-width: 1300px; }
 }
 .section.service .wrap .sectionTitle{
   padding-left: 0px;
+  text-align: center;
+  font-family: 'ShangoSansRegular';
+  letter-spacing: 5.5px;
+  font-size: 70px;
+  font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-right: 68px;
 }
 .section.service .service_wrap{
     overflow: hidden;
     margin-bottom: 20px;
     padding: 0;
+    padding-top: 60px;
     padding-left: 20px;
 }
 .section.service .service_wrap .service-block{
@@ -609,18 +618,18 @@ body{ margin: 0; min-width: 1300px; }
     float: left;
     height: 255px;
     text-align: center;
-    margin-left: 180px;
-    margin-top: 0px;
-    margin-bottom: 75px;
+    margin-left: 260px;
+    margin-top: 10px;
+    margin-bottom: 105px;
 }
 .section.service .service_wrap .service-block:nth-child(odd){
     width: 430px;
     float: left;
     height: 255px;
     text-align: center;
-    margin-left: 110px;
+    margin-left: 20px;
     margin-top: 0px;
-    margin-bottom: 75px;
+    margin-bottom: 105px;
 }
 
 .section.service .service_wrap .service-block .icon{
