@@ -634,14 +634,12 @@ body{ margin: 0; min-width: 1300px; }
 /************************************************************
   About block
 ************************************************************/
-
 .section .about{
     font-size: 100%;
 }
 .section.about .sectionTitle{
     margin-bottom: 10px;
 }
-
 .section.about .wrap{
     background: #eaeaea;
     padding-top: 70px;
@@ -658,14 +656,20 @@ body{ margin: 0; min-width: 1300px; }
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background: yellow;
     margin-top: 70px;
     margin-left: 0px;
     margin-right: -20px;
+    margin-bottom: -70px;
     padding: 0;
     position: relative;
 }
+.section.about .about_group-one .col_min{
+    position: relative;
+  }
 
+/*/////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////*/
 .section.about .about_group .col_min{
     display: flex;
     flex-direction: column;
@@ -676,20 +680,45 @@ body{ margin: 0; min-width: 1300px; }
     padding-bottom: 55px;
     padding-left: 50px;
     padding-right: 40px;
+    box-shadow: 10px 10px 55px 10px #eee;
 }
 
-
-
-
-.section.about .about_group .col_min .about_block{
-    height: 330px;
-    width: 330px;
-    margin-bottom: 60px;
+.section.about .about_group-two .col_min{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-.section.about .about_group .col_min .about_block:last-child{
-    margin-bottom: 0;
+.section.about .about_group-two .col_min-column{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-
+.section.about .about_group-one .col_min-column{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+/*/////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////*/
+.col_min p{
+    vertical-align: middle;
+    margin: 0;
+    font-family: "Stem-Regular", sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    color: #ff3703;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.about_group-two .col_min-column p,
+.about_group-four .col_min-column p,
+.about_group-six .col_min-column p{
+    text-align: right;
+}
 .col_min h3{
     vertical-align: middle;
     margin: 0;
@@ -703,19 +732,32 @@ body{ margin: 0; min-width: 1300px; }
     text-align: left;
     text-transform: uppercase;
 }
-.section.about .about_group-two .col_min{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+.about_group-two .col_min h3{
+    vertical-align: middle;
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0;
+    font-family: "Stem-Medium", sans-serif;
+    font-size: 28px;
+    letter-spacing: 7px;
+    font-weight: bold;
+    color: #ff3703;
+    text-align: right;
+    text-transform: uppercase;
 }
-.section.about .about_group-two .col_min-column{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+/*/////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////*/
+.static-btn{
+  position: absolute;
+  top:-20px;
+  left: 600px;
+  display: block;
+  width: 250px;
+  height: 250px;
+  background: url('../img/btn-static.png') no-repeat center;
+  background-size: contain;
 }
-
-
-
 .block-btn{
   position: absolute;
   top:110px;
@@ -726,38 +768,10 @@ body{ margin: 0; min-width: 1300px; }
   background: url('../img/btn-block.png') no-repeat center;
   background-size: contain;
 }
-.about_block.description{
-    background: #fff;
-}
-.col_min p{
-    vertical-align: middle;
-    margin: 0;
-    font-family: "Stem-Regular", sans-serif;
-    font-size: 12px;
-    line-height: 20px;
-    letter-spacing: 3px;
-    color: #ff3703;
-    text-align: left;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-.about_group-two .col_min-column p{
-    vertical-align: middle;
-    margin: 0;
-    font-family: "Stem-Regular", sans-serif;
-    font-size: 12px;
-    line-height: 20px;
-    letter-spacing: 3px;
-    color: #ff3703;
-    text-align: right;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-
-
-
-
-
+/*/////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////*/
 .about_block.recall{
     position: relative;
     overflow: hidden;
@@ -832,6 +846,12 @@ body{ margin: 0; min-width: 1300px; }
     font-size: 12px;
     text-align: center;
 }
+/*/////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////*/
+
+
+
 
 @media only screen and (max-width: 1440px){
     .section.about .about_wrap{
