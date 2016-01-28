@@ -638,7 +638,9 @@ body{ margin: 0; min-width: 1300px; }
 ************************************************************/
 .section .about{
     font-size: 100%;
+    position: relative;
 }
+
 .section.about .sectionTitle{
   text-align: center;
   font-family: 'ShangoSansRegular';
@@ -653,6 +655,16 @@ body{ margin: 0; min-width: 1300px; }
     background: #eaeaea;
     padding-top: 70px;
     padding-bottom: 80px;
+}
+.section.about .wrap::after{
+  display: block;
+  content: '';
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  bottom: 0px;
+  left: 150px;
+  background: url('../img/emoji/honey_large.png');
 }
 .section.about .about_wrap{
     width: 1400px;
@@ -672,7 +684,9 @@ body{ margin: 0; min-width: 1300px; }
     padding: 0;
     position: relative;
 }
-
+.section.about .about_group:last-child{
+  margin-bottom: 200px;
+}
 
 /*/////////////////////////////////////////////////////////////////////////////*/
 /*/////////////////////////////////////////////////////////////////////////////*/
