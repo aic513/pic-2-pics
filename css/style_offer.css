@@ -542,6 +542,17 @@ input[type='checkbox']:checked + label::after {
 .show {
   display: block;
 }
+.section.service .wrap {
+  position: relative;
+  z-index: 1000;
+}
+
+.section.about .wrap ,
+.section.about .sectionTitle,
+.section.about .about_wrap {
+  position: relative;
+  z-index: 1000;
+}
 
 .servive_video {
   position: absolute;
