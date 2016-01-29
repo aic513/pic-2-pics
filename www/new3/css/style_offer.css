@@ -554,8 +554,10 @@ input[type='checkbox']:checked + label::after {
     background: #000 url("../img/background_service.png") no-repeat 50%/cover;
 }
 
+
+
 /* для ширины больше 1440px */
-@media only screen and (min-width: 1200px) and and (max-width: 1880px) {
+@media only screen and (min-width: 1440px) {
   
   .offer__cross {
     right: 160px;
@@ -591,3 +593,150 @@ input[type='checkbox']:checked + label::after {
 
 }
 
+@media only screen and (max-width: 1880px) {
+  
+  .wrap {
+    width: 93.5%;
+    margin: 0 auto;
+  }
+/*
+  .stripe .period {
+    right: 0;
+  }
+*/
+  .section.about .about_wrap {
+    padding-left: 0;
+    width: 100%;  
+  }
+  .section.about .about_group {
+    margin-right: 0;
+    width: 100%;
+  }
+  .section.about .about_group .col_max {
+    width: 490px;
+    height: 490px;
+  }
+  
+  .section.about .about_group .col_min {
+    padding-top: 60px;
+    padding-bottom: 50px;
+    padding-left: 60px;
+    padding-right: 40px;
+    width: 790px;
+    box-shadow: 8px -6px 46px 0px rgba(0, 0, 0, 0.3);
+  }
+  
+  .section.about .about_group .col_max .about_block{
+    width: 490px;
+    height: 490px;
+    background-size: cover;
+    box-shadow: 8px -6px 46px 0px rgba(0, 0, 0, 0.3);
+  }
+  
+  .static-btn {
+    left: 500px;
+  }
+  
+}
+
+@media only screen and (max-width: 1440px) {
+  .section.about .about_group {
+    margin-top: 80px;
+  }
+  
+  .section.about .about_group .col_max {
+    width: 390px;
+    height: 390px;
+  }
+  
+  .section.about .about_group .col_max .about_block{
+    width: 390px;
+    height: 390px;
+  }
+  
+  .section.about .about_group .col_min {
+    width: 690px;
+  }
+  
+  .static-btn {
+    left: 500px;
+  }
+  
+  .block-btn {
+    top: 70px;
+    left: 20px;
+  }
+  
+  .section.contact .content .chatBtn {
+    bottom: 49%;
+    left: 13%;
+  }
+  
+  .chatBtn:hover~.chatBtn-hover {
+    display: block;
+  }
+  
+  .section.contact .content .emoji.human {
+    bottom: 15px;
+    left: 0;
+    height: 125px;
+    width: 125px;
+    background-size: 100%;
+  }
+  
+  .section.contact .content .emoji.cloud {
+    top: -40px;
+    right: 10px;
+    height: 125px;
+    width: 125px;
+    background-size: 100%;
+  }
+  
+}
+
+@media only screen and (min-width: 1440px) {
+  .section.about .about_wrap {
+    width: 94.5%;
+  }
+  .section.about .about_group .col_max {
+    width: 450px;
+    height: 450px;
+  }
+  .section.about .about_group .col_max .about_block{
+    width: 450px;
+    height: 450px;
+  }
+  .section.about .about_group .col_min {
+    width: 690px;
+  }
+  
+  .block-btn {
+    top: 100px;
+    left: 20px;
+  }
+  
+  .section.contact .content .chatBtn {
+    bottom: 49%;
+    left: 22%;
+  }
+  
+  .chatBtn:hover~.chatBtn-hover {
+    display: block;
+  }
+  
+  .section.contact .content .emoji.human {
+    bottom: 15px;
+    left: 0;
+    height: 135px;
+    width: 135px;
+    background-size: 100%;
+  }
+  
+  .section.contact .content .emoji.cloud {
+    top: -40px;
+    left: 49%;
+    height: 135px;
+    width: 135px;
+    background-size: 100%;
+  }
+}
