@@ -756,3 +756,59 @@ input[type='checkbox']:checked + label::after {
     background-size: 100%;
   }
 }
+.content-tech {
+  background: #fff;
+}
+.tech {
+  display: block;
+}
+
+.offer_question {
+  font-family: "Stem_light", sans-serif;
+}
+
+.offer .chatBtn {
+  display: block;
+}
+.tech .offer__menu {
+  position: relative;
+}
+
+.tech .offer__menu::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 200px;
+  height: 250px;
+  background: url("../img/emoji/ok.png") no-repeat 100%;
+}
+.tech .norm-text{
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: "Stem_regular", sans-serif;
+}
+
+.tech .large-text{
+  margin: 0;
+}
+
+.tech .text-list {
+  margin: 0;
+  position: relative;
+  font-size: 12px;
+}
+
+.tech .text-list::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 39px;
+  height: 49px;
+  background: url("../img/icons/icon-arrows.png") no-repeat 100%;
+}
+
+.tech .text-list li {
+  padding-left: 50px;
+}
