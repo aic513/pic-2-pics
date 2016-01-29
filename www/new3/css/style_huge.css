@@ -296,10 +296,10 @@ html{ font-size: 100%; }
     box-shadow: 0.5rem -0.5rem 1.063rem 0 rgba(0,0,0,0.15);
 }
 
-.size_wrap .size{
+/*.size_wrap .size{
     width: 10.94rem;
     height: 9.375rem;
-}
+}*/
 .size_wrap .size.big{
     height: 9.375rem;
 }
