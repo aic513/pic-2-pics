@@ -302,10 +302,11 @@ var Site = (function($){
 			setHandlers : function(){
 				var that = this;
 
-				$("#sizeWrap .preview").hover(function(e){
+				$("#sizeWrap .preview").on("click", function(e){
+					console.log('hover test');
 					var type = $(this).attr("data-type");
 					that.setPrice(that.styleList[ that.currentStyle ][type][0], that.styleList[ that.currentStyle ][type][1]);
-				}, function(e){});
+				});
 
 				$("#styleDots a").on("click", function(e){
 					e.preventDefault();
