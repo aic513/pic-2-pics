@@ -531,14 +531,16 @@ body{ margin: 0; min-width: 1300px; }
     width: 200px;
     height: 148px;
     position: absolute;
-    left: 30%;
+    right: 120px;
+    top: 500px;
 }
 
 .white-circle {
     width: 197px;
     height: 192px;
     position: absolute;
-    left: 50%;
+    right: 120px;
+    top: 250px;
 
 }
 
@@ -548,8 +550,8 @@ body{ margin: 0; min-width: 1300px; }
     background: #2b44f7;
     border-radius: 50%;
     position: absolute;
-    left: 70%;
-
+    right: 350px;
+    top: 350px;
 }
 
 
