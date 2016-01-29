@@ -593,7 +593,7 @@ input[type='checkbox']:checked + label::after {
 
 }
 
-@media only screen and (max-width: 1880px) {
+@media only screen and (max-width: 1809px) {
   
   .wrap {
     width: 93.5%;
@@ -637,6 +637,21 @@ input[type='checkbox']:checked + label::after {
     left: 500px;
   }
   
+  footer .support{
+    left: 0;
+  }
+  
+  footer .info {
+    margin-top: -22px;
+    text-align: center;
+  }
+  
+  footer .info .address {
+    margin-top: 0;
+  }
+  footer .row {
+    margin-top: 0;
+  }
 }
 
 @media only screen and (max-width: 1440px) {
@@ -691,6 +706,7 @@ input[type='checkbox']:checked + label::after {
     width: 125px;
     background-size: 100%;
   }
+  
   
 }
 
