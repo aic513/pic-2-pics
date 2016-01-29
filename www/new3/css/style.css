@@ -956,8 +956,7 @@ body{ margin: 0; min-width: 1300px; }
 }
 .section.styles .sectionTitle{
     clear: both;
-    margin-top: 110px;
-    padding-left: 0;
+    margin-top: 70px;
     position: relative;
 }
 .section.styles .wrap{
@@ -975,6 +974,17 @@ body{ margin: 0; min-width: 1300px; }
     position: relative;
     z-index: 10;
     margin-left: 92px;
+    position: relative;
+}
+
+.text-size  {
+  font-family: "Stem-Regular", sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  position: absolute;
+  bottom: 0px;
+  left: 150px;
 }
 .section.styles .price_wrap{
     float: right;
@@ -1159,8 +1169,8 @@ body{ margin: 0; min-width: 1300px; }
     background-position: center;
 }
 .price_wrap > p{
-    font-family: "Stem_thin", sans-serif;
-    font-size: 0.8rem;
+    font-family: "Stem_medium", sans-serif;
+    font-size: 11px;
     text-transform: uppercase;
     margin-top: 60px;
     color: #000;
