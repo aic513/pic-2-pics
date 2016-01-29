@@ -554,7 +554,8 @@ input[type='checkbox']:checked + label::after {
   z-index: 1000;
 }
 
-.servive_video {
+.servive_video,
+.about_video{
   position: absolute;
     left: 50%;
     top: 50%;
