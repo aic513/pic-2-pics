@@ -555,7 +555,7 @@ input[type='checkbox']:checked + label::after {
 }
 
 /* для ширины больше 1440px */
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1200px) and and (max-width: 1880px) {
   
   .offer__cross {
     right: 160px;
@@ -590,3 +590,4 @@ input[type='checkbox']:checked + label::after {
   }
 
 }
+
