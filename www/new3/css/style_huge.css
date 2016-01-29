@@ -162,14 +162,14 @@ html{ font-size: 100%; }
     top: 3.125rem;
 }
 .section.intro h1{
-    top: 3.75rem;
+    top: 70px;
     text-shadow: 0.625rem -0.625rem 0.625rem rgba(0,0,0,0.1);
 }
 .section.intro .by_you{
-    left: 2rem;
+    left: 1rem;
 }
 .section.intro .by_us{
-    right: 2rem;
+    right: 5rem;
 }
 
 
