@@ -310,7 +310,6 @@ var Site = (function($){
 				var that = this;
 
 				$("#sizeWrap .preview").on("click", function(e){
-					console.log('hover test');
 					var type = $(this).attr("data-type");
 					that.setPrice(that.styleList[ that.currentStyle ][type][0], that.styleList[ that.currentStyle ][type][1]);
 				});
