@@ -957,6 +957,7 @@ body{ margin: 0; min-width: 1300px; }
 .section.styles .sectionTitle{
     clear: both;
     margin-top: 70px;
+    padding-left: 0;
     position: relative;
 }
 .section.styles .wrap{
