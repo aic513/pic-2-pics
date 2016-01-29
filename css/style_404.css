@@ -1,0 +1,140 @@
+body {
+    position: relative;
+    background-color: #00c853;
+    color: #fff;
+}
+
+.stripe{
+  background: #fff;
+  color: #000;
+
+}
+.stripe .logo{
+    display: inline-block;
+    position: absolute;
+    content: '';
+    top: 2px;
+    left: 2px;
+    height: 122px;
+    width: 100px;
+    opacity: 1;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../img/logo.png');
+}
+.stripe .menu_open{
+    display: inline-block;
+    position: absolute;
+    top: 74px;
+    right: 70px;
+    height: 60px;
+    width: 60px;
+    background: #fff;
+    padding: 23px 0;
+    -webkit-box-shadow: 0 0 32px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 0 32px 0 rgba(0,0,0,0.1);
+    box-sizing: border-box;
+    opacity: 1;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+.stripe .menu_open span{
+    position: relative;
+    width: 24px;
+    height: 3px;
+    background: #000;
+    display: block;
+    margin-bottom: 3px;
+    left: 50%;
+    margin-left: -12px;
+}
+
+
+
+.title {
+    min-width: 660px;
+    min-height: 90px;
+    margin-left: 175px;
+    margin-top: -30px;
+    letter-spacing: 16px;
+}
+
+.title h1 {
+    text-align: center;
+    font-size: 93px;
+    letter-spacing: 3px;
+    color: #e47012;
+    font-weight: 100;
+    font-family: "ShangoSansRegular";
+    margin-left: -250px;
+    margin-top: 100px;
+}
+
+.description {
+    width: 964px;
+    font-style: italic;
+    margin-left: 377px;
+    margin-top: -32px;
+    min-height: 75px;
+    font-size: 28px;
+    font-family: "Stem_bold";
+    text-align: center;
+    letter-spacing: 2.5px;
+}
+
+.help-menu {
+    margin-left: -70px;
+    font-family: "Stem_regular";
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 102px;
+    letter-spacing: 3px;
+}
+
+.hepl-menu p:hover {
+    cursor: pointer;
+    color: #ffeca8;
+}
+
+.help-menu {
+    font-family: "Stem_regular";
+    text-transform: uppercase;
+}
+
+.big-letter {
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: -30px;
+}
+
+
+
+.big-letter:hover {
+    cursor: pointer;
+    color: #ffeca8;
+    text-decoration: underline;
+}
+
+.bottom{
+margin-bottom: -8px;
+}
+.small-letter {
+    letter-spacing: 1px;
+    margin-bottom: -5px;
+    font-size: 16px;
+}
+
+.small-letter:hover {
+    cursor: pointer;
+    color: #ffeca8;
+    text-decoration: underline
+}

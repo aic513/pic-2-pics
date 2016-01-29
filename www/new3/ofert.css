@@ -1,0 +1,133 @@
+.offer {
+  display: block;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  padding-top: 110px;
+  width: 100%;
+  height: 100%;
+  background-color: #eaeaea;
+  z-index: 75;
+}
+
+.show {
+  display: block;
+}
+
+.offer--show {
+  display: block;
+}
+
+.offer::before,
+.offer::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.offer .wrap {
+  position: relative;
+}
+
+.offer__cross {
+  position: absolute;
+  top: 21px; 
+  right: 18px;
+  display: block;
+  width: 32px;
+  height: 32px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.offer__cross::before,
+.offer__cross::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  width: 40px;
+  height: 6px;
+  background-color: #fff;
+}
+
+.offer__cross::before {
+  transform: translateX(-50%) translateY(-50%) rotate(45deg);
+}
+
+.offer__cross::after {
+  transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+}
+
+.offer__menu {
+  float: left;
+  width: 45%;
+  font-size: 16px;
+  line-height: 29px;
+  text-transform: uppercase;
+}
+
+.offer__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.offer__link {
+  font-family: "Stem_regular", sans-serif;
+  color: #000;
+  text-decoration: none;
+  letter-spacing: 0.8px;
+}
+
+.offer__link:hover, 
+.offer__link:active,
+.offer__link:focus {
+  text-decoration: underline;
+} 
+
+.offer__description {
+/*  position: relative;*/
+  height: 400px;
+  float: right;
+  width: 50%;
+  font-family: "Stem_regular", sans-serif;
+  overflow: hidden;
+}
+
+/*
+.offer__description::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(to top, #eaeaea, transparent);
+}
+*/
+
+.offer__title {
+  margin: 0;
+  font-size: 19px;
+  text-transform: uppercase;
+}
+
+.offer__chapter {
+  padding: 5px 0;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.offer__chapter:target {
+  color: #fff;
+  text-decoration: underline;
+  background-color: #00c853;
+}
+
+#fullpage {
+  display: none;
+}
+

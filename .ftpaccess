@@ -1,5 +1,0 @@
-#<Limit All>
-#Allow 212.32.5.0/26
-#Allow 158.152.0.0/16
-#DenyAll
-#</Limit>

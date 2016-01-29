@@ -1,9 +1,0 @@
-2015-12-30 23:25:53.562 [NOTICE] [94.243.184.82:37166] [STDERR] SQLSTATE[HY000] [2002] ... ...... ..... ... .......Ð
-2015-12-30 23:26:04.845 [NOTICE] [94.243.184.82:37181] [STDERR] SQLSTATE[HY000] [2002] ... ...... ..... ... .......Ð
-2015-12-30 23:26:06.150 [NOTICE] [94.243.184.82:37183] [STDERR] SQLSTATE[HY000] [2002] ... ...... ..... ... .......Ð
-2015-12-30 23:26:06.438 [NOTICE] [94.243.184.82:37184] [STDERR] SQLSTATE[HY000] [2002] ... ...... ..... ... .......Ð
-2015-12-30 23:26:06.631 [NOTICE] [94.243.184.82:37185] [STDERR] SQLSTATE[HY000] [2002] ... ...... ..... ... .......Ð
-2015-12-30 23:41:37.814 [NOTICE] [94.243.184.82:38928] [STDERR] SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
-2015-12-30 23:42:05.881 [NOTICE] [94.243.184.82:38941] [STDERR] SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
-2015-12-30 23:49:05.444 [NOTICE] [94.243.184.82:39409] [STDERR] HTTP 404 (GET /index2.html)
-2015-12-30 23:56:42.185 [NOTICE] [94.243.184.82:40040] [STDERR] mkdir(): 

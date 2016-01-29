@@ -1,3 +1,0 @@
-2016-01-18 18:00:49.771 [NOTICE] [62.212.73.211:54435] mod_security rule [Id '1'] triggered! 
-[Mon Jan 18 18:00:49 2016] [error] [client 62.212.73.211] ModSecurity: Access denied with code 403, [Rule: 'REQUEST_HEADERS:User-Agent' 'MJ12bot|AhrefsBot|BLEXBot'] [id "1"] [msg "Bad User-Agent"]
-2016-01-18 18:00:49.771 [NOTICE] [62.212.73.211:54435] Content len: 0, Request line: 'GET / HTTP/1.1'
