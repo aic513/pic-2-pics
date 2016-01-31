@@ -710,7 +710,7 @@ input[type='checkbox']:checked + label::after {
   
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1440px) and (max-width: 1800px){
   .section.about .about_wrap {
     width: 94.5%;
   }
