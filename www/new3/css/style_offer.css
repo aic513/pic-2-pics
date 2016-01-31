@@ -46,11 +46,13 @@
 }
 
 .offer__cross::before {
-  transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+          transform: translateX(-50%) translateY(-50%) rotate(45deg);
 }
 
 .offer__cross::after {
-  transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+          transform: translateX(-50%) translateY(-50%) rotate(-45deg);
 }
 
 .offer__menu {
@@ -149,7 +151,8 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
 }
 
 .subscripe__wrap::before, 
@@ -194,7 +197,8 @@
   white-space: nowrap;
   background: #fff url("../img/icons/icon-subscribe-cross.png") no-repeat 50% 50%;
   border-radius: 50%;
-  transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
   overflow: hidden;
 }
 
@@ -296,7 +300,8 @@ button {
   padding-right: 180px;
   width: 1000px;
   box-sizing: border-box;
-  transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
 }
 
 .order__form::before,
@@ -355,7 +360,8 @@ button {
   text-align: center;
   border-radius: 8px;
   background-color: #fff;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 .order__label-upload::after {
@@ -369,7 +375,8 @@ button {
   text-align: center;
   border-radius: 8px;
   background-color: #fff;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 .order__upload {
@@ -548,7 +555,8 @@ input[type='checkbox']:checked + label::after {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
   min-width: 100%;
   min-height: 100%;
   z-index: 5;
@@ -771,7 +779,8 @@ input[type='checkbox']:checked + label::after {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
     min-width: 100%;
     min-height: 100%;
     z-index: 5;
