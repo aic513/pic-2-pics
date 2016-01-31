@@ -833,7 +833,16 @@ body{ margin: 0; min-width: 1300px; }
     padding-left: 70px;
     padding-right: 140px;
 }
-
+.section.about .about_group-two .col_min,
+.section.about .about_group-four .col_min,
+.section.about .about_group-six .col_min{
+    padding-top: 62px;
+    padding-bottom: 53px;
+    padding-left: 70px;
+    padding-right: 60px;
+    width: 895px;
+}
+/*/////////////////////////////////////////////////////////////////////////////*/
 .section.about .about_group .col_max{
     width: 490px;
     height: 490px;
@@ -969,6 +978,7 @@ body{ margin: 0; min-width: 1300px; }
     z-index: 30;
     text-align: center;
 }
+/*////////////////////////////////////////////////////////////////////////*/
 .about_block.recall .layer .photo{
     position: absolute;
     display: block;
@@ -995,7 +1005,50 @@ body{ margin: 0; min-width: 1300px; }
     background-size: 80%;
     background-image: url(../img/cite.png);
 }
+/*////////////////////////////////////////////////////////////////////////*/
+.about_group-two .about_block.recall .layer .photo{
+    top: 50px;
+    left: 230px;
+    margin-left: -55px;
+}
+.about_group-two .about_block.recall .layer .photo:before{
+    left: -112px;
+    top: 72px;
+}
+.about_group-three .about_block.recall .layer .photo{
+    top: 40px;
+    left: 218px;
+    margin-left: -55px;
+}
+.about_group-three .about_block.recall .layer .photo:before{
+    left: -111px;
+    top: 72px;
+}
+.about_group-four .about_block.recall .layer .photo:before{
+    left: -111px;
+    top: 72px;
+}
 
+.about_group-five .about_block.recall .layer .photo{
+  top: 40px;
+  left: 222px;
+  margin-left: -55px;
+}
+.about_group-five .about_block.recall .layer .photo:before{
+    left: -110px;
+    top: 72px;
+}
+.about_group-six .about_block.recall .layer .photo{
+  top: 38px;
+  left: 224px;
+  margin-left: -55px;
+}
+.about_group-six .about_block.recall .layer .photo:before{
+    left: -108px;
+    top: 72px;
+}
+
+/*////////////////////////////////////////////////////////////////////////*/
 .about_block.recall .layer p{
     font-family: "Stem_regular", sans-serif;
     font-size: 16px;
@@ -1003,12 +1056,30 @@ body{ margin: 0; min-width: 1300px; }
     width: 100%;
     margin: 0 auto;
     line-height: 21px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     margin-top: 20px;
 }
 .about_block.recall:first-child .layer p{
     margin-top: 115px;
 }
+.about_group-two .about_block.recall .layer p{
+  margin-top: 95px;
+}
+.about_group-three .about_block.recall .layer p{
+  margin-top: 73px;
+}
+.about_group-four .about_block.recall .layer p{
+  margin-top: 73px;
+}
+.about_group-five .about_block.recall .layer p{
+  margin-top: 73px;
+}
+.about_group-six .about_block.recall .layer p{
+  margin-top: 95px;
+}
+/*////////////////////////////////////////////////////////////////////////*/
+
+/*////////////////////////////////////////////////////////////////////////*/
 .about_block.recall .layer .name{
     position: absolute;
     display: block;
@@ -1024,6 +1095,27 @@ body{ margin: 0; min-width: 1300px; }
   bottom: 70px;
   left: 0;
 }
+.about_group-two .about_block.recall:first-child .layer .name{
+  bottom: 118px;
+  left: 0;
+}
+.about_group-three .about_block.recall:first-child .layer .name{
+  bottom: 128px;
+  left: 0;
+}
+.about_group-four .about_block.recall:first-child .layer .name{
+  bottom: 128px;
+  left: 0;
+}
+.about_group-five .about_block.recall:first-child .layer .name{
+  bottom: 128px;
+  left: 0;
+}
+.about_group-six .about_block.recall:first-child .layer .name{
+  bottom: 108px;
+  left: 0;
+}
+/*////////////////////////////////////////////////////////////////////////*/
 /*/////////////////////////////////////////////////////////////////////////////*/
 /*/////////////////////////////////////////////////////////////////////////////*/
 /*/////////////////////////////////////////////////////////////////////////////*/
@@ -1062,6 +1154,21 @@ body{ margin: 0; min-width: 1300px; }
     font-size: 100%;
     background: #d1eaff;
 }
+.section.styles .sectionTitle{
+    text-align: center;
+    font-family: 'ShangoSansRegular';
+    letter-spacing: 5.5px;
+    font-size: 70px;
+    font-weight: 400;
+    margin-top: 75px;
+    margin-bottom: 10px;
+    padding-right: 360px;
+    position: relative;
+}
+.note{
+  font-size: 50px;
+  vertical-align: top;
+}
 .section.styles .table{
     display: table;
     height: 100%;
@@ -1070,13 +1177,7 @@ body{ margin: 0; min-width: 1300px; }
 .section.styles .table .row{
     display: table-row;
 }
-.section.styles .sectionTitle{
-    clear: both;
-    margin-top: 70px;
-    padding-left: 0;
-    position: relative;
-    z-index: 5;
-}
+
 .section.styles .wrap{
     padding-bottom: 80px;
     overflow: hidden;
