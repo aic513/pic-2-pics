@@ -543,21 +543,31 @@ input[type='checkbox']:checked + label::after {
   display: block;
 }
 
-.servive_video {
+.servive_video,
+.about__video {
   position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    min-width: 100%;
-    min-height: 100%;
-    z-index: 5;
-    background: #000 url("../img/background_service.png") no-repeat 50%/cover;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 5;
+  background: #bad0da url("../img/background_service.png") no-repeat 50%/cover;
+}
+
+.about__video {
+  background: #bad0da url("../img/bg-about.png") no-repeat 50%/cover;
+}
+.section.service .wrap,
+.section.about .sectionTitle,
+.section.about .about_wrap {
+  position: relative;
+  z-index: 77;
 }
 
 
-
 /* для ширины больше 1440px */
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1440px) and (max-width: 1800px) {
   
   .offer__cross {
     right: 160px;
@@ -756,59 +766,14 @@ input[type='checkbox']:checked + label::after {
     background-size: 100%;
   }
 }
-.content-tech {
-  background: #fff;
-}
-.tech {
-  display: block;
-}
 
-.offer_question {
-  font-family: "Stem_light", sans-serif;
-}
-
-.offer .chatBtn {
-  display: block;
-}
-.tech .offer__menu {
-  position: relative;
-}
-
-.tech .offer__menu::after {
-  content: '';
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 200px;
-  height: 250px;
-  background: url("../img/emoji/ok.png") no-repeat 100%;
-}
-.tech .norm-text{
-  font-size: 12px;
-  text-transform: uppercase;
-  font-family: "Stem_regular", sans-serif;
-}
-
-.tech .large-text{
-  margin: 0;
-}
-
-.tech .text-list {
-  margin: 0;
-  position: relative;
-  font-size: 12px;
-}
-
-.tech .text-list::before{
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 39px;
-  height: 49px;
-  background: url("../img/icons/icon-arrows.png") no-repeat 100%;
-}
-
-.tech .text-list li {
-  padding-left: 50px;
+.service__video{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 5;
+    background: #ff url("/img/background_service.jpg") no-repeat 50%/cover;
 }
