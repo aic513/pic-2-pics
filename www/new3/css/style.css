@@ -955,8 +955,7 @@ body{ margin: 0; min-width: 1300px; }
     left: 0;
     z-index: 25;
     background: rgba(255, 51, 0, 0.84);
-    opacity: 0;
-
+    opacity: 1;
 }
 .about_block.recall .layer > div{
     display: table-cell;
@@ -965,34 +964,31 @@ body{ margin: 0; min-width: 1300px; }
     height: 100%;
     z-index: 30;
     text-align: center;
-
 }
 .about_block.recall .layer .photo{
     position: absolute;
     display: block;
-    top: 60px;
-    left: 50%;
+    top: 40px;
+    left: 230px;
     margin-left: -55px;
-    height: 110px;
-    width: 110px;
-    border-radius: 110px;
-    border: 10px solid #fff;
+    height: 170px;
+    width: 170px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 102%;
+    background-size: 100%;
 
 }
 .about_block.recall .layer .photo:before{
     position: absolute;
     display: block;
     content: "";
-    left: -160px;
-    top: 40px;
+    left: -116px;
+    top: 68px;
     width: 135px;
     height: 135px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 95%;
+    background-size: 80%;
     background-image: url(../img/cite.png);
 }
 
