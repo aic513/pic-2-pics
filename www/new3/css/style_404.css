@@ -4,10 +4,16 @@ body {
     color: #fff;
 }
 
+.stripe.error .logo, 
+.stripe.error .menu_open{
+  opacity: 1 !important;
+}
+
 .title {
+    margin: 0 auto;
     min-width: 660px;
     min-height: 90px;
-    margin-left: 154px;
+/*    margin-left: 154px;*/
     margin-top: -5px;
 }
 
@@ -21,9 +27,10 @@ body {
 }
 
 .description {
+    margin: 0 auto;
     width: 964px;
     font-style: italic;
-    margin-left: 267px;
+/*    margin-left: 267px;*/
     margin-top: -32px;
     min-height: 75px;
     font-size: 28px;
@@ -33,44 +40,43 @@ body {
 }
 
 .help-menu {
-    margin-left: 164px;
-    font-family: "Stem_regular";
+    margin: 0;
+    margin: 0 auto;
+    padding: 0; 
+/*    margin-left: 164px;*/
+    font-family: "Stem_bold", sans-serif;
     text-transform: uppercase;
     text-align: center;
     margin-top: 102px;
     letter-spacing: 3px;
 }
-
-.hepl-menu p:hover {
-    cursor: pointer;
-    color: #ffeca8;
+.big-letter a {
+  font-weight: bold;
+  font-size: 28px;
+  color: #fff;
+  text-decoration: none;
 }
 
-.help-menu {
-    font-family: "Stem_regular";
-    text-transform: uppercase;
-}
-
-.big-letter {
-    font-weight: bold;
-    font-size: 28px;
-    margin-bottom: -30px;
-}
-
-
-
-.big-letter:hover {
-    cursor: pointer;
-    color: #ffeca8;
-    text-decoration: underline;
+.big-letter:hover  a {
+  cursor: pointer;
+  color: #ffeca8;
+  text-decoration: underline;
 }
 
 .bottom{
-margin-bottom: -8px;
+  margin-bottom: -8px;
+}
+.help-submenu {
+  display: none;
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
+  list-style: none;
+  font-family: "Stem_regular", sans-serif;
 }
 .small-letter {
     letter-spacing: 1px;
-    margin-bottom: -5px;
+    margin-bottom: 15px;
     font-size: 16px;
 }
 
@@ -79,3 +85,9 @@ margin-bottom: -8px;
     color: #ffeca8;
     text-decoration: underline
 }
+
+.bottom:hover .help-submenu{
+  display: block;
+}
+
+
