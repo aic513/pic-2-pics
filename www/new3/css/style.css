@@ -485,7 +485,7 @@ body{ margin: 0; min-width: 1300px; }
     right: 0;
     bottom: 0;
     width: 100%;
-    background-position: 0px 0 0 0;
+    background-position: 0 0 0 0;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("../img/bg.jpg");
@@ -1579,6 +1579,7 @@ body{ margin: 0; min-width: 1300px; }
 .section.contact .content .info{
     width: 700px;
     margin: 0 auto;
+    margin-left: 260px;
 }
 .section.contact .content .info p{
     font-family: "Stem_regular", sans-serif;
@@ -1586,6 +1587,7 @@ body{ margin: 0; min-width: 1300px; }
     line-height: 23px;
     color: #000;
     text-transform: uppercase;
+    text-align: center;
 }
 .section.contact .content .info p a{
     color: #03a3fe;
