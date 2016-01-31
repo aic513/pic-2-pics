@@ -1357,17 +1357,45 @@ body{ margin: 0; min-width: 1300px; }
     margin-left: 75px;
 }
 /*///////////////////////////////////////////////////////////////////////*/
-
 .size_wrap .size h3{
     font-family: "Stem_medium", sans-serif;
-    font-size: 1.2rem;
+    font-size: 26px;
+    letter-spacing: 2px;
     text-align: center;
     margin: 0;
+    margin-top: -2px;
     font-weight: normal;
 }
 .size_wrap .size h3 span{
     font-family: "Stem_hairline", sans-serif;
 }
+/*///////////////////////////////////////////////////////////////////////*/
+.size_wrap .size .big-h3{
+  margin-left: 0px;
+
+}
+.size_wrap .size .big-h3{
+  margin-left: 0px;
+}
+.size_wrap .size .big-right-h3{
+  margin-left: 38px;
+}
+.size_wrap .size .mid-left-h3{
+  margin-left: -25px;
+  margin-top: 2px;
+}
+.size_wrap .size .mid-right-h3{
+  margin-left: 18px;
+  margin-top: 2px;
+}
+.size_wrap .size .sm-left-h3{
+  margin-left: -30px;
+}
+.size_wrap .size .sm-right-h3{
+  margin-left: 18px;
+}
+/*///////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////*/
 .size_wrap .size p{
     font-family: "Stem_medium", sans-serif;
     font-size: 11px;
@@ -1375,7 +1403,24 @@ body{ margin: 0; min-width: 1300px; }
     text-align: center;
     line-height: 100%;
     margin: 3px 0;
+    letter-spacing: 2px;
 }
+.size_wrap .size .big-right-p{
+  margin-left: 40px;
+}
+.size_wrap .size .mid-left-p{
+  margin-left: -25px;
+}
+.size_wrap .size .mid-right-p{
+  margin-left: 20px;
+}
+.size_wrap .size .sm-left-p{
+  margin-left: -25px;
+}
+.size_wrap .size .sm-right-p{
+  margin-left: 20px;
+}
+/*///////////////////////////////////////////////////////////////////////*/
 /*///////////////////////////////////////////////////////////////////////*/
 .text-size  {
   font-family: "Stem-Regular", sans-serif;
