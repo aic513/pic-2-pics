@@ -724,6 +724,7 @@
 
 	<script type="text/javascript" src="js/Site.js"></script>
 	<script type="text/javascript" src="js/popup.js"></script>
+	<script type="text/javascript" src="js/scroll.js"></script>
 
 	<script src=./js/mustache.min.js></script>
   <script src=./js/upload.js></script>
@@ -743,44 +744,7 @@
 
 
     </script>
-    <script>
 
-//    ;(function() {
-//      var linkNav = document.querySelectorAll('[href^="#offer-"]'),
-//          V = 0.4;
-//      for (var i = 0; i < linkNav.length; i++) {
-//        linkNav[i].addEventListener('click', function(e) {
-//          e.preventDefault();
-//          var scroll = window.pageYOffset,
-//              hash = this.href.replace(/[^#]*(.*)/, '$1');
-//              position = document.querySelector(hash).getBoundingClientRect().top,
-//              start = null;
-//          requestAnimationFrame(step);
-//          function step(time) {
-//            if (start === null) start = time;
-//            var progress = time - start,
-//                roll = (position < 0 ? Math.max(w - progress/V, scroll + position) : Math.min(scroll + progress/V, scroll + position));
-//            window.scrollTo(0,roll);
-//            if (roll != scroll + position) {
-//              requestAnimationFrame(step)
-//            } else {
-//              false;
-//            }
-//          }
-//        }, false);
-//      }
-//      })();
-
-    </script>
-
-    <script>
-//  ;(function($){
-//     $(document).on('click', 'a[href^=#]', function () {
-//          $('.offer__description').animate({ scrollTop:  $('a[id="'+this.hash.slice(1)+'"]').offset().top }, 1000 );
-//          return false;
-//      });
-//  })(jQuery);
-    </script>
 
 </body>
 </html>
