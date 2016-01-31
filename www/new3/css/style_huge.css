@@ -212,9 +212,9 @@ html{ font-size: 100%; }
 }
 
 .section.about .wrap{
-    padding-top: 4.375rem;
+    padding-top: 4.375rem;}
 /*    padding-bottom: 5rem;*/
-}
+
 /*
 .section.about .about_wrap{
     width: 65.63rem;
@@ -247,7 +247,8 @@ html{ font-size: 100%; }
 }
 .about_block.description p{
     padding: 0;
-}
+}*/
+
 .about_block.recall .layer .photo{
     top: 3.75rem;
     margin-left: -3.438rem;
@@ -265,7 +266,6 @@ html{ font-size: 100%; }
 .about_block.recall .layer .name{
     bottom: 6.875rem;
 }
-*/
 
 
 
