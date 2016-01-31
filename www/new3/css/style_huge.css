@@ -206,14 +206,16 @@ html{ font-size: 100%; }
 /************************************************************
   About block
 ************************************************************/
-
-/*.section.about .sectionTitle{
+/*
+.section.about .sectionTitle{
     margin-bottom: 0.625rem;
 }
+
 .section.about .wrap{
     padding-top: 4.375rem;
 /*    padding-bottom: 5rem;*/
-/*}
+}
+/*
 .section.about .about_wrap{
     width: 65.63rem;
 }
@@ -228,8 +230,9 @@ html{ font-size: 100%; }
     padding-left: 60px;
     padding-right: 40px;
 }
+
 .section.about .about_group .col_max{
-    width: 23.1rem;
+    width: 30.1rem;
 }
 .section.about .about_group .col_min .about_block{
     height: 19.38rem;
@@ -238,13 +241,13 @@ html{ font-size: 100%; }
 .section.about .about_group .col_max .about_block{
   width: 490px;
   height: 490px;
-}*/
-/*.about_block.title{
+}
+.about_block.title{
     border: 0.625rem solid #fff;
 }
 .about_block.description p{
     padding: 0;
-}*
+}
 .about_block.recall .layer .photo{
     top: 3.75rem;
     margin-left: -3.438rem;
@@ -262,14 +265,14 @@ html{ font-size: 100%; }
 .about_block.recall .layer .name{
     bottom: 6.875rem;
 }
-
 */
+
 
 
 /************************************************************
   Styles block
 ************************************************************/
-
+/*
 .section.styles .sectionTitle{
     margin-top: 4.375rem;
 }

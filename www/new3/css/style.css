@@ -736,9 +736,6 @@ body{ margin: 0; min-width: 1300px; }
     left: 92px;
 }
 /*//////////////////////////////////////////////////////////////////////////////*/
-
-
-
 .section.service .service_wrap .service-block h4{
     font-family: "StemBold", sans-serif;
     font-size: 12px;
@@ -753,7 +750,7 @@ body{ margin: 0; min-width: 1300px; }
     font-size: 12px;
     letter-spacing: 2px;
     color: #000;
-    margin: 7px 0 4px 0;
+    margin: 7px 0 0px 0;
     text-transform: uppercase;
 }
 .section.service .service_wrap .service-block a{
@@ -773,22 +770,34 @@ body{ margin: 0; min-width: 1300px; }
     font-size: 100%;
     position: relative;
 }
-
+/*////////////////////////////////////////////////////////////////////////////*/
 .section.about .sectionTitle{
   text-align: center;
   font-family: 'ShangoSansRegular';
   letter-spacing: 5.5px;
   font-size: 70px;
   font-weight: 400;
-  margin-top: -15px;
+  margin-top: 5px;
   margin-bottom: 10px;
   padding-right: 360px;
+  position: relative;
+}
+
+.section.about .sectionTitle .rus-sun{
+  display: inline-block;
+  vertical-align: bottom;
+  padding: 0;
+  width: 65px;
+  height: 70px;
+  background: url('../img/emoji/0006.png') no-repeat bottom;
+  background-size: cover;
 }
 .section.about .wrap{
     background: #eaeaea;
     padding-top: 70px;
 /*    padding-bottom: 80px;*/
 }
+/*////////////////////////////////////////////////////////////////////////////*/
 .section .about_honey {
   margin-top: 60px;
   margin-left: 130px;
@@ -797,8 +806,9 @@ body{ margin: 0; min-width: 1300px; }
   height: 300px;
   background: url('../img/emoji/honey_large.png') no-repeat 50%/cover;
 }
+/*////////////////////////////////////////////////////////////////////////////*/
 .section.about .about_wrap{
-    width: 1400px;
+    width: 1588px;
     margin: 0 auto;
     margin-left: 0px;
     padding-left: 20px;
@@ -814,11 +824,11 @@ body{ margin: 0; min-width: 1300px; }
     margin-bottom: -120px;
     padding: 0;
     position: relative;
+    width: 1588px;
 }
 .section.about .about_group:last-child{
   margin-bottom: 200px;
 }
-
 /*/////////////////////////////////////////////////////////////////////////////*/
 /*/////////////////////////////////////////////////////////////////////////////*/
 /*/////////////////////////////////////////////////////////////////////////////*/
@@ -827,11 +837,21 @@ body{ margin: 0; min-width: 1300px; }
     flex-direction: column;
     align-items: flex-start;
     background: #fff;
-/*    box-shadow: 10px 10px 55px 10px #eee;*/
+    box-shadow: 8px -6px 41.86px 4.14px rgba(0, 0, 0, 0.3);
+    width: 930px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    padding-left: 160px;
+    padding-right: 140px;
 }
 .section.about .about_group .col_max{
-/*    box-shadow: 10px 10px 55px 10px #eee;*/
+    width: 590px;
+    height: 590px;
+    box-shadow: 8px -6px 41.86px 4.14px rgba(0, 0, 0, 0.3);
 }
+/*/////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////*/
 .section.about .about_group-four .col_min-four,
 .section.about .about_group-six .col_min-six{
     align-items: flex-end;
@@ -1008,7 +1028,7 @@ body{ margin: 0; min-width: 1300px; }
 
 
 
-@media only screen and (max-width: 1440px){
+/*@media only screen and (max-width: 1440px){
     .section.about .about_wrap{
         width: 1050px;
     }
@@ -1028,7 +1048,7 @@ body{ margin: 0; min-width: 1300px; }
         background-size: cover;
         box-shadow: 8px -6px 41.86px 4.14px rgba(0, 0, 0, 0.3);
     }
-}
+}*/
 
 
 /************************************************************
