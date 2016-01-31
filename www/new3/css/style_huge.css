@@ -111,11 +111,8 @@ html{ font-size: 100%; }
     width: 9.375rem;
     height: 4.875rem;
 }
-.section.contact .content .actionBtn-footer{
-    position: absolute;
-    bottom: 3.7rem;
-    right: 2.8rem;
-}*/
+*/
+
 
 /* nav block */
 .menu .main_wrap{
@@ -372,19 +369,9 @@ html{ font-size: 100%; }
   Contact block
 ************************************************************/
 
-.section.contact .sectionTitle{
-    text-align: center;
-    margin-bottom: 3.5rem;
-    font-family: 'ShangoSansRegular';
-    letter-spacing: 0.25rem;
-    padding-right: 3.56rem;
-    font-weight: 400;
-    margin-top: -2.3rem;
-}
 .section.contact .wrap{
     padding-top: 5.9rem;
     padding-bottom: 5rem;
-
     width: 76.25rem;
 }
 
@@ -415,68 +402,4 @@ html{ font-size: 100%; }
 .section.contact .to_left,
 .section.contact .to_right{
     width: 18.44rem;
-}
-
-.section.contact .content .emoji.human{
-    bottom: -1.5em;
-    left: -.8em;
-    height: 175px;
-    width: 175px;
-    background-size: 100%;
-}
-.section.contact .content .emoji.cloud{
-    height: 137px;
-    width: 137px;
-    bottom: 11.5em;
-    left: 10.49em;
-}
-.section.contact .content .emoji.chup{
-    right: 8.5rem;
-    top: -0.75rem;
-    height: 180px;
-    width: 180px;
-    -webkit-transform: rotate(10deg);
-            transform: rotate(10deg);
-}
-
-footer{
-    margin-top: 55px;
-
-}
-
-footer .support{
-    width: 18.75rem;
-    margin-left: 0px;
-}
-footer .support h3{
-    margin: 0.9375rem 0 0.625rem 0;
-}
-
-footer .product{
-    padding-right: 2.5rem;
-    width: 18.75rem;
-}
-footer .product h3{
-    margin: 0.9375rem 0 0.625rem 0;
-}
-footer .product ul li a{
-    margin: 0.4375rem 0;
-}
-
-footer .info{
-    height: 10.63rem;
-    margin-left: -40px;
-    text-align: center;
-}
-footer .info h3{
-    margin: 0.9375rem 0 0.625rem 0;
-}
-footer .info p{
-    margin-top: 14px;
-}
-
-
-
-
-
 }
