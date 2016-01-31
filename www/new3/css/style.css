@@ -1164,19 +1164,21 @@ body{ margin: 0; min-width: 1300px; }
     margin-bottom: 10px;
     padding-right: 360px;
     position: relative;
+    z-index: 5;
 }
 .note{
   font-size: 50px;
   vertical-align: top;
 }
-.section.styles .table{
+
+/*.section.styles .table{
     display: table;
     height: 100%;
     width: 100%;
 }
 .section.styles .table .row{
     display: table-row;
-}
+}*/
 
 .section.styles .wrap{
     padding-bottom: 80px;
@@ -1189,31 +1191,25 @@ body{ margin: 0; min-width: 1300px; }
 .section.styles .size_wrap,
 .section.styles .price_wrap{
     width: 350px;
-    padding-top: 20px;
+    padding-top: 8px;
     position: relative;
     z-index: 10;
-    margin-left: 92px;
+    margin-left: 114px;
     position: relative;
 }
 
-.text-size  {
-  font-family: "Stem-Regular", sans-serif;
-  font-size: 12px;
-  letter-spacing: 1px;
-  font-weight: 400;
-  position: absolute;
-  bottom: 0px;
-  left: 150px;
-}
 .section.styles .price_wrap{
     float: right;
 }
+
+
+/*//////////////////////////////////////////////////////////////////////*/
 .section.styles .size_wrap{
     float: left;
-}
 
+}
 .section.styles .size_wrap ul{
-    margin: 32px 0px 78px -28px;
+    margin: 37px 0px 74px 8px;
     padding: 0;
     width: 100%;
     text-align: center;
@@ -1248,7 +1244,7 @@ body{ margin: 0; min-width: 1300px; }
     -webkit-box-shadow: 0 0 0 0 rgba(0,0,0,0);
     box-shadow: 0 0 0 0 rgba(0,0,0,0);
 }
-
+/*//////////////////////////////////////////////////////////////////////*/
 .size_wrap .size{
     width: 175px;
     height: 150px;
@@ -1256,7 +1252,9 @@ body{ margin: 0; min-width: 1300px; }
 }
 .size_wrap .size.big-right{
     height: 150px;
-    margin-left: 11px;
+    margin: 0;
+    margin-right: -15px;
+    margin-left: 1px;
 }
 
 .size_wrap .size.big{
@@ -1291,24 +1289,37 @@ body{ margin: 0; min-width: 1300px; }
     -webkit-box-shadow: 0 0 0 0 rgba(0,0,0,0);
     box-shadow: 0 0 0 0 rgba(0,0,0,0);
 }
+/*///////////////////////////////////////////////////////////////////////*/
 .size_wrap .size .preview.sq_big{
     width: 70px; height: 70px;
+    margin-left: 51px;
 }
 .size_wrap .size .preview.re_big{
-    width: 105px; height: 70px;
+    width: 99px; height: 70px;
+    margin-left: 58.5px;
 }
 .size_wrap .size .preview.sq_mid{
-    width: 42px; height: 42px;
+    width: 44px; height: 44px;
+    margin-top: 28px;
+    margin-left: 52px;
 }
 .size_wrap .size .preview.re_mid{
-    width: 63px; height: 42px;
+    width: 70px; height: 45px;
+    margin-top: 27px;
+    margin-left: 63px;
 }
 .size_wrap .size .preview.sq_sm{
-    width: 28px; height: 28px;
+    width: 30px; height: 30px;
+    margin-top: 41px;
+    margin-left: 58px;
 }
 .size_wrap .size .preview.re_sm{
-    width: 42px; height: 28px;
+    width: 44px; height: 30px;
+    margin-top: 41px;
+    margin-left: 75px;
 }
+/*///////////////////////////////////////////////////////////////////////*/
+
 .size_wrap .size h3{
     font-family: "Stem_medium", sans-serif;
     font-size: 1.2rem;
@@ -1327,7 +1338,18 @@ body{ margin: 0; min-width: 1300px; }
     line-height: 100%;
     margin: 3px 0;
 }
-
+/*///////////////////////////////////////////////////////////////////////*/
+.text-size  {
+  font-family: "Stem-Regular", sans-serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 85px;
+  left: 165px;
+}
+/*///////////////////////////////////////////////////////////////////////*/
 .price_wrap .price{
     position: relative;
     width: 170px;
@@ -1387,6 +1409,7 @@ body{ margin: 0; min-width: 1300px; }
     background-size: 100% 100%;
     background-position: center;
 }
+
 .price_wrap > p{
     font-family: "Stem_medium", sans-serif;
     font-size: 11px;
@@ -1394,7 +1417,8 @@ body{ margin: 0; min-width: 1300px; }
     margin-top: 60px;
     color: #000;
 }
-
+/*///////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////*/
 .section.styles .photo{
     position: absolute;
     width: 100%;
@@ -1404,11 +1428,11 @@ body{ margin: 0; min-width: 1300px; }
     bottom: 320px;
     left: 0;
     background-repeat: no-repeat;
-    background-size: auto 85%;
+    background-size: auto 86%;
     background-position: 50% 100%;
 }
-
-
+/*///////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////*/
 
 /************************************************************
   Contact block
