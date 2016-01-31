@@ -751,19 +751,48 @@ input[type='checkbox']:checked + label::after {
     margin-left:  35px;
   }
   .section.styles .size_wrap ul {
-    margin-top: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
   
   .section.styles .size_wrap ul li a {
-    width: 25px;
-    height: 25px;
-    margin: 7px;
+    width: 18px;
+    height: 18px;
+    margin: 5px;
   }
   
   .section.styles .size_wrap ul:after {
     width: 90px;
     height: 85px;
     left: 300px;
+  }
+  
+  .size_wrap .size .preview {
+    margin-top: 10px;
+  }
+  .size_wrap .size h3 {
+    font-size: 16px;
+  }
+  .size_wrap .size p {
+    font-size: 10px;
+  }
+  
+  .size_wrap .size .preview.sq_mid,
+  .size_wrap .size .preview.re_mid,
+  .size_wrap .size .preview.sq_sm,
+  .size_wrap .size .preview.re_sm {
+    margin-top: 0;
+  }
+  
+  .text-size {
+    bottom: 5px;
+    left: 85px;
+    font-size: 11px;
+  }
+  
+  .price_wrap .price {
+    margin-top: 35px;
+    margin-left: 0;
   }
   
   .static-btn {
@@ -800,7 +829,11 @@ input[type='checkbox']:checked + label::after {
     background-size: 100%;
   }
   
-  
+  .price_wrap > p {
+    top: 395px;
+    right: 35px;
+  }
+    
 }
 
 @media only screen and (min-width: 1440px) and (max-width: 1800px){
@@ -869,6 +902,63 @@ input[type='checkbox']:checked + label::after {
   
   .section.about .about_group .col_min {
     width: 690px;
+  }
+  
+  .section.styles .sectionTitle {
+    padding: 0 10%;
+  }
+  
+  .section.styles .size_wrap {
+    margin-left:  35px;
+  }
+  .section.styles .size_wrap ul {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .section.styles .size_wrap ul li a {
+    width: 25px;
+    height: 25px;
+    margin: 6px;
+  }
+  
+  .section.styles .size_wrap ul:after {
+    width: 120px;
+    height: 95px;
+    left: 305px;
+  }
+  
+  .size_wrap .size .preview {
+    margin-top: 10px;
+  }
+  .size_wrap .size h3 {
+    font-size: 16px;
+  }
+  .size_wrap .size p {
+    font-size: 10px;
+  }
+  
+  .size_wrap .size .preview.sq_mid,
+  .size_wrap .size .preview.re_mid,
+  .size_wrap .size .preview.sq_sm,
+  .size_wrap .size .preview.re_sm {
+    margin-top: 0;
+  }
+  
+  .text-size {
+    bottom: 65px;
+    left: 85px;
+    font-size: 11px;
+  }
+  
+  .price_wrap .price {
+    margin-top: 35px;
+    margin-left: -45px;
+  }
+  
+  .price_wrap > p {
+    top: 420px;
+    right: 100px;
   }
   
   .block-btn {
