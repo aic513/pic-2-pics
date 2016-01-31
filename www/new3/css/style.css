@@ -292,7 +292,7 @@ body{ margin: 0; min-width: 1300px; }
 /* Fixed to bottom button */
 .actionBtn.fixed{
     position: fixed;
-    bottom: -25px;
+    bottom: -50px;
     left: 48%;
     margin-left: -156px;
 }
@@ -317,15 +317,16 @@ body{ margin: 0; min-width: 1300px; }
     display: inline-block;
     height: 47px;
     line-height: 49px;
-    font-family: "Stem_regular", sans-serif;
+    font-family: 'ShangoSansRegular', sans-serif;
     text-decoration: none;
-    text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 3px;
     border: 2px solid #fff;
     border-radius: 40px;
     color: #fff;
     background: transparent;
-    padding: 0 15px;
+    padding: 8px 28px;
 
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
@@ -401,7 +402,7 @@ body{ margin: 0; min-width: 1300px; }
     top: 0;
     right: 0;
     bottom: 0;
-    padding: 60px;
+    padding: 10px 60px;
     background-color: rgba(255,255,255,0.90);
 }
 .menu a.close{
@@ -503,17 +504,14 @@ body{ margin: 0; min-width: 1300px; }
     right: 0;
     bottom: 0;
     width: 100%;
-    background-position: 70px 0 0 0;
+    background-position: 0px 0 0 0;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("../img/bg.jpg");
 }
 .section.intro h1{
-    letter-spacing: 1px;
-    position: absolute;
-    top: 70px;
+    letter-spacing: 5.5px;
     font-family: 'ShangoSansRegular';
-    margin: 0;
     color: #fff;
     text-transform: uppercase;
     font-size: 70px;
@@ -521,38 +519,45 @@ body{ margin: 0; min-width: 1300px; }
     text-shadow: 10px -10px 10px rgba(0,0,0,0.1);
 }
 .section.intro .by_you{
-    left: 0;
+    float: left;
+    margin-top: 112px;
+    margin-left: 18px;
+    text-align: left;
 }
 .section.intro .by_us{
-    right: 0;
+    float: right;
+    margin-top: 112px;
+    margin-right: 100px;
+    text-align: right;
 }
-
+/*.section.intro .stickers{
+  float: right;
+}*/
 .order1 {
-    display: none;
     width: 200px;
     height: 148px;
     position: absolute;
-    right: 120px;
-    top: 500px;
+    right: 80px;
+    top: 540px;
+    display: none;
 }
 
 .white-circle {
     width: 197px;
     height: 192px;
     position: absolute;
-    right: 120px;
-    top: 250px;
+    right: 80px;
+    top: 300px;
     display: none;
 }
 
 .blue-circle {
-    width: 182px;
-    height: 182px;
-    background: #2b44f7;
+    width: 172px;
+    height: 172px;
     border-radius: 50%;
     position: absolute;
-    right: 350px;
-    top: 350px;
+    right: 315px;
+    top: 425px;
     display: none;
 }
 

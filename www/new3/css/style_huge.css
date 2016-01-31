@@ -90,7 +90,7 @@ html{ font-size: 100%; }
 
 
 /* Fixed to bottom button */
-.actionBtn.fixed{
+/*.actionBtn.fixed{
     bottom: -1.563rem;
     margin-left: -9.75rem;
 }
@@ -116,7 +116,7 @@ html{ font-size: 100%; }
     position: absolute;
     bottom: 3.7rem;
     right: 2.8rem;
-}
+}*/
 
 /* nav block */
 .menu .main_wrap{
@@ -159,17 +159,17 @@ html{ font-size: 100%; }
     position: relative;
 }
 .section.intro .content{
-    top: 3.125rem;
+    top: 0;
 }
 .section.intro h1{
     top: 70px;
     text-shadow: 0.625rem -0.625rem 0.625rem rgba(0,0,0,0.1);
 }
 .section.intro .by_you{
-    left: 1rem;
+    float: left;
 }
 .section.intro .by_us{
-    right: 5rem;
+    float: right;
 }
 
 
