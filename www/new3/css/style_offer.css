@@ -686,9 +686,7 @@ input[type='checkbox']:checked + label::after {
     width: 390px;
     height: 390px;
   }
-  .about_block.recall .layer  {
-    opacity: 1 !important;
-  }
+
   .about_block.recall .layer .photo {
     margin-left: -90px;
     width: 150px;
@@ -795,9 +793,6 @@ input[type='checkbox']:checked + label::after {
     height: 450px;
   }
   
-  .about_block.recall .layer  {
-    opacity: 1 !important;
-  }
   .about_block.recall .layer .photo {
     margin-left: -80px;
   }
