@@ -1264,6 +1264,18 @@ body{ margin: 0; min-width: 1300px; }
     width: 100%;
     text-align: center;
     clear: both;
+    position: relative;
+}
+.section.styles .size_wrap ul:after{
+  display: block;
+  content: '';
+  width: 110px;
+  height: 105px;
+  position: absolute;
+  background: url('../img/stripe.png') no-repeat center;
+  background-size: 100%;
+  top: -3px;
+  left: 311px;
 }
 .section.styles .size_wrap ul li{
     margin-right: 17px;
@@ -1357,17 +1369,45 @@ body{ margin: 0; min-width: 1300px; }
     margin-left: 75px;
 }
 /*///////////////////////////////////////////////////////////////////////*/
-
 .size_wrap .size h3{
     font-family: "Stem_medium", sans-serif;
-    font-size: 1.2rem;
+    font-size: 26px;
+    letter-spacing: 2px;
     text-align: center;
     margin: 0;
+    margin-top: -2px;
     font-weight: normal;
 }
 .size_wrap .size h3 span{
     font-family: "Stem_hairline", sans-serif;
 }
+/*///////////////////////////////////////////////////////////////////////*/
+.size_wrap .size .big-h3{
+  margin-left: 0px;
+
+}
+.size_wrap .size .big-h3{
+  margin-left: 0px;
+}
+.size_wrap .size .big-right-h3{
+  margin-left: 38px;
+}
+.size_wrap .size .mid-left-h3{
+  margin-left: -25px;
+  margin-top: 2px;
+}
+.size_wrap .size .mid-right-h3{
+  margin-left: 18px;
+  margin-top: 2px;
+}
+.size_wrap .size .sm-left-h3{
+  margin-left: -30px;
+}
+.size_wrap .size .sm-right-h3{
+  margin-left: 18px;
+}
+/*///////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////*/
 .size_wrap .size p{
     font-family: "Stem_medium", sans-serif;
     font-size: 11px;
@@ -1375,7 +1415,24 @@ body{ margin: 0; min-width: 1300px; }
     text-align: center;
     line-height: 100%;
     margin: 3px 0;
+    letter-spacing: 2px;
 }
+.size_wrap .size .big-right-p{
+  margin-left: 40px;
+}
+.size_wrap .size .mid-left-p{
+  margin-left: -25px;
+}
+.size_wrap .size .mid-right-p{
+  margin-left: 20px;
+}
+.size_wrap .size .sm-left-p{
+  margin-left: -25px;
+}
+.size_wrap .size .sm-right-p{
+  margin-left: 20px;
+}
+/*///////////////////////////////////////////////////////////////////////*/
 /*///////////////////////////////////////////////////////////////////////*/
 .text-size  {
   font-family: "Stem-Regular", sans-serif;
@@ -1390,37 +1447,46 @@ body{ margin: 0; min-width: 1300px; }
 /*///////////////////////////////////////////////////////////////////////*/
 .price_wrap .price{
     position: relative;
-    width: 170px;
-    height: 170px;
+    width: 255px;
+    height: 255px;
     border-radius: 170px;
     background: #ff3703;
-    margin-top: 60px;
+    margin-top: 75px;
+    margin-left: -172px;
     font-family: "Stem_light", sans-serif;
     color: #fff;
-    font-size: 2.8rem;
+    font-size: 26px;
     padding: 60px 0 0 32px;
     box-sizing: border-box;
     line-height: 100%;
     z-index: 20;
 }
+/*///////////////////////////////////////////////////////////////////////*/
 .price_wrap .price i{
+    position: absolute;
+    font-family: "Stem_light", sans-serif;
+    font-size: 70px;
+    top: 110px;
+    left: 32px;
     font-style: normal;
+    font-size: 70px;
 }
+/*///////////////////////////////////////////////////////////////////////*/
 .price_wrap .price span{
     position: absolute;
     font-family: "Stem_light", sans-serif;
-    font-size: 28px;
+    font-size: 40px;
     color: rgba(0,0,0,0.5);
-    top: 25px;
-    left: 32px;
+    top: 55px;
+    left: 45px;
 }
 .price_wrap .price span:after{
     display: block;
-    height: 3px;
-    width: 110%;
+    height: 7px;
+    width: 105%;
     z-index: 30;
     position: absolute;
-    top: 12px;
+    bottom: 30px;
     left: -4px;
     content: "";
     background: rgba(255, 255, 255, 0.7);
@@ -1428,26 +1494,40 @@ body{ margin: 0; min-width: 1300px; }
     -webkit-transform-origin: 100% 0;
     transform-origin: 100% 0;
 
-    -webkit-transform: rotate(-10deg);
-    transform: rotate(-10deg);
+    -webkit-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+/*///////////////////////////////////////////////////////////////////////*/
+.price_wrap .price .rub{
+  position: absolute;
+  font-family: "Stem_light", sans-serif;
+  font-size: 69px;
+  letter-spacing: 1px
+  color: rgba(0,0,0,0.5);
+  top: 175px;
+  left: 47px;
 }
 .price_wrap .price .sticker{
     position: absolute;
-    left: 80px;
-    top: 105px;
-    width: 100px;
-    height: 100px;
+    left: 110px;
+    top: 165px;
+    width: 150px;
+    height: 150px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
 }
-
+/*///////////////////////////////////////////////////////////////////////*/
 .price_wrap > p{
+    position: absolute;
     font-family: "Stem_medium", sans-serif;
-    font-size: 11px;
+    font-size: 12px;
+    letter-spacing: 1.5px;
     text-transform: uppercase;
-    margin-top: 60px;
+    width: 350px;
     color: #000;
+    top: 430px;
+    right: 120px;
 }
 /*///////////////////////////////////////////////////////////////////////*/
 /*///////////////////////////////////////////////////////////////////////*/
