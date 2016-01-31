@@ -743,6 +743,29 @@ input[type='checkbox']:checked + label::after {
     width: 690px;
   }
   
+  .section.styles .sectionTitle {
+    padding: 0 10%;
+  }
+  
+  .section.styles .size_wrap {
+    margin-left:  35px;
+  }
+  .section.styles .size_wrap ul {
+    margin-top: 20px;
+  }
+  
+  .section.styles .size_wrap ul li a {
+    width: 25px;
+    height: 25px;
+    margin: 7px;
+  }
+  
+  .section.styles .size_wrap ul:after {
+    width: 90px;
+    height: 85px;
+    left: 300px;
+  }
+  
   .static-btn {
     left: 500px;
   }
@@ -750,7 +773,7 @@ input[type='checkbox']:checked + label::after {
   .block-btn {
     top: 70px;
     left: 20px;
-  }
+  }  
   
   .section.contact .content .chatBtn {
     bottom: 49%;
