@@ -687,6 +687,17 @@ input[type='checkbox']:checked + label::after {
     height: 390px;
   }
   
+  .about_block.recall .layer .photo {
+    margin-left: -90px;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .about_block.recall .layer .photo:before {
+    width: 100px;
+    height: 100px;
+  }
+  
   .section.about .about_group .col_min {
     width: 690px;
   }
