@@ -152,7 +152,7 @@ html{ font-size: 100%; }
   Intro block
 ************************************************************/
 
-.section.intro{
+/*.section.intro{
     font-size: 100%;
 }
 .section.intro .wrap{
@@ -170,7 +170,7 @@ html{ font-size: 100%; }
 }
 .section.intro .by_us{
     float: right;
-}
+}*/
 
 
 
@@ -178,7 +178,7 @@ html{ font-size: 100%; }
   Service block
 ************************************************************/
 
-.section.service .wrap{
+/*.section.service .wrap{
     padding-top: 4.375rem;
     padding-bottom: 5rem;
 }
@@ -199,7 +199,7 @@ html{ font-size: 100%; }
 }
 .section.service .service_wrap .service p{
     margin: 0.4375rem 0 0.25rem 0;
-}
+}*/
 
 
 
@@ -207,13 +207,13 @@ html{ font-size: 100%; }
   About block
 ************************************************************/
 
-.section.about .sectionTitle{
+/*.section.about .sectionTitle{
     margin-bottom: 0.625rem;
 }
 .section.about .wrap{
     padding-top: 4.375rem;
 /*    padding-bottom: 5rem;*/
-}
+/*}
 .section.about .about_wrap{
     width: 65.63rem;
 }
@@ -238,7 +238,7 @@ html{ font-size: 100%; }
 .section.about .about_group .col_max .about_block{
   width: 490px;
   height: 490px;
-}
+}*/
 /*.about_block.title{
     border: 0.625rem solid #fff;
 }
@@ -263,7 +263,7 @@ html{ font-size: 100%; }
     bottom: 6.875rem;
 }
 
-
+*/
 
 
 /************************************************************
