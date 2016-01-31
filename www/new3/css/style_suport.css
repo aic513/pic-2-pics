@@ -32,7 +32,8 @@
 }
 
 .support__cross::after {
-  transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+          transform: translateX(-50%) translateY(-50%) rotate(-45deg);
 }
 
 .support__menu {

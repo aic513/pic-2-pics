@@ -34,7 +34,8 @@ html{ font-size: 100%; }
     left: 5.1rem;
     width: 2.5rem;
     height: 2.5rem;
-    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
 }
 .stripe .call > div{
     width: 24.38rem;
@@ -42,7 +43,6 @@ html{ font-size: 100%; }
     height: 11.25rem;
     top: 3.125rem;
     left: 0px;
-    -webkit-box-shadow: 0 0 2rem 0 rgba(0,0,0,0.2);
     box-shadow: 0 0 2rem 0 rgba(0,0,0,0.2);
 }
 .stripe .call > div input{
@@ -78,7 +78,6 @@ html{ font-size: 100%; }
     width: 3.2rem;
     padding-top: 2.10rem;
     padding-bottom: 3.05rem;
-    -webkit-box-shadow: 0 0 2rem 0 rgba(0,0,0,0.1);
     box-shadow: 0 0 2rem 0 rgba(0,0,0,0.1);
 }
 .stripe .menu_open span{
@@ -436,7 +435,8 @@ html{ font-size: 100%; }
     top: -0.75rem;
     height: 180px;
     width: 180px;
-    transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
 }
 
 footer{
