@@ -527,7 +527,8 @@ body{ margin: 0; min-width: 1300px; }
     right: 0;
 }
 
-/*.order1 {
+.order1 {
+    display: none;
     width: 200px;
     height: 148px;
     position: absolute;
@@ -541,7 +542,7 @@ body{ margin: 0; min-width: 1300px; }
     position: absolute;
     right: 120px;
     top: 250px;
-
+    display: none;
 }
 
 .blue-circle {
@@ -552,7 +553,8 @@ body{ margin: 0; min-width: 1300px; }
     position: absolute;
     right: 350px;
     top: 350px;
-}*/
+    display: none;
+}
 
 
 
