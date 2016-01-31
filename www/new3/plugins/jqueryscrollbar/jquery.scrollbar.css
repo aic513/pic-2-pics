@@ -106,7 +106,7 @@
 
 .scrollbar-inner > .scroll-element.scroll-y {
     height: 100%;
-    left: 0;
+/*    left: 0;*/
     top: 0;
     width: 16px;
     border: 3px solid #fff;
