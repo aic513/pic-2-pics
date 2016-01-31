@@ -88,7 +88,9 @@ var Site = (function($){
 
 			about : function(){ 
 				this.commonExceptIntro("about");
-				this.commonExceptContact();
+				$("#getModel").fadeOut(200, function(){
+					$(this).addClass("out");
+				});
 			},
 
 			styles : function(){ 
