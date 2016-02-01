@@ -1240,7 +1240,8 @@ body{ margin: 0; min-width: 1300px; }
     letter-spacing: 5.5px;
     font-size: 70px;
     font-weight: 400;
-    margin-top: 75px;
+    /*margin-top: 75px;*/
+    margin-top: 4.5%;
     margin-bottom: 10px;
     padding-right: 360px;
     position: relative;
@@ -1539,10 +1540,10 @@ body{ margin: 0; min-width: 1300px; }
 }
 .price_wrap .price .sticker{
     position: absolute;
-    left: 110px;
+    left: 100px;
     top: 165px;
-    width: 150px;
-    height: 150px;
+    width: 160px;
+    height: 160px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
