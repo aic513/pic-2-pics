@@ -793,14 +793,18 @@ body{ margin: 0; min-width: 1300px; }
 /*////////////////////////////////////////////////////////////////////////////*/
 .section.about .wrap{
     background: #eaeaea;
-    padding-top: 70px;
-  padding-bottom: 80px;
+    /*padding-top: 70px;
+    padding-bottom: 80px;*/
+    padding-top: 4%;
+    padding-bottom: 5.5%;
 }
 .section.about .about_wrap{
-    width: 1588px;
+    /*width: 1588px;*/
+    width: 92.85%;
     margin: 0 auto;
     margin-left: 0px;
-    padding-left: 20px;
+    /*padding-left: 20px;*/
+    padding-left: 1.2%;
 }
 .section.about .about_group{
     display: -webkit-box;
@@ -820,16 +824,20 @@ body{ margin: 0; min-width: 1300px; }
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 52px;
+    /*margin-top: 52px;*/
+    margin-top: 3.2%;
     margin-left: 0px;
-    margin-right: -20px;
-    margin-bottom: -120px;
+    /*margin-right: -20px;*/
+    /*margin-right: -1.2%;*/
+    /*margin-bottom: -120px;*/
+    margin-bottom: -7.7%;
     padding: 0;
     position: relative;
     width: 100%;
 }
 .section.about .about_group:last-child{
-  margin-bottom: 100px;
+  /*margin-bottom: 100px;*/
+  margin-bottom: 7.5%;
 }
 /*/////////////////////////////////////////////////////////////////////////////*/
 /*/////////////////////////////////////////////////////////////////////////////*/
@@ -849,7 +857,8 @@ body{ margin: 0; min-width: 1300px; }
         -ms-flex-align: start;
             align-items: flex-start;
     background: #fff;
-    width: 820px;
+    /*width: 820px;*/
+    width: 51.6%;
     padding-top: 62px;
     padding-bottom: 53px;
     padding-left: 70px;
@@ -860,14 +869,21 @@ body{ margin: 0; min-width: 1300px; }
 .section.about .about_group-six .col_min{
     padding-top: 62px;
     padding-bottom: 53px;
-    padding-left: 70px;
-    padding-right: 60px;
-    width: 895px;
+    padding-left: 145px;
+    padding-right: 64px;
+    /*width: 895px;*/
 }
 /*/////////////////////////////////////////////////////////////////////////////*/
 .section.about .about_group .col_max{
     width: 490px;
     height: 490px;
+    /*width: 30.9%;
+    height: 30.9%;*/
+}
+.section.about .about_group-two .col_max,
+.section.about .about_group-four .col_max,
+.section.about .about_group-six .col_max{
+  margin-right: 0px;
 }
 /*/////////////////////////////////////////////////////////////////////////////*/
 /*/////////////////////////////////////////////////////////////////////////////*/
@@ -972,7 +988,7 @@ body{ margin: 0; min-width: 1300px; }
 .section.about .about_group-six .col_min::after{
   content: '';
   position: absolute;
-  top:160px;
+  top: 160px;
   left: 300px;
   width: 300px;
   height: 320px;
@@ -983,21 +999,29 @@ body{ margin: 0; min-width: 1300px; }
 /*/////////////////////////////////////////////////////////////////////////////*/
 .static-btn{
   position: absolute;
-  top:-50px;
-  left: 650px;
+  /*top:-50px;
+  left: 650px;*/
+  top: 10%;
+  left: 61%;
   display: block;
-  width: 300px;
-  height: 300px;
+  /*width: 300px;*/
+  width: 31%;
+  height: 65%;
+  /*height: 300px;*/
   background: url('../img/btn-static.png') no-repeat center;
   background-size: 100%;
 }
 .block-btn{
   position: absolute;
-  top: 120px;
-  left: 50px;
+  /*top: 120px;
+  left: 50px;*/
+  top: 35%;
+  left: 0%;
   display: block;
-  width: 250px;
-  height: 250px;
+  /*width: 250px;
+  height: 250px;*/
+  width: 28%;
+  height: 30%;
   background: url('../img/btn-block.png') no-repeat center;
   background-size: contain;
 }
