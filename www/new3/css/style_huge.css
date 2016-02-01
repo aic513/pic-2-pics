@@ -365,18 +365,12 @@ html{ font-size: 100%; }
   Contact block
 ************************************************************/
 
-.section.contact .wrap{
-    padding-top: 5.9rem;
-    padding-bottom: 5rem;
-    width: 76.25rem;
-}
+
 
 .section.contact .content{
     padding: 2.5rem 0rem 0.9375rem 1.7rem;
 }
-.section.contact .content .info{
-    width: 43.75rem;
-}
+
 .section.contact .content .info p{
     margin-top: 1.2rem;
     letter-spacing: .038rem;

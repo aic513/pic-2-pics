@@ -1591,15 +1591,16 @@ body{ margin: 0; min-width: 1300px; }
   font-family: 'ShangoSansRegular';
   letter-spacing: 5.5px;
   font-weight: 400;
-  margin-bottom: 77px;
-  margin-top: -50px;
+  /*margin-top: 75px;margin-bottom: 77px;*/
+  margin-top: 4.75%;
+  margin-bottom: 4.75%;
   margin-right: 365px;
 }
 
 .section.contact .wrap{
-  position: relative;
-  padding-top: 70px;
-  padding-bottom: 20px;
+    /*width: 76.25rem;*/
+    width: 89%;
+    position: relative;
 }
 
 .section.contact .content{
@@ -1608,9 +1609,10 @@ body{ margin: 0; min-width: 1300px; }
     position: relative;
 }
 .section.contact .content .info{
-    width: 700px;
+    width: 800px;
     margin: 0 auto;
-    margin-left: 260px;
+    /*margin-left: 260px;*/
+    margin-left: 20.5%;
 }
 .section.contact .content .info p{
     font-family: "Stem_regular", sans-serif;
@@ -1662,8 +1664,10 @@ body{ margin: 0; min-width: 1300px; }
 }
 
 .section.contact .content .emoji.chup{
-    top: -20px;
-    left: 1260px;
+    /*top: -20px;*/
+    /*left: 1260px;*/
+    top: -6.5%;
+    left: 322%;
     height: 180px;
     width: 180px;
     background-image: url(../img/emoji/0013.png);
@@ -1673,11 +1677,11 @@ body{ margin: 0; min-width: 1300px; }
 /*////////////////////////////////////////////////////////////////////////////*/
 .section.contact .content .chatBtn{
     position: absolute;
-    bottom: 165px;
+    bottom: 170px;
     left: 100px;
 }
 .chatBtn-hover{
-  display: none;
+  display: block;
 }
 .chatBtn:hover~.chatBtn-hover{
   display: block;
