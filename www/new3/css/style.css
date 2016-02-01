@@ -778,7 +778,7 @@ body{ margin: 0; min-width: 1300px; }
   font-weight: 400;
   margin-top: 5px;
   margin-bottom: 10px;
-  padding-right: 360px;
+  margin-right: 360px;
   position: relative;
 }
 .section.about .sectionTitle .rus-sun{
