@@ -133,7 +133,7 @@ body{ margin: 0; min-width: 1300px; }
     text-align: center;
     font-size: 24px;
     margin: 0;
-    margin-top: 10px;
+    margin-top: 9px;
     line-height: 20px;
     letter-spacing: 5.5px;
     font-family: "Stem_bold", sans-serif;
@@ -277,7 +277,7 @@ body{ margin: 0; min-width: 1300px; }
 /* Fixed to bottom button */
 .actionBtn.fixed{
     position: fixed;
-    bottom: -50px;
+    bottom: 3px;
     left: 48%;
     margin-left: -156px;
 }
@@ -1612,7 +1612,7 @@ body{ margin: 0; min-width: 1300px; }
     width: 800px;
     margin: 0 auto;
     /*margin-left: 260px;*/
-    margin-left: 20.5%;
+    margin-left: 16.5%;
 }
 .section.contact .content .info p{
     font-family: "Stem_regular", sans-serif;
@@ -1666,13 +1666,14 @@ body{ margin: 0; min-width: 1300px; }
 .section.contact .content .emoji.chup{
     /*top: -20px;*/
     /*left: 1260px;*/
-    top: -6.5%;
-    left: 322%;
+    top: -50%;
+    left: 24%;
     height: 180px;
     width: 180px;
     background-image: url(../img/emoji/0013.png);
         -webkit-transform: rotate(10deg);
                 transform: rotate(10deg);
+    z-index: 1;
 }
 /*////////////////////////////////////////////////////////////////////////////*/
 .section.contact .content .chatBtn{
@@ -1681,15 +1682,15 @@ body{ margin: 0; min-width: 1300px; }
     left: 100px;
 }
 .chatBtn-hover{
-  display: block;
+  display: none;
 }
 .chatBtn:hover~.chatBtn-hover{
   display: block;
 }
 .section.contact .content .actionBtn-footer{
-    position: absolute;
-    bottom: 110px;
-    right: 118px;
+    bottom: -70px;
+    right: 35px;
+    position: relative;
 }
 
 /*////////////////////////////////////////////////////////////////////////////*/
@@ -1702,7 +1703,7 @@ footer{
 footer .support{
     position: absolute;
     width: 300px;
-    top: 23px;
+    top: 19px;
     left: -26px;
     margin-left: 0px;
 }
@@ -1736,7 +1737,7 @@ footer .support ul li a{
 footer .product{
     position: absolute;
     width: 300px;
-    top: 23px;
+    top: 19px;
     right: 0;
     text-align: right;
     padding-right: 55px;
@@ -1887,7 +1888,10 @@ footer .col-1 .list-one .politycs a{
 footer .col-1 .list-one .return a{
   margin-left: 320px;
 }
-
+footer .col-1 .list-one .rights a{
+  text-decoration: none;
+  cursor: default;
+}
 /*/////////////////////////////////////////////////////////////////////////////*/
 footer .col-2{
   width: 101.5%;
