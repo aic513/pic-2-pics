@@ -1587,45 +1587,58 @@ body{ margin: 0; min-width: 1300px; }
 }
 .section.contact .sectionTitle{
   text-align: center;
-  margin-bottom: 26px;
   font-family: 'ShangoSansRegular';
   letter-spacing: 5.5px;
   font-weight: 400;
   /*margin-top: 75px;margin-bottom: 77px;*/
   margin-top: 4.75%;
-  margin-bottom: 4.75%;
+  margin-bottom: 6%;
   margin-right: 365px;
 }
-
+/*////////////////////////////////////////////////////////////////////////////*/
 .section.contact .wrap{
-    /*width: 76.25rem;*/
     width: 89%;
     position: relative;
 }
-
+/*////////////////////////////////////////////////////////////////////////////*/
 .section.contact .content{
-    padding: 40px 0 15px 0;
+    padding: 40px 0 15px 15px;
     clear: both;
     position: relative;
 }
 .section.contact .content .info{
-    width: 800px;
+    width: 900px;
     margin: 0 auto;
     /*margin-left: 260px;*/
-    margin-left: 16.5%;
+    margin-left: 21.5%;
+    margin-bottom: 100px;
 }
 .section.contact .content .info p{
     font-family: "Stem_regular", sans-serif;
-    font-size: 0.79rem;
+    font-size: 16px;
     line-height: 23px;
     color: #000;
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
+    letter-spacing: 1px;
+}
+.section.contact .content .info p:nth-child(2){
+    margin-top: 24px;
+}
+.section.contact .content .info .textps{
+    margin-top: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.section.contact .content .info .tel{
+    font-weight: 700;
+    letter-spacing: 1px;
 }
 .section.contact .content .info p a{
     color: #03a3fe;
     font-style: italic;
 }
+/*////////////////////////////////////////////////////////////////////////////*/
 .section.contact .to_left,
 .section.contact .to_right{
     width: 295px;
@@ -1633,6 +1646,7 @@ body{ margin: 0; min-width: 1300px; }
     height: 100%;
     top: 0;
 }
+
 .section.contact .to_left{
     left: 0;
 }
@@ -1650,7 +1664,7 @@ body{ margin: 0; min-width: 1300px; }
 .section.contact .content .emoji.human{
     height: 175px;
     width: 175px;
-    bottom: -35px;
+    bottom: 45px;
     left: -15px;
     background-image: url(../img/emoji/0034.png);
     background-size: 100%;
@@ -1658,7 +1672,7 @@ body{ margin: 0; min-width: 1300px; }
 .section.contact .content .emoji.cloud{
     height: 137px;
     width: 137px;
-    bottom: 243px;
+    bottom: 328px;
     left: 225px;
     background-image: url(../img/emoji/0039.png);
 }
@@ -1678,32 +1692,31 @@ body{ margin: 0; min-width: 1300px; }
 /*////////////////////////////////////////////////////////////////////////////*/
 .section.contact .content .chatBtn{
     position: absolute;
-    bottom: 170px;
+    bottom: 245px;
     left: 100px;
 }
 .chatBtn-hover{
-  display: none;
+  display: block;;
 }
 .chatBtn:hover~.chatBtn-hover{
   display: block;
 }
 .section.contact .content .actionBtn-footer{
-    bottom: -70px;
-    right: 35px;
+    bottom: -50px;
+    right: 130px;
     position: relative;
 }
 
 /*////////////////////////////////////////////////////////////////////////////*/
 footer{
-    margin-top: 55px;
+    /*margin-top: 55px;*/
     position: relative;
-    padding-top: 20px;
 }
 /*////////////////////////////////////////////////////////////////////////////*/
 footer .support{
     position: absolute;
     width: 300px;
-    top: 19px;
+    bottom: 85px;
     left: -26px;
     margin-left: 0px;
 }
@@ -1715,15 +1728,15 @@ footer .support h3{
     text-transform: uppercase;
     margin: 0;
     padding-top: 4px;
-    margin: 20px 0 13px 0;
+    margin: 20px 0 0px 0;
 }
 footer .support ul{
-    margin-top: -11px;
     padding: 0;
+    margin-top: 0px;
 }
 footer .support ul li{
     list-style: none;
-    margin-bottom: -10px;
+    margin-bottom: -9px;
 }
 footer .support ul li a{
     font-family: "Stem_light", sans-serif;
@@ -1737,7 +1750,7 @@ footer .support ul li a{
 footer .product{
     position: absolute;
     width: 300px;
-    top: 19px;
+    bottom: 95px;
     right: 0;
     text-align: right;
     padding-right: 55px;
@@ -1758,6 +1771,9 @@ footer .product ul li{
     list-style: none;
     margin-bottom: 5px;
 }
+footer .product ul li:last-child{
+    margin-bottom: 0px;
+}
 footer .product ul li a{
     display: inline-block;
     font-family: "Stem-regular", sans-serif;
@@ -1773,9 +1789,9 @@ footer .info{
     padding: 0;
     margin-left: -40px;
     text-align: center;
-    height: 200px;
+    height: 145px;
     margin-top: -5px;
-    margin-bottom: 60px;
+    padding-bottom: 0;
 }
 footer .info h3{
     font-family: "Stem_bold", sans-serif;
@@ -1813,7 +1829,7 @@ footer .info p{
 footer .row{
   width: 100%;
   position: relative;
-  margin-top: -105px;
+  /*margin-top: -105px;*/
     position: relative;
       display: -webkit-box;
       display: -webkit-flex;
@@ -1833,8 +1849,8 @@ footer .row::after{
   position: absolute;
   display: block;
   content: '';
-  bottom: -62px;
-  right: 745px;
+  right: 46%;
+  bottom: -57%;
   width: 200px;
   height: 200px;
   background-size: 150%;
@@ -1868,7 +1884,6 @@ footer .col-1{
   width: 101.5%;
   padding: 0;
   margin-left: -25px;
-  margin-top: -10px;
 }
 
 footer .col-1 .list-one li{
