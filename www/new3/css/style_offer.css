@@ -23,7 +23,7 @@
 
 .offer__cross {
   position: absolute;
-  top: 21px; 
+  top: 21px;
   right: 90px;
   display: block;
   width: 32px;
@@ -77,11 +77,11 @@
   letter-spacing: 0.9px;
 }
 
-.offer__link:hover, 
+.offer__link:hover,
 .offer__link:active,
 .offer__link:focus {
   text-decoration: underline;
-} 
+}
 
 .offer__description {
 /*  position: relative;*/
@@ -133,8 +133,8 @@
 
 .subscripe {
   display: none;
-  position: absolute;
-  top: 50px;
+  position: fixed;
+  top: 0;
   left: 0;
   z-index: 65;
   width: 100%;
@@ -155,7 +155,7 @@
           transform: translateX(-50%) translateY(-50%);
 }
 
-.subscripe__wrap::before, 
+.subscripe__wrap::before,
 .subscripe__wrap::after {
   content: '';
   position: absolute;
@@ -168,7 +168,7 @@
   left: -280px;
   background: url("../img/icons/icon-cat-left.png") no-repeat 50% 50%;
   background-size: cover;
-} 
+}
 
 .subscripe__wrap::after {
   right: -280px;
@@ -184,7 +184,7 @@
   text-align: center;
   background-color: #fbeb95;
   box-sizing: border-box;
-  box-shadow: 0 0 31px 1px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 0 31px 1px rgba(0, 0, 0, 0.1);
 }
 
 .subscripe__cross {
@@ -389,7 +389,7 @@ button {
   color: #3096fb;
   text-transform: lowercase;
   text-decoration: underline;
-} 
+}
 
 .order__gallery {
   padding-left: 43px;
@@ -449,7 +449,7 @@ button {
   white-space: nowrap;
   overflow: hidden;
   background: url("../img/btn_delete.png") no-repeat 50% 50%;
-} 
+}
 
 .order__info {
   float: right;
@@ -539,8 +539,8 @@ input[type='checkbox']:checked + label::after {
 
 }
 
-.order__link, 
-.order__link:hover, 
+.order__link,
+.order__link:hover,
 .order__link:active,
 .order__link:visited {
   color: #3096fb;
@@ -576,23 +576,23 @@ input[type='checkbox']:checked + label::after {
 
 /* для ширины больше 1440px */
 @media only screen and (min-width: 1440px) and (max-width: 1800px) {
-  
+
   .offer__cross {
     right: 160px;
   }
-  
+
   .order__form {
     width: 1108px;
   }
 
-  .order__header { 
+  .order__header {
     padding-left: 0;
   }
-  
+
   .order__info {
     width: 455px;
   }
-  
+
   .order__label-firstname,
   .order__label-lastname,
   .order__label-delivery,
@@ -612,7 +612,7 @@ input[type='checkbox']:checked + label::after {
 }
 
 @media only screen and (max-width: 1800px) {
-  
+
   .wrap {
     width: 93.5%;
     margin: 0 auto;
@@ -624,7 +624,7 @@ input[type='checkbox']:checked + label::after {
 */
   .section.about .about_wrap {
     padding-left: 0;
-    width: 100%;  
+    width: 100%;
   }
   .section.about .about_group {
     margin-right: 0;
@@ -634,7 +634,7 @@ input[type='checkbox']:checked + label::after {
     width: 490px;
     height: 490px;
   }
-  
+
   .section.about .about_group .col_min {
     padding-top: 60px;
     padding-bottom: 50px;
@@ -643,27 +643,27 @@ input[type='checkbox']:checked + label::after {
     width: 790px;
     box-shadow: 8px -6px 46px 0px rgba(0, 0, 0, 0.3);
   }
-  
+
   .section.about .about_group .col_max .about_block{
     width: 490px;
     height: 490px;
     background-size: cover;
     box-shadow: 8px -6px 46px 0px rgba(0, 0, 0, 0.3);
   }
-  
+
   .static-btn {
     left: 500px;
   }
-  
+
   footer .support{
     left: 0;
   }
-  
+
   footer .info {
     margin-top: -22px;
     text-align: center;
   }
-  
+
   footer .info .address {
     margin-top: 0;
   }
@@ -676,12 +676,12 @@ input[type='checkbox']:checked + label::after {
   .section.about .about_group {
     margin-top: 80px;
   }
-  
+
   .section.about .about_group .col_max {
     width: 390px;
     height: 390px;
   }
-  
+
   .section.about .about_group .col_max .about_block{
     width: 390px;
     height: 390px;
@@ -692,25 +692,25 @@ input[type='checkbox']:checked + label::after {
     width: 150px;
     height: 150px;
   }
-  
+
   .about_block.recall .layer .photo::before {
     left: -75px;
     top: 62px;
     width: 80px;
     height: 80px;
   }
-  
+
   .about_group-two .about_block.recall .layer .photo,
   .about_group-three .about_block.recall .layer .photo,
   .about_group-five .about_block.recall .layer .photo,
   .about_group-six .about_block.recall .layer .photo {
     margin-left: -100px;
   }
-  
+
   .about_group-six .about_block.recall .layer .photo{
    top: 15px;
   }
-  
+
   .about_group-two .about_block.recall .layer .photo:before,
   .about_group-three .about_block.recall .layer .photo:before,
   .about_group-four .about_block.recall .layer .photo:before,
@@ -719,34 +719,34 @@ input[type='checkbox']:checked + label::after {
     left: -75px;
     top: 62px;
   }
-  
+
   .about_block.recall .layer p {
     font-size: 14px;
   }
-  
+
     .about_group-one .about_block.recall:first-child .layer .name {
     bottom: 40px;
   }
-  
+
   .about_group-two .about_block.recall:first-child .layer .name,
   .about_group-three .about_block.recall:first-child .layer .name,
   .about_group-four .about_block.recall:first-child .layer .name,
   .about_group-five .about_block.recall:first-child .layer .name{
     bottom: 70px;
   }
-  
+
   .about_group-six .about_block.recall:first-child .layer .name {
     bottom: 35px;
   }
-  
+
   .section.about .about_group .col_min {
     width: 690px;
   }
-  
+
   .section.styles .sectionTitle {
     padding: 0 10%;
   }
-  
+
   .section.styles .size_wrap {
     margin-left:  35px;
   }
@@ -754,19 +754,19 @@ input[type='checkbox']:checked + label::after {
     margin-top: 5px;
     margin-bottom: 5px;
   }
-  
+
   .section.styles .size_wrap ul li a {
     width: 18px;
     height: 18px;
     margin: 5px;
   }
-  
+
   .section.styles .size_wrap ul:after {
     width: 90px;
     height: 85px;
     left: 300px;
   }
-  
+
   .size_wrap .size .preview {
     margin-top: 10px;
   }
@@ -776,43 +776,43 @@ input[type='checkbox']:checked + label::after {
   .size_wrap .size p {
     font-size: 10px;
   }
-  
+
   .size_wrap .size .preview.sq_mid,
   .size_wrap .size .preview.re_mid,
   .size_wrap .size .preview.sq_sm,
   .size_wrap .size .preview.re_sm {
     margin-top: 0;
   }
-  
+
   .text-size {
     bottom: 5px;
     left: 85px;
     font-size: 11px;
   }
-  
+
   .price_wrap .price {
     margin-top: 35px;
     margin-left: 0;
   }
-  
+
   .static-btn {
     left: 500px;
   }
-  
-  .block-btn {
+
+  /*.block-btn {
     top: 70px;
     left: 20px;
-  }  
-  
+  }*/
+
   .section.contact .content .chatBtn {
     bottom: 49%;
     left: 13%;
   }
-  
+
   .chatBtn:hover~.chatBtn-hover {
     display: block;
   }
-  
+
   .section.contact .content .emoji.human {
     bottom: 15px;
     left: 0;
@@ -820,7 +820,7 @@ input[type='checkbox']:checked + label::after {
     width: 125px;
     background-size: 100%;
   }
-  
+
   .section.contact .content .emoji.cloud {
     top: -40px;
     right: 10px;
@@ -828,12 +828,12 @@ input[type='checkbox']:checked + label::after {
     width: 125px;
     background-size: 100%;
   }
-  
+
   .price_wrap > p {
     top: 395px;
     right: 35px;
   }
-    
+
 }
 
 @media only screen and (min-width: 1440px) and (max-width: 1800px){
@@ -848,29 +848,29 @@ input[type='checkbox']:checked + label::after {
     width: 450px;
     height: 450px;
   }
-  
+
   .about_block.recall .layer .photo {
     margin-left: -80px;
   }
-  
+
   .about_block.recall .layer .photo::before {
     left: -75px;
     top: 62px;
     width: 100px;
     height: 100px;
   }
-  
+
   .about_group-two .about_block.recall .layer .photo,
   .about_group-three .about_block.recall .layer .photo,
   .about_group-five .about_block.recall .layer .photo,
   .about_group-six .about_block.recall .layer .photo {
     margin-left: -80px;
   }
-  
+
   .about_group-six .about_block.recall .layer .photo{
     top: 65px;
   }
-  
+
   .about_group-one .about_block.recall .layer .photo:before,
   .about_group-two .about_block.recall .layer .photo:before,
   .about_group-three .about_block.recall .layer .photo:before,
@@ -880,34 +880,34 @@ input[type='checkbox']:checked + label::after {
     left: -85px;
     top: 73px;
   }
-  
+
   .about_block.recall .layer p {
     font-size: 14px;
   }
-  
+
   .about_group-one .about_block.recall:first-child .layer .name {
     bottom: 50px;
   }
-  
+
   .about_group-two .about_block.recall:first-child .layer .name,
   .about_group-three .about_block.recall:first-child .layer .name,
   .about_group-four .about_block.recall:first-child .layer .name,
   .about_group-five .about_block.recall:first-child .layer .name{
     bottom: 70px;
   }
-  
+
   .about_group-six .about_block.recall:first-child .layer .name {
     bottom: 65px;
   }
-  
+
   .section.about .about_group .col_min {
     width: 690px;
   }
-  
+
   .section.styles .sectionTitle {
     padding: 0 10%;
   }
-  
+
   .section.styles .size_wrap {
     margin-left:  35px;
   }
@@ -915,19 +915,19 @@ input[type='checkbox']:checked + label::after {
     margin-top: 15px;
     margin-bottom: 15px;
   }
-  
+
   .section.styles .size_wrap ul li a {
     width: 25px;
     height: 25px;
     margin: 6px;
   }
-  
+
   .section.styles .size_wrap ul:after {
     width: 120px;
     height: 95px;
     left: 305px;
   }
-  
+
   .size_wrap .size .preview {
     margin-top: 10px;
   }
@@ -937,44 +937,44 @@ input[type='checkbox']:checked + label::after {
   .size_wrap .size p {
     font-size: 10px;
   }
-  
+
   .size_wrap .size .preview.sq_mid,
   .size_wrap .size .preview.re_mid,
   .size_wrap .size .preview.sq_sm,
   .size_wrap .size .preview.re_sm {
     margin-top: 0;
   }
-  
+
   .text-size {
     bottom: 65px;
     left: 85px;
     font-size: 11px;
   }
-  
+
   .price_wrap .price {
     margin-top: 35px;
     margin-left: -45px;
   }
-  
+
   .price_wrap > p {
     top: 420px;
     right: 100px;
   }
-  
-  .block-btn {
+
+  /*.block-btn {
     top: 100px;
     left: 20px;
-  }
-  
+  }*/
+
   .section.contact .content .chatBtn {
     bottom: 49%;
     left: 22%;
   }
-  
+
   .chatBtn:hover~.chatBtn-hover {
     display: block;
   }
-  
+
   .section.contact .content .emoji.human {
     bottom: 15px;
     left: 0;
@@ -982,7 +982,7 @@ input[type='checkbox']:checked + label::after {
     width: 135px;
     background-size: 100%;
   }
-  
+
   .section.contact .content .emoji.cloud {
     top: -40px;
     left: 49%;
