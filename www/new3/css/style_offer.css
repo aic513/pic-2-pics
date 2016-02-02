@@ -806,7 +806,7 @@ input[type='checkbox']:checked + label::after {
 
   .section.contact .content .chatBtn {
     bottom: 49%;
-    left: 13%;
+    left: -10%;
   }
 
   .chatBtn:hover~.chatBtn-hover {
@@ -822,8 +822,8 @@ input[type='checkbox']:checked + label::after {
   }
 
   .section.contact .content .emoji.cloud {
-    top: -40px;
-    right: 10px;
+    top: 10px;
+    left: 20px;
     height: 125px;
     width: 125px;
     background-size: 100%;
@@ -833,7 +833,11 @@ input[type='checkbox']:checked + label::after {
     top: 395px;
     right: 35px;
   }
-
+  .section.contact .content .actionBtn-footer{
+      bottom: 160px;
+      right: -70px;
+      position: absolute;
+  }
 }
 
 @media only screen and (min-width: 1440px) and (max-width: 1800px){

@@ -1638,8 +1638,8 @@ body{ margin: 0; min-width: 1300px; }
     width: 900px;
     margin: 0 auto;
     /*margin-left: 260px;*/
-    margin-left: 21.5%;
-    margin-bottom: 100px;
+    padding-right: 100px;
+    margin-bottom: 120px;
 }
 .section.contact .content .info p{
     font-family: "Stem_regular", sans-serif;
@@ -1647,7 +1647,7 @@ body{ margin: 0; min-width: 1300px; }
     line-height: 23px;
     color: #000;
     text-transform: uppercase;
-    text-align: left;
+    text-align: center;
     letter-spacing: 1px;
 }
 .section.contact .content .info p:nth-child(2){
@@ -1692,7 +1692,7 @@ body{ margin: 0; min-width: 1300px; }
 .section.contact .content .emoji.human{
     height: 175px;
     width: 175px;
-    bottom: 45px;
+    bottom: 65px;
     left: -15px;
     background-image: url(../img/emoji/0034.png);
     background-size: 100%;
@@ -1700,7 +1700,7 @@ body{ margin: 0; min-width: 1300px; }
 .section.contact .content .emoji.cloud{
     height: 137px;
     width: 137px;
-    bottom: 328px;
+    bottom: 345px;
     left: 225px;
     background-image: url(../img/emoji/0039.png);
 }
@@ -1708,8 +1708,8 @@ body{ margin: 0; min-width: 1300px; }
 .section.contact .content .emoji.chup{
     /*top: -20px;*/
     /*left: 1260px;*/
-    top: -50%;
-    left: 24%;
+    top: -10%;
+    left: 426%;
     height: 180px;
     width: 180px;
     background-image: url(../img/emoji/0013.png);
@@ -1720,19 +1720,19 @@ body{ margin: 0; min-width: 1300px; }
 /*////////////////////////////////////////////////////////////////////////////*/
 .section.contact .content .chatBtn{
     position: absolute;
-    bottom: 245px;
-    left: 100px;
+    bottom: 60%;
+    left: 35%;
 }
 .chatBtn-hover{
-  display: block;;
+  display: none;
 }
 .chatBtn:hover~.chatBtn-hover{
   display: block;
 }
 .section.contact .content .actionBtn-footer{
-    bottom: -50px;
-    right: 130px;
-    position: relative;
+    bottom: 48%;
+    right: 39%;
+    position: absolute;
 }
 
 /*////////////////////////////////////////////////////////////////////////////*/
@@ -1740,13 +1740,16 @@ footer{
     /*margin-top: 55px;*/
     position: relative;
 }
+.footer-wrap{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
 /*////////////////////////////////////////////////////////////////////////////*/
 footer .support{
-    position: absolute;
     width: 300px;
-    bottom: 85px;
-    left: -26px;
-    margin-left: 0px;
+    margin-left: -22px;
 }
 footer .support h3{
     font-family: "Stem_bold", sans-serif;
@@ -1756,7 +1759,7 @@ footer .support h3{
     text-transform: uppercase;
     margin: 0;
     padding-top: 4px;
-    margin: 20px 0 0px 0;
+    margin: 0;
 }
 footer .support ul{
     padding: 0;
@@ -1776,10 +1779,7 @@ footer .support ul li a{
 }
 /*////////////////////////////////////////////////////////////////////////////*/
 footer .product{
-    position: absolute;
     width: 300px;
-    bottom: 95px;
-    right: 0;
     text-align: right;
     padding-right: 55px;
 }
@@ -1789,7 +1789,7 @@ footer .product h3{
     letter-spacing: 1px;
     text-transform: uppercase;
     padding-top: 2px;
-      margin: 20px 0 5px 0;
+    margin:0;
 }
 footer .product ul{
     margin: 0;
@@ -1815,11 +1815,11 @@ footer .product ul li a{
 footer .info{
     width: 100%;
     padding: 0;
-    margin-left: -40px;
+    margin: 0 auto;
     text-align: center;
     height: 145px;
-    margin-top: -5px;
     padding-bottom: 0;
+    margin-top: -20px;
 }
 footer .info h3{
     font-family: "Stem_bold", sans-serif;
@@ -1828,7 +1828,7 @@ footer .info h3{
     font-size: 28px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin: 22px 0 0px 0;
+    margin: 0;
 }
 footer .info .address{
     display: block;
@@ -1857,7 +1857,7 @@ footer .info p{
 footer .row{
   width: 100%;
   position: relative;
-  /*margin-top: -105px;*/
+  margin-top: -15px;
     position: relative;
       display: -webkit-box;
       display: -webkit-flex;
