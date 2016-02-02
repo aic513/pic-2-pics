@@ -278,7 +278,7 @@ body{ margin: 0; min-width: 1300px; }
 .actionBtn.fixed{
     position: fixed;
     bottom: -30px;
-    left: 40%;
+    left: 39.5%;
 }
 .actionBtn{
     width: 312px;
@@ -301,18 +301,18 @@ body{ margin: 0; min-width: 1300px; }
 }
 .actionBtn a{
     display: inline-block;
-    height: 47px;
-    line-height: 49px;
-    font-family: 'ShangoSansRegular', sans-serif;
+    font-family: 'Stem-Regular', sans-serif;
     text-decoration: none;
     font-size: 16px;
-    font-weight: 700;
+    line-height: 27px;
+    font-weight: 500;
+    text-transform: uppercase;
     letter-spacing: 3px;
     border: 2px solid #fff;
     border-radius: 40px;
     color: #fff;
     background: transparent;
-    padding: 8px 28px;
+    padding: 17px 26px;
 
     -webkit-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
