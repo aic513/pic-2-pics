@@ -75,7 +75,7 @@
 
 html{ font-size: 100%; }
 body{ margin: 0; min-width: 1300px; }
-.wrap{ width: 1290px; margin: 0 auto; /*height: 100%;*/ }
+.wrap{ width: 1300px; margin: 0 auto; /*height: 100%;*/ }
 .clearfix{ clear: both; }
 .text-center{ text-align: center; }
 .text-right{ text-align: right; }
