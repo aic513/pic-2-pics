@@ -1497,11 +1497,11 @@ body{ margin: 0; min-width: 1300px; }
   font-family: "Stem-Regular", sans-serif;
   font-size: 12px;
   letter-spacing: 2px;
-  font-weight: 400;
+  font-weight: 600;
   text-transform: uppercase;
   position: absolute;
-  bottom: 95px;
-  left: 165px;
+  bottom: 110px;
+  left: 155px;
 }
 /*///////////////////////////////////////////////////////////////////////*/
 .price_wrap .price{
@@ -1597,9 +1597,9 @@ body{ margin: 0; min-width: 1300px; }
     z-index: 0;
     top: 0;
     bottom: 320px;
-    left: 0;
+    left: -10px;
     background-repeat: no-repeat;
-    background-size: auto 86%;
+    background-size: auto 87%;
     background-position: 50% 100%;
 }
 /*///////////////////////////////////////////////////////////////////////*/
