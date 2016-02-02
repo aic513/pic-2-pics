@@ -4,57 +4,75 @@
 
 @font-face {
   font-family: "Stem_medium";
-  src: url("../font/stem/Stem-Medium.eot?") format("eot"),
-     url("../font/stem/Stem-Medium.woff") format("woff"),
-     url("../font/stem/Stem-Medium.ttf") format("truetype");
+  src: url("../font/Stem-Medium.eot?") format("eot"),
+     url("../font/Stem-Medium.woff") format("woff"),
+     url("../font/Stem-Medium.woff2") format("woff2"),
+     url("../font/Stem-Medium.ttf") format("truetype"),
+     url('../font/Stem-Medium.svg#Stem-Medium') format('svg');
 }
 @font-face {
   font-family: "Stem_regular";
-  src: url("../font/stem-fonts/stm55.eot?") format("eot"),
-     url("../font/stem-fonts/stm55.woff") format("woff"),
-     url("../font/stem-fonts/stm55.ttf") format("truetype");
+  src: url("../font/Stem-Regular.eot?") format("eot"),
+     url("../font/Stem-Regular.woff") format("woff"),
+     url("../font/Stem-Regular.woff2") format("woff2"),
+     url("../font/Stem-Regular.ttf") format("truetype"),
+     url("../font/Stem-Regular.svg#Stem-Regular") format("svg");
 }
 @font-face {
   font-family: "Stem_hairline";
-  src: url("../font/stem-fonts/stm15.eot?") format("eot"),
-       url("../font/stem-fonts/stm15.woff") format("woff"),
-       url("../font/stem-fonts/stm15.ttf") format("truetype");
+  src: url("../font/StemHairline.eot?") format("eot"),
+       url("../font/StemHairline.woff") format("woff"),
+       url("../font/StemHairline.woff2") format("woff2"),
+       url("../font/StemHairline.ttf") format("truetype"),
+       url("../font/StemHairline.svg#StemHairline") format("svg");
 }
 @font-face {
   font-family: "Stem_thin";
-  src: url("../font/stem-fonts/stm25.eot?") format("eot"),
-     url("../font/stem-fonts/stm25.woff") format("woff"),
-     url("../font/stem-fonts/stm25.ttf") format("truetype");
+  src: url("../font/StemThin.eot?") format("eot"),
+       url("../font/StemThin.woff") format("woff"),
+       url("../font/StemThin.woff2") format("woff2"),
+       url("../font/StemThin.ttf") format("truetype"),
+       url("../font/StemThin.svg#StemThin") format("svg");
 }
 @font-face {
   font-family: "Stem_bold";
-  src: url("../font/stem-fonts/stm75.eot?") format("eot"),
-     url("../font/stem-fonts/stm75.woff") format("woff"),
-     url("../font/stem-fonts/stm75.ttf") format("truetype");
+  src: url("../font/StemBold.eot?") format("eot"),
+     url("../font/StemBold.woff") format("woff"),
+     url("../font/StemBold.woff2") format("woff2"),
+     url("../font/StemBold.ttf") format("truetype"),
+     url('../font/StemBold.svg#StemBold') format('svg');
 }
 @font-face {
   font-family: "Stem_light";
-  src: url("../font/stem-fonts/stm45.eot?") format("eot"),
-     url("../font/stem-fonts/stm45.woff") format("woff"),
-     url("../font/stem-fonts/stm45.ttf") format("truetype");
+  src: url("../font/StemLight.eot?") format("eot"),
+     url("../font/StemLight.woff") format("woff"),
+     url("../font/StemLight.woff2") format("woff2"),
+     url("../font/Stem-Light.ttf") format("truetype"),
+     url('../font/StemLight.svg#StemLight') format('svg');
 }
 @font-face {
   font-family: "Stem_light_italic";
   src: url("../font/stem-fonts/stm46.eot?") format("eot"),
      url("../font/stem-fonts/stm46.woff") format("woff"),
-     url("../font/stem-fonts/stm46.ttf") format("truetype");
+     url("../font/stem-fonts/stm46.woff2") format("woff2"),
+     url("../font/stem-fonts/stm46.ttf") format("truetype"),
+     url("../font/stem-fonts/stm46.svg#stm46") format("svg");
 }
 @font-face {
   font-family: "Stem_medium_italic";
   src: url("../font/stem-fonts/stm66.eot?") format("eot"),
        url("../font/stem-fonts/stm66.woff") format("woff"),
-       url("../font/stem-fonts/stm66.ttf") format("truetype");
+       url("../font/stem-fonts/stm66.woff2") format("woff2"),
+       url("../font/stem-fonts/stm66.ttf") format("truetype"),
+       url("../font/stem-fonts/stm66.svg#stm66") format("svg");
 }
 @font-face {
   font-family: "Stem_italic";
   src: url("../font/stem-fonts/stm56.eot?") format("eot"),
      url("../font/stem-fonts/stm56.woff") format("woff"),
-     url("../font/stem-fonts/stm56.ttf") format("truetype");
+     url("../font/stem-fonts/stm56.woff2") format("woff2"),
+     url("../font/stem-fonts/stm56.ttf") format("truetype"),
+     url("../font/stem-fonts/stm56.svg#stm56") format("svg");
 }
 @font-face {
   font-family: 'ShangoSansRegular';
