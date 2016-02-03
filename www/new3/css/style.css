@@ -509,7 +509,7 @@ body{ margin: 0; min-width: 1300px; }
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../img/bg.jpg");
+    background-image: url("../img/bg.jpg.png");
 }
 .section.intro h1{
     letter-spacing: 5.5px;
