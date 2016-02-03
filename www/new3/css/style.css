@@ -444,7 +444,7 @@ body{ margin: 0; min-width: 1300px; }
 }
 .menu ul li{
     list-style: none;
-    margin-bottom: 3px;
+    margin-bottom: 0px;
 }
 .menu ul.menu_list > li > a{
     position: relative;
@@ -506,11 +506,11 @@ body{ margin: 0; min-width: 1300px; }
     right: 0;
     bottom: 0;
     width: auto;
-    height: auto;
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../img/bg.jpg.png");
+    background-image: url("../img/bg.jpg.");
 }
 .section.intro h1{
     letter-spacing: 5.5px;
@@ -540,6 +540,10 @@ body{ margin: 0; min-width: 1300px; }
 /*.section.intro .stickers{
   float: right;
 }*/
+
+/*/////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////Стикеры/////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////*/
 .order1 {
     width: 200px;
     height: 148px;
@@ -568,8 +572,8 @@ body{ margin: 0; min-width: 1300px; }
     display: none;
 }
 
-
-
+/*/////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////*/
 
 /************************************************************
   Service block
@@ -626,10 +630,7 @@ body{ margin: 0; min-width: 1300px; }
 .section.service .wrap .sectionTitle{
   padding-left: 0px;
   text-align: center;
-  font-family: 'ShangoSansRegular';
   letter-spacing: 5.5px;
-  font-size: 70px;
-  font-weight: 400;
   margin-top: 0px;
   margin-bottom: 75px;
   padding-right: 68px;
@@ -792,10 +793,7 @@ body{ margin: 0; min-width: 1300px; }
 /*////////////////////////////////////////////////////////////////////////////*/
 .section.about .sectionTitle{
   text-align: center;
-  font-family: 'ShangoSansRegular';
   letter-spacing: 5.5px;
-  font-size: 70px;
-  font-weight: 400;
   margin-top: 5px;
   margin-bottom: 10px;
   margin-right: 60px;
@@ -1267,10 +1265,7 @@ body{ margin: 0; min-width: 1300px; }
 }
 .section.styles .sectionTitle{
     text-align: center;
-    font-family: 'ShangoSansRegular';
     letter-spacing: 5.5px;
-    font-size: 70px;
-    font-weight: 400;
     /*margin-top: 75px;*/
     margin-top: 4.5%;
     margin-bottom: 10px;
@@ -1307,7 +1302,7 @@ body{ margin: 0; min-width: 1300px; }
     position: relative;
     z-index: 10;
     margin-left: 114px;
-    position: relative;
+
 }
 
 .section.styles .price_wrap{
@@ -1493,6 +1488,7 @@ body{ margin: 0; min-width: 1300px; }
 }
 .size_wrap .size .sm-right-p{
   margin-left: 20px;
+  position: relative;
 }
 /*///////////////////////////////////////////////////////////////////////*/
 /*///////////////////////////////////////////////////////////////////////*/
@@ -1503,8 +1499,8 @@ body{ margin: 0; min-width: 1300px; }
   font-weight: 600;
   text-transform: uppercase;
   position: absolute;
-  bottom: 110px;
-  left: 155px;
+  top: 86%;
+  left: 11%;
 }
 /*///////////////////////////////////////////////////////////////////////*/
 .price_wrap .price{
@@ -1568,10 +1564,11 @@ body{ margin: 0; min-width: 1300px; }
   color: rgba(0,0,0,0.5);
   top: 175px;
   left: 47px;
+  color: #fff;
 }
 .price_wrap .price .sticker{
     position: absolute;
-    left: 100px;
+    left: 110px;
     top: 165px;
     width: 160px;
     height: 160px;
@@ -1589,7 +1586,7 @@ body{ margin: 0; min-width: 1300px; }
     width: 350px;
     color: #000;
     top: 430px;
-    right: 120px;
+    right: 33%;
 }
 /*///////////////////////////////////////////////////////////////////////*/
 /*///////////////////////////////////////////////////////////////////////*/
@@ -1617,10 +1614,8 @@ body{ margin: 0; min-width: 1300px; }
     background: #eaeaea;
 }
 .section.contact .sectionTitle{
-  text-align: center;
   font-family: 'ShangoSansRegular';
   letter-spacing: 5.5px;
-  font-weight: 400;
   /*margin-top: 75px;margin-bottom: 77px;*/
   margin-top: 4.75%;
   margin-bottom: 6%;
