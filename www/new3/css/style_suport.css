@@ -65,12 +65,12 @@
   letter-spacing: 0.9px;
 }
 
-.support__link:hover, 
+.support__link:hover,
 .support__link:active,
 .support__link:focus {
   font-family: "Stem_bold", sans-serif;
   text-decoration: underline;
-} 
+}
 
 .support__question {
   margin: 0;

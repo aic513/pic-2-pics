@@ -74,7 +74,6 @@ body {
     background-color: #51a8e6;
     background-image: url(../img/Chatbtn.png);
     text-align: center;
-    -webkit-box-shadow: 8px 8px 17px 0 rgba(0, 0, 0, 0.15);
     box-shadow: 8px 8px 17px 0 rgba(0, 0, 0, 0.15);
     margin-top: 3px;
 }
