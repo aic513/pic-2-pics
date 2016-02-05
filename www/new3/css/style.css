@@ -817,8 +817,8 @@ body{ margin: 0; min-width: 1300px; }
     padding-bottom: 5.5%;
 }
 .section.about .about_wrap{
-    /*width: 1588px;*/
-    width: 50%;
+    /*width: 1000px;*/
+    width: 60%;
     margin: 0 auto;
     padding: 0;
     /*padding-left: 20px;*/
@@ -853,8 +853,24 @@ body{ margin: 0; min-width: 1300px; }
 /*/////////////////////////////////////////////////////////////////////////////*/
 /*/////////////////////////////////////////////////////////////////////////////*/
 .section.about .about_group:hover{
-  outline: 70px solid red;
+  /*outline: 70px solid red;*/
+  box-shadow: 70px 0px 0px 70px #fa5b31;
+  background: #fa5b31;
 }
+.col_min-hover{
+  opacity: 0;
+}
+.section.about .about_group:hover .col_min-hover{
+   opacity: 1;
+   color: #fff;
+}
+.section.about .about_group:hover .col_min-hover p{
+   color: #fff;
+}
+.section.about .about_group:hover .col_min h3{
+  color: #fff;
+}
+
 /*
 .section.about .about_group:hover~.section.about .col_min{
   opacity: 1;
@@ -884,23 +900,19 @@ body{ margin: 0; min-width: 1300px; }
     -webkit-align-items: flex-start;
         -ms-flex-align: flex-start;
             align-items: flex-start;
-    background: #fff;
+    /*background: #fff;*/
     /*width: 820px;*/
     position: relative;
     width: 490px;
     height: 490px;
     padding-left: 55px;
     padding-right:55px;
-    opacity: 0.5;
 }
 .section.about .about_group .col_max{
     width: 490px;
     height: 490px;
     /*width: 30.9%;
     height: 30.9%;*/
-}
-.col_min-hover{
-  opacity: 1;
 }
 
 .col_min h3{

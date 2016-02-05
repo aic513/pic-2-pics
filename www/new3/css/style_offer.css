@@ -622,7 +622,7 @@ input[type='checkbox']:checked + label::after {
     right: 0;
   }
 */
-  .section.about .about_wrap {
+/*.section.about .about_wrap {
     padding-left: 0;
     width: 100%;
   }
@@ -654,7 +654,7 @@ input[type='checkbox']:checked + label::after {
   .static-btn {
     left: 500px;
   }
-
+*/
   footer .support{
     left: 0;
   }
@@ -673,7 +673,7 @@ input[type='checkbox']:checked + label::after {
 }
 
 @media only screen and (max-width: 1440px) {
-  .section.about .about_group {
+/*  .section.about .about_group {
     margin-top: 80px;
   }
 
@@ -742,7 +742,7 @@ input[type='checkbox']:checked + label::after {
   .section.about .about_group .col_min {
     width: 690px;
   }
-
+*/
   .section.styles .sectionTitle {
     padding: 0 10%;
   }
@@ -841,7 +841,7 @@ input[type='checkbox']:checked + label::after {
 }
 
 @media only screen and (min-width: 1440px) and (max-width: 1800px){
-  .section.about .about_wrap {
+  /*.section.about .about_wrap {
     width: 94.5%;
   }
   .section.about .about_group .col_max {
@@ -907,7 +907,7 @@ input[type='checkbox']:checked + label::after {
   .section.about .about_group .col_min {
     width: 690px;
   }
-
+*/
   .section.styles .sectionTitle {
     padding: 0 10%;
   }
