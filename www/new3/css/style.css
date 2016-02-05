@@ -1616,7 +1616,8 @@ body{ margin: 0; min-width: 1300px; }
 .section.contact .sectionTitle{
   font-family: 'ShangoSansRegular';
   letter-spacing: 5.5px;
-  /*margin-top: 75px;margin-bottom: 77px;*/
+  /*margin-top: 75px;
+  margin-bottom: 77px;*/
   margin-top: 4.75%;
   margin-bottom: 6%;
   margin-right: 70px;
@@ -1668,7 +1669,7 @@ body{ margin: 0; min-width: 1300px; }
 .section.contact .to_left,
 .section.contact .to_right{
     width: 295px;
-    position: absolute;
+    /*position: absolute;*/
     height: 100%;
     top: 0;
 }
@@ -1717,9 +1718,9 @@ body{ margin: 0; min-width: 1300px; }
 }
 /*////////////////////////////////////////////////////////////////////////////*/
 .section.contact .content .chatBtn{
-    position: absolute;
+    /*position: absolute;
     bottom: 60%;
-    left: 35%;
+    left: 35%;*/
 }
 .chatBtn-hover{
   display: none;
@@ -1728,11 +1729,18 @@ body{ margin: 0; min-width: 1300px; }
   display: block;
 }
 .section.contact .content .actionBtn-footer{
-    bottom: 48%;
+    /*bottom: 48%;
     right: 39%;
-    position: absolute;
+    position: absolute;*/
 }
 
+
+.content-flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
 /*////////////////////////////////////////////////////////////////////////////*/
 footer{
     /*margin-top: 55px;*/
