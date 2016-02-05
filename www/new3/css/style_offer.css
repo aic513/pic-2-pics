@@ -804,7 +804,7 @@ input[type='checkbox']:checked + label::after {
     left: 20px;
   }*/
 
-  .section.contact .content .chatBtn {
+  /*.section.contact .content .chatBtn {
     bottom: 49%;
     left: -10%;
   }
@@ -828,15 +828,13 @@ input[type='checkbox']:checked + label::after {
     width: 125px;
     background-size: 100%;
   }
-
+*/
   .price_wrap > p {
     top: 395px;
     right: 35px;
   }
   .section.contact .content .actionBtn-footer{
-      bottom: 160px;
-      right: -70px;
-      position: absolute;
+    margin-right: 0;
   }
 }
 
@@ -971,8 +969,7 @@ input[type='checkbox']:checked + label::after {
   }*/
 
   .section.contact .content .chatBtn {
-    bottom: 49%;
-    left: 22%;
+    margin-left: 0;
   }
 
   .chatBtn:hover~.chatBtn-hover {
