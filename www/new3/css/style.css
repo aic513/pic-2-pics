@@ -1709,7 +1709,7 @@ body{ margin: 0; min-width: 1300px; }
 .section.contact .content .emoji.human{
     height: 175px;
     width: 175px;
-    bottom: 65px;
+    bottom: 80px;
     left: -15px;
     background-image: url(../img/emoji/0034.png);
     background-size: 100%;
@@ -1717,23 +1717,12 @@ body{ margin: 0; min-width: 1300px; }
 .section.contact .content .emoji.cloud{
     height: 137px;
     width: 137px;
-    bottom: 345px;
+    bottom: 360px;
     left: 225px;
     background-image: url(../img/emoji/0039.png);
 }
 
-.section.contact .content .emoji.chup{
-    /*top: -20px;*/
-    /*left: 1260px;*/
-    top: -10%;
-    left: 426%;
-    height: 180px;
-    width: 180px;
-    background-image: url(../img/emoji/0013.png);
-        -webkit-transform: rotate(10deg);
-                transform: rotate(10deg);
-    z-index: 1;
-}
+
 /*////////////////////////////////////////////////////////////////////////////*/
 .section.contact .content .chatBtn{
     display: block;
@@ -1741,7 +1730,7 @@ body{ margin: 0; min-width: 1300px; }
     margin-left: 80px;
 }
 .chatBtn-hover{
-  display: none;
+  display: block;
 }
 .chatBtn:hover~.chatBtn-hover{
   display: block;
@@ -1750,8 +1739,25 @@ body{ margin: 0; min-width: 1300px; }
     display: block;
     margin-bottom: 200px;
     margin-left: -130px;
+    position: relative;
 }
-
+.section.contact .content .actionBtn-footer span{
+    position: absolute;
+    bottom: 0px;
+    left: -35px;
+}
+.section.contact .content .emoji.chup{
+    /*top: -20px;*/
+    /*left: 1260px;*/
+    bottom: 100px;
+    left: 75px;
+    height: 180px;
+    width: 180px;
+    background-image: url(../img/emoji/0013.png);
+        -webkit-transform: rotate(10deg);
+                transform: rotate(10deg);
+    z-index: -2;
+}
 
 .content-flex{
   display: flex;
