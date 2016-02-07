@@ -573,106 +573,12 @@ input[type='checkbox']:checked + label::after {
   z-index: 77;
 }
 
-
-/* для ширины больше 1440px */
-@media only screen and (min-width: 1440px) and (max-width: 1800px) {
-
-  .offer__cross {
-    right: 160px;
-  }
-
-  .order__form {
-    width: 1108px;
-  }
-
-  .order__header {
-    padding-left: 0;
-  }
-
-  .order__info {
-    width: 455px;
-  }
-
-  .order__label-firstname,
-  .order__label-lastname,
-  .order__label-delivery,
-  .order__label-tel {
-    width: 210px;
-  }
-
-  .order__label-email {
-    width: 100%;
-  }
-
-  .order__label-firstname,
-  .order__label-delivery {
-    margin-right: 35px;
-  }
-
-}
-
-@media only screen and (max-width: 1800px) {
-
-  .wrap {
-    width: 93.5%;
-    margin: 0 auto;
-  }
-
-/*
-  .stripe .period {
-    right: 0;
-  }
-*/
-/*.section.about .about_wrap {
-    padding-left: 0;
-    width: 100%;
-  }
-  .section.about .about_group {
-    margin-right: 0;
-    width: 100%;
-  }
-  .section.about .about_group .col_max {
-    width: 490px;
-    height: 490px;
-  }
-
-  .section.about .about_group .col_min {
-    padding-top: 60px;
-    padding-bottom: 50px;
-    padding-left: 60px;
-    padding-right: 40px;
-    width: 790px;
-    box-shadow: 8px -6px 46px 0px rgba(0, 0, 0, 0.3);
-  }
-
-  .section.about .about_group .col_max .about_block{
-    width: 490px;
-    height: 490px;
-    background-size: cover;
-    box-shadow: 8px -6px 46px 0px rgba(0, 0, 0, 0.3);
-  }
-
-  .static-btn {
-    left: 500px;
-  }
-*/
-  /*footer .support{
-    left: 0;
-  }
-
-  footer .info {
-    margin-top: -22px;
-    text-align: center;
-  }
-
-  footer .info .address {
-    margin-top: 0;
-  }
-  footer .row {
-    margin-top: 0;
-  }*/
-}
-
+/******************************************************************************/
+/******************************************************************************/
+/******************************************************************************/
+/******************************************************************************/
+/******************************************************************************/
+/*Для ширины от 1300 до 1440пх*/
 @media only screen and (max-width: 1440px) {
 /*  .section.about .about_group {
     margin-top: 80px;
@@ -840,8 +746,46 @@ input[type='checkbox']:checked + label::after {
     margin-right: 0px;
   }
 }
+/******************************************************************************/
+/******************************************************************************/
+/******************************************************************************/
+/******************************************************************************/
+/******************************************************************************/
 
+/*Для ширины от 1440пх до 1800пх*/
 @media only screen and (min-width: 1440px) and (max-width: 1800px){
+  .offer__cross {
+    right: 160px;
+  }
+
+  .order__form {
+    width: 1108px;
+  }
+
+  .order__header {
+    padding-left: 0;
+  }
+
+  .order__info {
+    width: 455px;
+  }
+
+  .order__label-firstname,
+  .order__label-lastname,
+  .order__label-delivery,
+  .order__label-tel {
+    width: 210px;
+  }
+
+  .order__label-email {
+    width: 100%;
+  }
+
+  .order__label-firstname,
+  .order__label-delivery {
+    margin-right: 35px;
+  }
+
   /*.section.about .about_wrap {
     width: 94.5%;
   }
@@ -1006,4 +950,70 @@ input[type='checkbox']:checked + label::after {
     min-height: 100%;
     z-index: 5;
     background: #ff url("/img/background_service.jpg") no-repeat 50%/cover;
+}
+/******************************************************************************/
+/******************************************************************************/
+/******************************************************************************/
+/******************************************************************************/
+/******************************************************************************/
+@media only screen and (max-width: 1800px) {
+
+  .wrap {
+    width: 93.5%;
+    margin: 0 auto;
+  }
+
+/*
+  .stripe .period {
+    right: 0;
+  }
+*/
+/*.section.about .about_wrap {
+    padding-left: 0;
+    width: 100%;
+  }
+  .section.about .about_group {
+    margin-right: 0;
+    width: 100%;
+  }
+  .section.about .about_group .col_max {
+    width: 490px;
+    height: 490px;
+  }
+
+  .section.about .about_group .col_min {
+    padding-top: 60px;
+    padding-bottom: 50px;
+    padding-left: 60px;
+    padding-right: 40px;
+    width: 790px;
+    box-shadow: 8px -6px 46px 0px rgba(0, 0, 0, 0.3);
+  }
+
+  .section.about .about_group .col_max .about_block{
+    width: 490px;
+    height: 490px;
+    background-size: cover;
+    box-shadow: 8px -6px 46px 0px rgba(0, 0, 0, 0.3);
+  }
+
+  .static-btn {
+    left: 500px;
+  }
+*/
+  /*footer .support{
+    left: 0;
+  }
+
+  footer .info {
+    margin-top: -22px;
+    text-align: center;
+  }
+
+  footer .info .address {
+    margin-top: 0;
+  }
+  footer .row {
+    margin-top: 0;
+  }*/
 }
