@@ -12,19 +12,19 @@ html{ font-size: 100%; }
 
 /* Stripe */
 
-.stripe h3{
+/*.stripe h3{
     font-size: 1.3rem;
     line-height: 3rem;
-}
-.stripe .call{
+}*/
+/*.stripe .call{
     top: 0.3rem;
     left: 3.3rem;
     height: 3.125rem;
-}
-.stripe .call > a{
+}*/
+/*.stripe .call > a{
     line-height: 3.125rem;
     letter-spacing: 0.03111rem;
-}
+}*/
 /*.stripe .call > a:after{
     top: -0.95rem;
     left: 5.1rem;
@@ -61,12 +61,16 @@ html{ font-size: 100%; }
     font-size: 0.7999999rem;
     line-height: 3.15rem;
 }
-/*.stripe .logo{
+
+
+
+/*****************************Логотип и гамбургер******************************/
+.stripe .logo{
     top: 2.0rem;
     left: 2.18rem;
     height: 7.05rem;
     width: 6.25rem;
-}*/
+}
 .stripe .menu_open{
     top: 3.1rem;
     right: 7.18rem;
