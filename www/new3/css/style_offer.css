@@ -617,6 +617,7 @@ input[type='checkbox']:checked + label::after {
     width: 93.5%;
     margin: 0 auto;
   }
+
 /*
   .stripe .period {
     right: 0;
@@ -655,7 +656,7 @@ input[type='checkbox']:checked + label::after {
     left: 500px;
   }
 */
-  footer .support{
+  /*footer .support{
     left: 0;
   }
 
@@ -669,7 +670,7 @@ input[type='checkbox']:checked + label::after {
   }
   footer .row {
     margin-top: 0;
-  }
+  }*/
 }
 
 @media only screen and (max-width: 1440px) {
@@ -831,7 +832,6 @@ input[type='checkbox']:checked + label::after {
     width: 125px;
     background-size: 100%;
   }
-*/
   .price_wrap > p {
     top: 395px;
     right: 35px;
@@ -980,7 +980,7 @@ input[type='checkbox']:checked + label::after {
   }
 
   .section.contact .content .emoji.human {
-    bottom: 15px;
+    bottom: 55px;
     left: 0;
     height: 135px;
     width: 135px;
@@ -989,7 +989,7 @@ input[type='checkbox']:checked + label::after {
 
   .section.contact .content .emoji.cloud {
     top: -40px;
-    left: 49%;
+    left: 120px;
     height: 135px;
     width: 135px;
     background-size: 100%;
