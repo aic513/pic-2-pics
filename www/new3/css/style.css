@@ -1270,7 +1270,7 @@ body{ margin: 0; min-width: 1300px; }
 }
 
 .section.styles .wrap{
-    padding-bottom: 80px;
+    height: 100%;
     overflow: hidden;
     position: relative;
     height: 100%;

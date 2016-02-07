@@ -644,11 +644,11 @@ input[type='checkbox']:checked + label::after {
   }
 */
 
-.section.styles .wrap{
+
+/*************************Страница с женщиной***********************************/
+  .section.styles .wrap{
     width: 100%;
-}
-
-
+  }
   .section.styles .sectionTitle {
     padding: 0 10%;
     margin-top: 70px;
@@ -657,7 +657,6 @@ input[type='checkbox']:checked + label::after {
   .section.styles .size_wrap {
     margin-left:  5px;
     margin-top: 50px;
-
   }
   /*************************Кружки над блоками*********************************/
   .section.styles .size_wrap ul{
@@ -736,7 +735,7 @@ input[type='checkbox']:checked + label::after {
 */
   /***********************Текст "размеры могут быть любыми"*********************/
   .text-size {
-    top: 75%;
+    top: 80%;
     left: 20px;
     z-index: 5;
   }
@@ -764,17 +763,6 @@ input[type='checkbox']:checked + label::after {
       background-repeat: no-repeat;
       background-position: 50% 100%;
   }
-
-
-
-
-
-
-
-
-
-
-
   /*****************************************************************************/
   .static-btn {
     left: 100px;
