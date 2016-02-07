@@ -643,18 +643,25 @@ input[type='checkbox']:checked + label::after {
     width: 690px;
   }
 */
+
+.section.styles .wrap{
+    width: 100%;
+}
+
+
   .section.styles .sectionTitle {
     padding: 0 10%;
+    margin-top: 70px;
   }
 /*************************Весь блок с квадратами*********************************/
   .section.styles .size_wrap {
-    margin-left:  -25px;
+    margin-left:  5px;
     margin-top: 50px;
 
   }
   /*************************Кружки над блоками*********************************/
   .section.styles .size_wrap ul{
-      margin-left: -20px;
+      margin-left: -15px;
       margin-top: 5px;
       margin-bottom: 15px;
   }
@@ -662,6 +669,7 @@ input[type='checkbox']:checked + label::after {
     width: 18px;
     height: 18px;
     margin: 5px;
+    margin-right: 10px;
   }
 
   .section.styles .size_wrap ul:after {
@@ -691,12 +699,6 @@ input[type='checkbox']:checked + label::after {
   .size_wrap .size p {
     font-size: 10px;
   }
-*/
-
-
-
-
-/*
   .size_wrap .size .preview.sq_mid,
   .size_wrap .size .preview.re_mid,
   .size_wrap .size .preview.sq_sm,
@@ -735,20 +737,19 @@ input[type='checkbox']:checked + label::after {
   /***********************Текст "размеры могут быть любыми"*********************/
   .text-size {
     top: 75%;
-    left: 0px;
+    left: 20px;
     z-index: 5;
   }
   /***********************Круг с ценами*****************************************/
   .price_wrap .price {
-    transform: scale(.8);
-    margin-top: 35px;
-    margin-left: 100px;
+    transform: scale(.85);
+    margin-top: 55px;
+    margin-left: 40px;
   }
   /***********************Подпись после круга с ценами**************************/
   .price_wrap > p{
       margin-top: 0;
       margin-right: -30px;
-      font-size: 11px;
       width: auto;
   }
   /***********************Фото женщины******************************************/
@@ -759,7 +760,7 @@ input[type='checkbox']:checked + label::after {
       top: 0;
       bottom: 0px;
       left: 0px;
-      background-size: 55%;
+      background-size: 58%;
       background-repeat: no-repeat;
       background-position: 50% 100%;
   }
