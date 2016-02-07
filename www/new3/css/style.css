@@ -1730,11 +1730,12 @@ body{ margin: 0; min-width: 1300px; }
     margin-left: 80px;
 }
 .chatBtn-hover{
-  display: block;
+  display: none;
 }
 .chatBtn:hover~.chatBtn-hover{
   display: block;
 }
+
 .section.contact .content .actionBtn-footer{
     display: block;
     margin-bottom: 200px;
