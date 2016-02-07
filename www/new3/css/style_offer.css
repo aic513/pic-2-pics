@@ -808,14 +808,17 @@ input[type='checkbox']:checked + label::after {
     bottom: 49%;
     left: -10%;
   }
-
+*/
   .chatBtn:hover~.chatBtn-hover {
     display: block;
   }
 
+.section.contact .content .chatBtn {
+  margin-left: 0;
+}
   .section.contact .content .emoji.human {
-    bottom: 15px;
-    left: 0;
+    bottom: 150px;
+    left: 0px;
     height: 125px;
     width: 125px;
     background-size: 100%;
@@ -823,7 +826,7 @@ input[type='checkbox']:checked + label::after {
 
   .section.contact .content .emoji.cloud {
     top: 10px;
-    left: 20px;
+    left: 80px;
     height: 125px;
     width: 125px;
     background-size: 100%;
@@ -834,7 +837,7 @@ input[type='checkbox']:checked + label::after {
     right: 35px;
   }
   .section.contact .content .actionBtn-footer{
-    margin-right: 0;
+    margin-right: 0px;
   }
 }
 
