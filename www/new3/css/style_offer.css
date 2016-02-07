@@ -573,12 +573,8 @@ input[type='checkbox']:checked + label::after {
   z-index: 77;
 }
 
-/******************************************************************************/
-/******************************************************************************/
-/******************************************************************************/
-/******************************************************************************/
-/******************************************************************************/
-/*Для ширины от 1300 до 1440пх*/
+
+/***************Для ширины от 1300 до 1440пх************************************/
 @media only screen and (max-width: 1440px) {
 /*
   .section.about .about_group .col_max {
@@ -650,15 +646,18 @@ input[type='checkbox']:checked + label::after {
   .section.styles .sectionTitle {
     padding: 0 10%;
   }
-
+/*************************Весь блок с квадратами*********************************/
   .section.styles .size_wrap {
-    margin-left:  35px;
-  }
-  .section.styles .size_wrap ul {
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
+    margin-left:  -25px;
+    margin-top: 50px;
 
+  }
+  /*************************Кружки над блоками*********************************/
+  .section.styles .size_wrap ul{
+      margin-left: -20px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+  }
   .section.styles .size_wrap ul li a {
     width: 18px;
     height: 18px;
@@ -668,10 +667,22 @@ input[type='checkbox']:checked + label::after {
   .section.styles .size_wrap ul:after {
     width: 90px;
     height: 85px;
-    left: 300px;
+    left: 280px;
+    top: -10px;
+  }
+  /*************************Блоки с квадратами справа*****************************/
+  .size_wrap .size.big-right{
+      margin-left: -40px;
   }
 
-  .size_wrap .size .preview {
+  .size_wrap .size-mid-right{
+      margin-left: -40px;
+  }
+  .size_wrap .size-sm-right{
+      margin-left: -40px;
+  }
+  /*********************Блоки с квадратами и текст к ним**************************/
+/*  .size_wrap .size .preview {
     margin-top: 10px;
   }
   .size_wrap .size h3 {
@@ -680,25 +691,90 @@ input[type='checkbox']:checked + label::after {
   .size_wrap .size p {
     font-size: 10px;
   }
+*/
 
+
+
+
+/*
   .size_wrap .size .preview.sq_mid,
   .size_wrap .size .preview.re_mid,
   .size_wrap .size .preview.sq_sm,
   .size_wrap .size .preview.re_sm {
     margin-top: 0;
   }
-
-  .text-size {
-    bottom: 5px;
-    left: 85px;
-    font-size: 11px;
-  }
-
-  .price_wrap .price {
-    margin-top: 35px;
+  .size_wrap .size .preview.re_big,
+  .size_wrap .size .preview.re_mid,
+  .size_wrap .size .preview.re_sm {
     margin-left: 0;
   }
+  /*****************************************************************************/
+  /*
+  .size_wrap .size .big-right-h3{
+    margin-left: 0px;
+  }
+  .size_wrap .size .mid-right-h3{
+    margin-left: 0px;
+  }
+  .size_wrap .size .sm-right-h3{
+    margin-left: 0px;
+  }
+  /*****************************************************************************/
+  /*****************************************************************************/
+  /*
+  .size_wrap .size .big-right-p{
+    margin-left: -50px;
+  }
+  .size_wrap .size .mid-right-p{
+    margin-left: -50px;
+  }
+  .size_wrap .size .sm-right-p{
+    margin-left: -50px;
+  }
+*/
+  /***********************Текст "размеры могут быть любыми"*********************/
+  .text-size {
+    top: 75%;
+    left: 0px;
+    z-index: 5;
+  }
+  /***********************Круг с ценами*****************************************/
+  .price_wrap .price {
+    transform: scale(.8);
+    margin-top: 35px;
+    margin-left: 100px;
+  }
+  /***********************Подпись после круга с ценами**************************/
+  .price_wrap > p{
+      margin-top: 0;
+      margin-right: -30px;
+      font-size: 11px;
+      width: auto;
+  }
+  /***********************Фото женщины******************************************/
+  .section.styles .photo{
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      top: 0;
+      bottom: 0px;
+      left: 0px;
+      background-size: 55%;
+      background-repeat: no-repeat;
+      background-position: 50% 100%;
+  }
 
+
+
+
+
+
+
+
+
+
+
+  /*****************************************************************************/
   .static-btn {
     left: 100px;
   }
