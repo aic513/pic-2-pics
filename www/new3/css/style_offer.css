@@ -580,10 +580,7 @@ input[type='checkbox']:checked + label::after {
 /******************************************************************************/
 /*Для ширины от 1300 до 1440пх*/
 @media only screen and (max-width: 1440px) {
-/*  .section.about .about_group {
-    margin-top: 80px;
-  }
-
+/*
   .section.about .about_group .col_max {
     width: 390px;
     height: 390px;
@@ -703,7 +700,7 @@ input[type='checkbox']:checked + label::after {
   }
 
   .static-btn {
-    left: 500px;
+    left: 100px;
   }
 
   /*.block-btn {

@@ -854,7 +854,10 @@ body{ margin: 0; min-width: 1300px; }
 /*/////////////////////////////////////////////////////////////////////////////*/
 .section.about .about_group:hover{
   /*outline: 70px solid red;*/
-  box-shadow: 35px 0px 0px 70px #fa5b31;
+  box-shadow: 70px -70px 0px #fa5b31,
+  70px 70px 0px #fa5b31,
+  0px 70px 0px #fa5b31,
+  0px -70px 0px #fa5b31;;
   background: #fa5b31;
 }
 .col_min-hover{
@@ -1242,36 +1245,6 @@ body{ margin: 0; min-width: 1300px; }
   bottom: 108px;
   left: 0;
 }
-/*////////////////////////////////////////////////////////////////////////*/
-/*/////////////////////////////////////////////////////////////////////////////*/
-/*/////////////////////////////////////////////////////////////////////////////*/
-/*/////////////////////////////////////////////////////////////////////////////*/
-
-
-
-
-/*@media only screen and (max-width: 1440px){
-    .section.about .about_wrap{
-        width: 1050px;
-    }
-    .section.about .about_group .col_min{
-        width: 310px;
-    }
-    .section.about .about_group .col_max{
-        width: 680px;
-    }
-    .section.about .about_group .col_min .about_block{
-        width: 310px;
-        height: 310px;
-    }
-    .section.about .about_group .col_max .about_block{
-        width: 490px;
-        height: 490px;
-        background-size: cover;
-        box-shadow: 8px -6px 41.86px 4.14px rgba(0, 0, 0, 0.3);
-    }
-}*/
-
 
 /************************************************************
   Styles block
@@ -1517,8 +1490,8 @@ body{ margin: 0; min-width: 1300px; }
   font-weight: 600;
   text-transform: uppercase;
   position: absolute;
-  top: 86%;
-  left: 11%;
+  top: 83.2%;
+  left: 9%;
 }
 /*///////////////////////////////////////////////////////////////////////*/
 .price_wrap .price{
