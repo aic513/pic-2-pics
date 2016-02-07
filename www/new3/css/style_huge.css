@@ -61,12 +61,12 @@ html{ font-size: 100%; }
     font-size: 0.7999999rem;
     line-height: 3.15rem;
 }
-.stripe .logo{
+/*.stripe .logo{
     top: 2.0rem;
     left: 2.18rem;
     height: 7.05rem;
     width: 6.25rem;
-}
+}*/
 .stripe .menu_open{
     top: 3.1rem;
     right: 7.18rem;

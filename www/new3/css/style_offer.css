@@ -601,6 +601,12 @@ input[type='checkbox']:checked + label::after {
     top: 360px;
     display: block;
   }
+
+/***************Сделано в РОССИИ************************************************/
+  .section.about .sectionTitle{
+    margin-top: 25px;
+}
+
 /*
   .section.about .about_group .col_max {
     width: 390px;
@@ -690,10 +696,10 @@ input[type='checkbox']:checked + label::after {
       margin-bottom: 15px;
   }
   .section.styles .size_wrap ul li a {
-    width: 18px;
-    height: 18px;
+    width: 25px;
+    height: 25px;
     margin: 5px;
-    margin-right: 10px;
+    margin-right: px;
   }
 
   .section.styles .size_wrap ul:after {
