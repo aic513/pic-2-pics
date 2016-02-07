@@ -500,11 +500,6 @@ body{ margin: 0; min-width: 1300px; }
     position: relative;
 }
 .section.intro .content{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
     width: auto;
     height: 100%;
     background-position: center;
@@ -541,15 +536,14 @@ body{ margin: 0; min-width: 1300px; }
   float: right;
 }*/
 
-/*/////////////////////////////////////////////////////////////////////////////*/
 /*/////////////////////////Стикеры/////////////////////////////////////////////*/
-/*/////////////////////////////////////////////////////////////////////////////*/
+
 .order1 {
     width: 200px;
     height: 148px;
     position: absolute;
     right: 80px;
-    top: 540px;
+    top: 515px;
     display: none;
 }
 
@@ -558,7 +552,7 @@ body{ margin: 0; min-width: 1300px; }
     height: 192px;
     position: absolute;
     right: 80px;
-    top: 300px;
+    top: 275px;
     display: none;
 }
 
@@ -568,7 +562,7 @@ body{ margin: 0; min-width: 1300px; }
     border-radius: 50%;
     position: absolute;
     right: 315px;
-    top: 425px;
+    top: 400px;
     display: none;
 }
 

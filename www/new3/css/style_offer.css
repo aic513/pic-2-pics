@@ -576,6 +576,31 @@ input[type='checkbox']:checked + label::after {
 
 /***************Для ширины от 1300 до 1440пх************************************/
 @media only screen and (max-width: 1440px) {
+
+/***************Главная страница************************************************/
+  .section.intro .content{
+      background-position: 35%;
+      background-image: url("../img/bg2.jpg.");
+  }
+  .section.intro .by_us{
+      margin-right: 10px;
+  }
+/***************Стикеры*********************************************************/
+  .order1 {
+    right: 12px;
+    top: 500px;
+    display: block;
+  }
+  .white-circle {
+    right: 25px;
+    top: 275px;
+    display: block;
+  }
+  .blue-circle {
+    right: 270px;
+    top: 360px;
+    display: block;
+  }
 /*
   .section.about .about_group .col_max {
     width: 390px;
